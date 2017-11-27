@@ -1,0 +1,294 @@
+[
+{ "id": 1, 
+"livre": "Gn",
+"chapitre": 50
+},
+{ "id": 2, 
+"livre": "Ex",
+"chapitre": 40
+},
+{ "id": 3, 
+"livre": "Lv",
+"chapitre": 27
+},
+{ "id": 4, 
+"livre": "Nb",
+"chapitre": 36
+},
+{ "id": 5, 
+"livre": "Dt",
+"chapitre": 34
+},
+{ "id": 6, 
+"livre": "Jos",
+"chapitre": 24
+},
+{ "id": 7, 
+"livre": "Jug",
+"chapitre": 21
+},
+{ "id": 8, 
+"livre": "Rt",
+"chapitre": 4
+},
+{ "id": 9, 
+"livre": "I S",
+"chapitre": 31
+},
+{ "id": 10, 
+"livre": "II S",
+"chapitre": 24
+},
+{ "id": 11, 
+"livre": "I R",
+"chapitre": 22
+},
+{ "id": 12, 
+"livre": "II R",
+"chapitre": 25
+},
+{ "id": 13, 
+"livre": "I Ch",
+"chapitre": 29
+},
+{ "id": 14, 
+"livre": "II Ch",
+"chapitre": 36
+},
+{ "id": 15, 
+"livre": "Esd",
+"chapitre": 10
+},
+{ "id": 16, 
+"livre": "Ne",
+"chapitre": 13
+},
+{ "id": 17, 
+"livre": "Tb",
+"chapitre": 14
+},
+{ "id": 18, 
+"livre": "Jdt",
+"chapitre": 16
+},
+{ "id": 19, 
+"livre": "Est",
+"chapitre": 16
+},
+{ "id": 20, 
+"livre": "I M",
+"chapitre": 16
+},
+{ "id": 21, 
+"livre": "II M",
+"chapitre": 15
+},
+{ "id": 22, 
+"livre": "Jb",
+"chapitre": 42
+},
+{ "id": 23, 
+"livre": "Ps",
+"chapitre": 150
+},
+{ "id": 24, 
+"livre": "Pr",
+"chapitre": 31
+},
+{ "id": 25, 
+"livre": "Qo",
+"chapitre": 12
+},
+{ "id": 26, 
+"livre": "Ct",
+"chapitre": 8
+},
+{ "id": 27, 
+"livre": "Sg",
+"chapitre": 19
+},
+{ "id": 28, 
+"livre": "Si",
+"chapitre": 51
+},
+{ "id": 29, 
+"livre": "Is",
+"chapitre": 66
+},
+{ "id": 30, 
+"livre": "Jr",
+"chapitre": 52
+},
+{ "id": 31, 
+"livre": "Lm",
+"chapitre": 5
+},
+{ "id": 32, 
+"livre": "Ba",
+"chapitre": 6
+},
+{ "id": 33, 
+"livre": "Ez",
+"chapitre": 48
+},
+{ "id": 34, 
+"livre": "Dn",
+"chapitre": 14
+},
+{ "id": 35, 
+"livre": "Os",
+"chapitre": 14
+},
+{ "id": 36, 
+"livre": "Jl",
+"chapitre": 3
+},
+{ "id": 37, 
+"livre": "Am",
+"chapitre": 9
+},
+{ "id": 38, 
+"livre": "Ab",
+"chapitre": 1
+},
+{ "id": 39, 
+"livre": "Jon",
+"chapitre": 4
+},
+{ "id": 40, 
+"livre": "Mi",
+"chapitre": 7
+},
+{ "id": 41, 
+"livre": "Na",
+"chapitre": 3
+},
+{ "id": 42, 
+"livre": "Ha",
+"chapitre": 3
+},
+{ "id": 43, 
+"livre": "So",
+"chapitre": 3
+},
+{ "id": 44, 
+"livre": "Ag",
+"chapitre": 2
+},
+{ "id": 45, 
+"livre": "Za",
+"chapitre": 14
+},
+{ "id": 46, 
+"livre": "Ml",
+"chapitre": 4
+},
+{ "id": 47, 
+"livre": "Mt",
+"chapitre": 28
+},
+{ "id": 48, 
+"livre": "Mc",
+"chapitre": 16
+},
+{ "id": 49, 
+"livre": "Lc",
+"chapitre": 24
+},
+{ "id": 50, 
+"livre": "Jn",
+"chapitre": 21
+},
+{ "id": 51, 
+"livre": "Act",
+"chapitre": 28
+},
+{ "id": 52, 
+"livre": "Rom",
+"chapitre": 16
+},
+{ "id": 53, 
+"livre": "I Cor",
+"chapitre": 16
+},
+{ "id": 54, 
+"livre": "II Cor",
+"chapitre": 13
+},
+{ "id": 55, 
+"livre": "Gal",
+"chapitre": 6
+},
+{ "id": 56, 
+"livre": "Eph",
+"chapitre": 6
+},
+{ "id": 57, 
+"livre": "Phil",
+"chapitre": 4
+},
+{ "id": 58, 
+"livre": "Col",
+"chapitre": 4
+},
+{ "id": 59, 
+"livre": "I Thes",
+"chapitre": 5
+},
+{ "id": 60, 
+"livre": "II Thes",
+"chapitre": 3
+},
+{ "id": 61, 
+"livre": "I Tim",
+"chapitre": 6
+},
+{ "id": 62, 
+"livre": "II Tim",
+"chapitre": 4
+},
+{ "id": 63, 
+"livre": "Tite",
+"chapitre": 3
+},
+{ "id": 64, 
+"livre": "Philem",
+"chapitre": 1
+},
+{ "id": 65, 
+"livre": "Hébr",
+"chapitre": 13
+},
+{ "id": 66,
+"livre": "Jac",
+"chapitre": 5
+},
+{ "id": 67,
+"livre": "I Pet",
+"chapitre": 5
+},
+{ "id": 68,
+"livre": "II Pet",
+"chapitre": 3
+},
+{ "id": 69,
+"livre": "I Jn",
+"chapitre": 5
+},
+{ "id": 70,
+"livre": "II Jn",
+"chapitre": 1
+},
+{ "id": 71,
+"livre": "III Jn",
+"chapitre": 1
+},
+{ "id": 72,
+"livre": "Jud",
+"chapitre": 1
+},
+{ "id": 73,
+"livre": "Apoc",
+"chapitre": 22
+}
+]

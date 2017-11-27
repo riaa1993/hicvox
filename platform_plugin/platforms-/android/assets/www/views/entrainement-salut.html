@@ -1,0 +1,87 @@
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="#/accueil">Accueil</a>
+	  <a href="#/veilleur">Office divin</a>
+	  <a href="#/devotions">Dévotions</a>
+	  <a href="#/entrainement">Mémorisations</a>
+	  <a href="#/bible">Bible</a>
+	</div>
+	<div id="main">
+		<div class="bar bar-header " style="height: 50px; position: fixed;">
+		   <button onclick="openNav()" class="button" style="background-color: transparent;">
+		   	<img src="img/menu.gif">
+		   </button>
+		    <h1 class="title" style="letter-spacing: 2px; font-family:'Calligraphic', 'Roboto'; font-weight: 600; font-size: 44px; color: #e73931;"><a style="text-decoration: none;" href="accueil.php" >HicVox</a></h1>
+		   <button  ng-click="gotoCarte()" class="button" style="background-color: transparent; outline:none;">
+		   		<img src="img/logo.gif" style="height: 40px; width: auto; background-color: transparent;">
+		   </button>
+		</div>		
+		<script type="text/javascript">
+			$('#croix').click(function(){	
+				window.location = 'consecration.html';
+			});
+		</script>
+
+		<div class="bar bar-subheader " style="height: 50px; position: fixed; top: 50px; border: none;">
+		   <button class="button" onclick="window.history.back();" style="background-color: transparent;">
+		   	<i class="fa fa-chevron-left"></i>
+		   </button>
+		    <h1 class="title"><b style="color: blue; font-size: 25px;">Je vous salut Marie</b></h1>
+		   <!-- <button class="button" style="background-color: transparent;">
+		   	<i class="fa fa-volume-up"></i>
+		   </button>		    -->
+		</div>	
+		<style type="text/css">
+			.list-table{
+				display: inline-block;
+				font-size: 14px;
+			}
+		</style>
+		<div>		
+			<div class="content" style="position: relative; top: 100px;">				
+				<div style="margin-top: 20px; background: #333; padding: 10px; color: #fff; font-size: 14px;" id="content-ecran">
+				<div class="row">
+					<div class="col-md-4" style="padding: 2px;"></div>
+					<div class="col-md-4">
+						<div class="modal-choices">		
+						<center style="text-align: left;">
+			            <table class="list-table"><tbody><tr><td>Je vous salue Marie,</td></tr><tr><td><input type="checkbox" value="1"></td></tr></tbody></table>
+			            <table class="list-table"><tbody><tr><td>pleine de grâce.</td></tr><tr><td><input type="checkbox" value="2"></td></tr></tbody></table><br/>
+			            <table class="list-table"><tbody><tr><td>Le Seigneur est avec vous,</td></tr><tr><td><input type="checkbox" value="3"></td></tr></tbody></table><br/>
+			            <table class="list-table"><tbody><tr><td>vous êtes bénie</td></tr><tr><td><input type="checkbox" value="4"></td></tr></tbody></table>
+			            <table class="list-table"><tbody><tr><td>entre toutes les femmes</td></tr><tr><td><input type="checkbox" value="5"></td></tr></tbody></table><br/>
+			            <table class="list-table"><tbody><tr><td>et Jésus,</td></tr><tr><td><input type="checkbox" value="6"></td></tr></tbody></table>
+			            <table class="list-table"><tbody><tr><td>le fruit de vos entrailles,</td></tr><tr><td><input type="checkbox" value="7"></td></tr></tbody></table>
+			            <table class="list-table"><tbody><tr><td>est béni.</td></tr><tr><td><input type="checkbox" value="8"></td></tr></tbody></table><br/>
+			            <table class="list-table"><tbody><tr><td>Sainte Marie,</td></tr><tr><td><input type="checkbox" value="9"></td></tr></tbody></table>
+			            <table class="list-table"><tbody><tr><td>Mère de Dieu,</td></tr><tr><td><input type="checkbox" value="10"></td></tr></tbody></table><br/>
+			            <table class="list-table"><tbody><tr><td>priez pour nous,</td></tr><tr><td><input type="checkbox" value="11"></td></tr></tbody></table>
+			            <table class="list-table"><tbody><tr><td>pauvres pécheurs</td></tr><tr><td><input type="checkbox" value="12"></td></tr></tbody></table><br/>
+			            <table class="list-table"><tbody><tr><td>maintenant</td></tr><tr><td><input type="checkbox" value="13"></td></tr></tbody></table>
+			            <table class="list-table"><tbody><tr><td>et à l’heure de notre mort.</td></tr><tr><td><input type="checkbox" value="14"></td></tr></tbody></table><br/>
+			            <table class="list-table"><tbody><tr><td>Amen</td></tr><tr><td><input type="checkbox" value="15"></td></tr></tbody></table><br/>
+			            </center>
+		            </div>
+					</div>
+					<div class="col-md-4" style="padding: 2px;"></div>
+				</div>	
+				<div style="position: fixed; bottom: 0; width: 100%; left: 0px; margin-bottom: 5px;">				
+		            <center>
+			            <button class="select-roles select-test btn btn-primary" style="display: inline-block; border-radius: 100% 100%; width: 40px; height: 40px; padding: 0.5rem 0.9rem; font-size: 0; margin-right: 10px; margin-left: 10px;">
+	                        <i class="fa fa-play" style="font-size: 18px;"></i>
+	                    </button>
+	                    <button class="stop-btn btn btn-primary" style="border-radius: 100% 100%; width: 40px; height: 40px; padding: 0.5rem 0.74rem; font-size: 0; margin-right: 0px; margin-left: 20px;">
+	                            <i class="fa fa-pause" style="font-size: 18px;"></i>
+	                    </button>
+	                     <!-- <button ng-click="fullScreen()" class="btn btn-secondary" style="display: inline-block; border-radius: 100% 100%; width: 25px; height: 25px; padding: 0.1rem 0.2rem; font-size: 0; float: right; margin-top: 8px; margin-right: 5px;">
+			                  <i class="fa fa-crop" style="font-size: 8px;"></i>
+			            </button> -->
+		            </center>
+		        </div>		            
+
+		            <audio controls id="officePlayer" style="display: none;" src="Mere-vertueuse/salut/Ros-fr-AveMaria.mp3">
+		            </audio>
+				</div>
+			</div>			
+		</div>
+	</div>	

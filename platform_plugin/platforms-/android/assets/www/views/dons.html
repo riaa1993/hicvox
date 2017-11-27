@@ -1,0 +1,61 @@
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#/accueil">Accueil</a>
+    <a href="#/veilleur">Office divin</a>
+    <a href="#/devotions">Dévotions</a>
+    <a href="#/entrainement">Mémorisations</a>
+    <a href="#/bible">Bible</a>
+</div>
+<div class="bar bar-subheader " style="height: 50px; position: fixed; top: 0px;">
+   <button onclick="openNav()" class="button" style="background-color: transparent; outline:none;">
+    <img src="img/menu.gif">
+   </button>
+    <h1 class="title" style="letter-spacing: 2px; font-family:'Calligraphic', 'Roboto'; font-weight: 600; font-size: 44px; color: #e73931;"><a style="text-decoration: none;" href="#/info" >HicVox</a></h1>
+   <button ng-click="gotoCarte()" class="button" style="background-color: transparent; outline:none;">
+    <img src="img/logo.gif" style="height: 40px; width: auto; background-color: transparent;">
+   </button>       
+</div>
+<div class="bar bar-subheader " style="height: 50px; position: fixed; top: 50px; border: none;">
+   <button class="button" onclick="window.history.back();" style="background-color: transparent;">
+    <i class="fa fa-chevron-left"></i>
+   </button>
+    <h1 class="title"><b style="color: blue; font-size: 25px;">FAIRE UN DON</b></h1>
+    <button data-toggle="modal" data-target="#donModal" class="button" style="background-color: transparent;">
+        <i class="fa fa-volume-up"></i>
+    </button>
+</div>
+<div class="container" style="position: relative; top: 100px;">
+      <div style="text-align: center;">             
+        <div class="row" style="padding: 10px; padding-top: 15px; margin-bottom: 10px; margin-left: 0px; margin-right: 0px;">  
+          <div style="width: 100%;">
+              <center>
+                <img src="img/Donne.gif" style="width: 100%; margin-bottom: 5px;">
+              </center>
+          </div>     
+        </div>
+      </div>      
+    </div>
+  </div>
+
+<div class="modal fade" id="donModal" tabindex="-1" role="dialog" aria-labelledby="donModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="padding: 5px">
+                <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> -->
+                <center>
+                    <h4 class="modal-title" id="myModalLabel" style="color: rgb(0, 153, 255); font-size: 18px; ">Faire un don</h4>
+                </center>
+            </div>
+            <div class="modal-body">
+                <div class="row" style=" padding: 10px; padding-top: 15px; margin-bottom: 20px; margin-left: 0px; margin-right: 0px; margin-top: 10px;">
+                    <audio controls style="width: 100%;" id="donPlayer" src="Media/Explication/Donnes.mp3">
+                        <source  type="audio/mpeg">
+                            </audio>
+                </div>
+                <div class="modal-footer" style="padding: 5px">
+                    <center><button type="button" id='merciDon' class="btn btn-default" style="background: rgb(0, 153, 255); color: #fff; font-size: 12px;" data-dismiss="modal">Merci d'avoir écouté</button></center>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>

@@ -1,0 +1,212 @@
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#/accueil">Accueil</a>
+    <a href="#/veilleur">Office divin</a>
+    <a href="#/devotions">Dévotions</a>
+    <a href="#/entrainement">Mémorisations</a>
+    <a href="#/bible">Bible</a>
+  </div>            
+  <div id="main">
+    <div class="bar bar-header " style="height: 50px; position: fixed;">
+       <button onclick="openNav()" class="button" style="background-color: transparent;">
+        <img src="img/menu.gif">
+       </button>
+        <h1 class="title" style="letter-spacing: 2px; font-family:'Calligraphic', 'Roboto'; font-weight: 600; font-size: 44px; color: #e73931;"><a style="text-decoration: none;" href="mobile/accueil.php" >HicVox </a></h1>
+       <button  ng-click="gotoCarte()" class="button" style="background-color: transparent; outline:none;">
+          <img src="img/logo.gif" style="height: 40px; width: auto; background-color: transparent;">
+       </button>      
+    </div>    
+    <script type="text/javascript">
+      $('#croix').click(function(){ 
+        window.location = 'mobile/consecration.html';
+      });
+    </script>
+
+    <div class="bar bar-subheader " style="height: 50px; position: fixed; top: 50px; border: none;">
+       <button class="button" onclick="showMoteurRecherche();" style="background-color: transparent;">
+        <i class="fa fa-chevron-left"></i>
+       </button>
+        <h1 class="title"><b style="color: blue; font-size: 22px;">Calendrier</b></h1>
+       <button class="button" style="background-color: transparent;">
+        <i class="fa fa-volume-up"></i>
+       </button>       
+    </div>  
+
+    <div class="content" style="position: relative; top: 100px;">     
+      <div class="row search_promo" style="margin:0;">
+        <form action="#" method="post" style="width: 100%;">
+          <div class="col-md-3">
+            <select id="select-day" class="form-control" name="mois" style="border-radius: 3px; margin-bottom: 5px; color: #8c8c8c; font-size: 16px; font-weight: 300;">
+              <option ng-repeat="n in range(1,monthDayNumber)" value={{n}} ng-selected="day == n">{{n}}</option>
+            </select>
+          </div>    
+          <div class="col-md-3">          
+            <select id="select-month" class="form-control" name="mois" style="border-radius: 3px; margin-bottom: 5px; color: #8c8c8c; font-size: 16px; font-weight: 300;">
+              <option value="1" ng-selected="theMonth == 1">Janvier</option>
+              <option value="2" ng-selected="theMonth == 2">Février</option>
+              <option value="3" ng-selected="theMonth == 3">Mars</option>
+              <option value="4" ng-selected="theMonth == 4">Avril</option>
+              <option value="5" ng-selected="theMonth == 5">Mai</option>
+              <option value="6" ng-selected="theMonth == 6">Juin</option>
+              <option value="7" ng-selected="theMonth == 7">Juillet</option>
+              <option value="8" ng-selected="theMonth == 8">Aout</option>
+              <option value="9" ng-selected="theMonth == 9">Septembre</option>
+              <option value="10" ng-selected="theMonth == 10">Octobre</option>
+              <option value="11" ng-selected="theMonth == 11">Novembre</option>
+              <option value="12" ng-selected="theMonth == 12">Decembre</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <select id="select-year" class="form-control" name="annee" id="annee" style="border-radius: 3px; margin-bottom: 5px; color: #8c8c8c; font-size: 16px; font-weight: 300;">
+              <option value="2017" ng-selected="theYear == 2017">2017</option>
+              <option value="2018" ng-selected="theYear == 2018">2018</option>
+              <option value="2019" ng-selected="theYear == 2019">2019</option>
+              <option value="2020" ng-selected="theYear == 2020">2020</option>
+              <option value="2021" ng-selected="theYear == 2021">2021</option>
+              <option value="2022" ng-selected="theYear == 2022">2022</option>
+              <option value="2023" ng-selected="theYear == 2023">2023</option>
+              <option value="2024" ng-selected="theYear == 2024">2024</option>
+              <option value="2025" ng-selected="theYear == 2025">2025</option>
+              <option value="2026" ng-selected="theYear == 2026">2026</option>
+              <option value="2027" ng-selected="theYear == 2027">2027</option>
+              <option value="2028" ng-selected="theYear == 2028">2028</option>
+              <option value="2029" ng-selected="theYear == 2029">2029</option>
+              <option value="2030" ng-selected="theYear == 2030">2030</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <a ng-click="showCalendar()" class="btn btn-success" style="width: 100%; border-radius: 6px; font-size: 16px;">AFFICHER</a>
+          </div>
+        </form>
+      </div>
+      <div class="container">
+        <p>Date: {{day}}/{{theMonth}}/{{theYear}}</p>
+        <p>Rome: {{roman}} / Lune: {{lunar}}</p>   
+        <p>Temporal: {{temporal}}</p>
+        <p>Sanctoral: {{sanctoral}}</p>     
+      </div>
+      <div class="row search_promo">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Jour</th>
+              <th>Date</th>     
+              <th>Rome</th>     
+              <th>Lune</th>                                
+              <th>Temporal en Latin</th>
+              <th>Sanctoral en Latin</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="n in range(1,monthDayNumber)">
+              <td>{{getTheDayString(n, theMonth, theYear)}}</td>
+              <td>{{n}}</td>
+              <td>{{getTheRoman(n)}}
+                <span ng-if="n == day">{{theRoman(getTheRoman(n))}}</span>
+              </td>
+              <td>{{getLunar(n)}}
+                <span ng-if="n == day">{{theLunar(getLunar(n))}}</span>          
+              </td>
+              <td>      
+                <span ng-if="T0CR == getTheMD(n)">Domini Nostri Jesu Christi Regis
+                  <span ng-if="n == day">{{theTemporal("Domini Nostri Jesu Christi Regis")}}</span>
+                </span>
+                <span ng-if="TN0do == getTheMD(n)">Die Octavae Nativitatis Domini
+                  <span ng-if="n == day">{{theTemporal("Die Octavae Nativitatis Domini")}}</span>
+                </span>
+                <span ng-if="TN0sn == getTheMD(n)">Sanctissimi Nominis Jesu
+                  <span ng-if="n == day">{{theTemporal("Sanctissimi Nominis Jesu")}}</span>            
+                </span>
+                <span ng-if="theMonth == TA011_mois">{{avent(n)}}
+                  <span ng-if="n == day">{{theTemporal(avent(n))}}</span>
+                </span>
+                <span ng-if="theMonth == TA011_mois + 1">{{aventMois1(n)}}
+                  <span ng-if="n == day">{{theTemporal(aventMois1(n))}}</span>
+                </span>   
+                <span ng-if="theMonth == TS011_mois">{{septuagesime(n)}}
+                  <span ng-if="n == day">{{theTemporal(septuagesime(n))}}</span>            
+                </span>
+                <span ng-if="theMonth == TS011_mois + 1">{{septuagesimeMois1(n)}}
+                  <span ng-if="n == day">{{theTemporal(septuagesimeMois1(n))}}</span>                        
+                </span> 
+                <span ng-if="theMonth == TS034_mois">{{caremes(n)}}
+                  <span ng-if="n == day">{{theTemporal(caremes(n))}}</span>
+                </span>
+                <span ng-if="theMonth == TS034_mois + 1">{{caremesMois1(n)}}
+                  <span ng-if="n == day">{{theTemporal(caremesMois1(n))}}</span>
+                </span>
+                <span ng-if="theMonth == TS034_mois + 2">{{caremesMois2(n)}}
+                  <span ng-if="n == day">{{theTemporal(caremesMois2(n))}}</span>
+                </span>
+                <span ng-if="theMonth == TP011_mois">{{paques(n)}}
+                  <span ng-if="n == day">{{theTemporal(paques(n))}}</span>            
+                </span>
+                <span ng-if="theMonth == TP011_mois + 1">{{paquesMois1(n)}}
+                  <span ng-if="n == day">{{theTemporal(paquesMois1(n))}}</span>                        
+                </span>
+                <span ng-if="theMonth == TP011_mois + 2">{{paquesMois2(n)}}
+                  <span ng-if="n == day">{{theTemporal(paquesMois2(n))}}</span>
+                </span>
+                <span ng-if="theMonth == TP055_mois">{{ascension(n)}}
+                  <span ng-if="n == day">{{theTemporal(ascension(n))}}</span>
+                </span>
+                <span ng-if="theMonth == TP055_mois + 1">{{ascensionMois1(n)}}
+                  <span ng-if="n == day">{{theTemporal(ascensionMois1(n))}}</span>
+                </span>
+                <span ng-if="theMonth == TP001_mois">{{pentecote(n)}}
+                  <span ng-if="n == day">{{theTemporal(pentecote(n))}}</span>
+                </span>
+                <span ng-if="theMonth == TP001_mois + 1">{{pentecoteMois1(n)}}
+                  <span ng-if="n == day">{{theTemporal(pentecoteMois1(n))}}</span>
+                </span>
+                <span ng-if="theMonth == TP001_mois + 2">{{pentecoteMois2(n)}}
+                  <span ng-if="n == day">{{theTemporal(pentecoteMois2(n))}}</span>            
+                </span>
+                <span ng-if="theMonth == TP001_mois + 3">{{pentecoteMois3(n)}}
+                  <span ng-if="n == day">{{theTemporal(pentecoteMois3(n))}}</span>                        
+                </span>
+                <span ng-if="theMonth == TP001_mois + 4">{{pentecoteMois4(n)}}
+                  <span ng-if="n == day">{{theTemporal(pentecoteMois4(n))}}</span>
+                </span>
+                <span ng-if="theMonth == TP001_mois + 5">{{pentecoteMois5(n)}}
+                  <span ng-if="n == day">{{theTemporal(pentecoteMois5(n))}}</span>
+                </span>
+                <span ng-if="theMonth == TP001_mois + 6">{{pentecoteMois6(n)}}
+                  <span ng-if="n == day">{{theTemporal(pentecoteMois6(n))}}</span>
+                </span>
+                <span ng-if="theMonth == Tpn02_mois">{{pentecote2(n)}}
+                  <span ng-if="n == day">{{theTemporal(pentecote2(n))}}</span>
+                </span>
+                <span ng-if="theMonth == Tpn02_mois + 1">{{pentecote2Mois1(n)}}
+                  <span ng-if="n == day">{{theTemporal(pentecote2Mois1(n))}}</span>
+                </span>
+                <span ng-if="theMonth == TE001_mois">{{epiphanie(n)}}
+                  <span ng-if="n == day">{{theTemporal(epiphanie(n))}}</span>
+                </span>
+                <span ng-if="theMonth == TE001_mois + 1">{{epiphanieMois1(n)}}
+                  <span ng-if="n == day">{{theTemporal(epiphanieMois1(n))}}</span>
+                </span>
+                <span ng-if="theMonth == TEn02_mois">{{epiphanie2(n)}}
+                  <span ng-if="n == day">{{theTemporal(epiphanie2(n))}}</span>
+                </span>
+                <span ng-if="theMonth == TEn02_mois + 1">{{epiphanie2Mois1(n)}}
+                  <span ng-if="n == day">{{theTemporal(epiphanie2Mois1(n))}}</span>
+                </span>          
+              </td>
+              <td>{{getTheSanctoral(n)}}
+                <span ng-if="n == day">{{theSanctoral(getTheSanctoral(n))}}</span>                    
+              </td>
+            </tr>      
+          </tbody>
+        </table>
+      </div>
+      <style type="text/css">
+        .table th{
+          font-size: 14px;
+        }
+        .table td{
+          font-size: 14px;
+        }
+      </style>
+    </div>
+  </div>

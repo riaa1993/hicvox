@@ -1,0 +1,85 @@
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#/accueil">Accueil</a>
+    <a href="#/veilleur">Office divin</a>
+    <a href="#/devotions">Dévotions</a>
+    <a href="#/entrainement">Mémorisations</a>
+    <a href="#/bible">Bible</a>
+</div>
+<div id="main">
+		<div class="bar bar-header " style="height: 50px; position: fixed;">
+		   <button onclick="openNav()" class="button" style="background-color: transparent;">
+		   	<img src="img/menu.gif">
+		   </button>
+		    <h1 class="title" style="letter-spacing: 2px; font-family:'Calligraphic', 'Roboto'; font-weight: 600; font-size: 44px; color: #e73931;"><a style="text-decoration: none;" href="#/accueil" >HicVox</a></h1>
+		   <button  ng-click="gotoCarte()" class="button" style="background-color: transparent; outline:none;">
+		   		<img src="img/logo.gif" style="height: 40px; width: auto; background-color: transparent;">
+		   </button>
+		</div>	
+		<script type="text/javascript">
+			$('#croix').click(function(){
+				window.location = 'consecration.html';
+			});
+		</script>
+
+		<div class="bar bar-subheader " style="height: 50px; position: fixed; top: 50px; border: none;">
+		   <button class="button" onclick="window.history.back();" style="background-color: transparent;">
+		   	<i class="fa fa-chevron-left"></i>
+		   </button>
+		    <h1 class="title" style="letter-spacing: 2px;  font-weight: 600; font-size: 25px; color: blue;"><b>Dévotions</b></h1>
+            
+		</div>		
+		
+		
+		<div>		
+			<div class="content" style="position: relative; top: 100px;">				
+				<div style="margin-top: 20px;">
+				<center><img src="img/prier.gif" style="width: 120px;"></center>
+				</div>
+			</div>
+
+			<div class="bottom-div" style="position: fixed; bottom: 0; width: 100%; visibility: ;">
+				
+				
+				<a href="#/rosaire" class="a-deco"><div class="sub-bottom-div-2">
+					<span style="margin-left: 15px; font-size: 12px;"> <i class="fa fa-angle-right" style="font-size: 12px; position: relative; top: -1px; font-weight: bold;"></i><b>Rosaire</b></span>
+				</div>
+				</a>
+				<a href="#/page-devotions" class="a-deco"><div class="sub-bottom-div-3">
+					<span style="margin-left: 15px; font-size: 12px;"> <i class="fa fa-angle-right" style="font-size: 12px; position: relative; top: -1px; font-weight: bold;"></i><b>Dévotions quotidiennes</b></span>
+				</div>
+				</a>
+				<a href="#/autres" class="a-deco"><div class="sub-bottom-div-4">
+					<span style="margin-left: 15px; font-size: 12px;"> <i class="fa fa-angle-right" style="font-size: 12px; position: relative; top: -1px; font-weight: bold;"></i><b>Autres prières</b></span>
+				</div>
+				</a>
+               
+            </div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	          <div class="modal-header" style="padding: 5px">
+	            <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> -->
+	            <center><h4 class="modal-title" id="myModalLabel" style="color: rgb(0, 153, 255); font-size: 18px; font-weight: bold;  ">Office divin</h4></center>
+	          </div>
+	          <div class="modal-body">	                      
+	          	<div class="row" style="background: #0000FF; padding: 10px; padding-top: 15px; margin-bottom: 20px; margin-left: 0px; margin-right: 0px; margin-top: 10px;">
+					<audio controls style="width: 100%;" id="Player" src="Media/Explication/Travail-de-Dieu.mp3">
+					  <source  type="audio/mpeg">
+					</audio>
+	          </div>
+	          <div class="modal-footer" style="padding: 5px">
+	            <center><button type="button" id="merci" class="btn btn-default" style="background: rgb(0, 153, 255); color: #fff; font-size: 12px;" data-dismiss="modal">Merci d'avoir écouté</button></center>                
+	          </div>
+	        </div>
+	    </div>
+	</div> 
+	</div>
+	<script type="text/javascript">		 	
+	    $('#merci').click(function(){
+      	document.getElementById("Player").pause(); 
+ 		});
+    </script>

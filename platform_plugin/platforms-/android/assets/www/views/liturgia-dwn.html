@@ -1,0 +1,38 @@
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#/accueil">Accueil</a>
+    <a href="#/veilleur">Office divin</a>
+    <a href="#/devotions">Dévotions</a>
+    <a href="#/entrainement">Mémorisations</a>
+    <a href="#/bible">Bible</a>
+</div>
+  <div id="main">
+    <div class="bar bar-header " style="height: 50px; position: fixed;">
+       <button onclick="openNav()" class="button" style="background-color: transparent;">
+        <img src="img/menu.gif">
+       </button>
+        <h1 class="title" style="letter-spacing: 2px; font-family:'Calligraphic', 'Roboto'; font-weight: 600; font-size: 44px; color: #e73931;"><a style="text-decoration: none;" href="#/accueil" >HicVox </a></h1>
+       <button ng-click="gotoCarte()" class="button" style="background-color: transparent;">
+        <img src="img/logo.gif" style="height: 40px; width: auto;">
+       </button>
+    </div>
+    
+    <div class="bar bar-subheader " style="height: 50px; position: fixed; top: 50px; border: none;">
+       <button class="button" onclick="window.history.back();" style="background-color: transparent;">
+        <i class="fa fa-chevron-left"></i>
+       </button>
+        <h1 class="title"><b style="color: blue; font-size: 22px;">Téléchargement</b></h1>
+    </div>
+
+    <div class="content" style="position: relative; top: 100px;">
+       <br/>
+       <div class="container">
+            <p>Désirez vous télécharger les fichiers audios liturgies des heures de votre HicVox, il fait 53Mo il vous reste {{freeSpace}}Go sur votre smartphone</p>
+            <p>Il reste {{restantAudio}}/{{tousAudio}} fichier(s) à télécharger</p>
+            <p>Progression du téléchargement: {{downloadProgressAudio}} %</p>
+            <button type="submit" ng-click="downloadAudio()" class="btn btn-default" style="background: rgb(0, 153, 255); color: #fff; font-size: 12px;">Télécharger</button>
+      </div>
+     </div>
+    </div>
+  </div>
+</div>

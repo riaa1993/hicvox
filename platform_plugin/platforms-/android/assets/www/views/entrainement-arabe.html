@@ -1,0 +1,128 @@
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="#/accueil">Accueil</a>
+	  <a href="#/veilleur">Office divin</a>
+	  <a href="#/devotions">Dévotions</a>
+	  <a href="#/entrainement">Mémorisations</a>
+	  <a href="#/bible">Bible</a>
+	</div>
+	<div id="main">
+		<div class="bar bar-header " style="height: 50px; position: fixed;">
+		   <button onclick="openNav()" class="button" style="background-color: transparent;">
+		   	<img src="img/menu.gif">
+		   </button>
+		    <h1 class="title" style="letter-spacing: 2px; font-family:'Calligraphic', 'Roboto'; font-weight: 600; font-size: 44px; color: #e73931;"><a style="text-decoration: none;" href="accueil.php" >HicVox</a></h1>
+		   <button  ng-click="gotoCarte()" class="button" style="background-color: transparent; outline:none;">
+		   		<img src="img/logo.gif" style="height: 40px; width: auto; background-color: transparent;">
+		   </button>   
+		</div>		
+		<script type="text/javascript">
+			$('#croix').click(function(){	
+				window.location = 'consecration.html';
+			});
+		</script>
+
+		<div class="bar bar-subheader " style="height: 50px; position: fixed; top: 50px; border: none;">
+		   <button class="button" onclick="window.history.back();" style="background-color: transparent;">
+		   	<i class="fa fa-chevron-left"></i>
+		   </button>
+		    <h1 class="title"><b style="color: blue; font-size: 25px;">Arabe</b></h1>
+		   <!-- <button class="button" style="background-color: transparent;">
+		   	<i class="fa fa-volume-up"></i>
+		   </button> -->		   
+		</div>	
+		<style type="text/css">
+			.list-table{
+				display: inline-block;
+				font-size: 16px;
+			}
+		</style>
+		<div>		
+			<div  class="content" style="position: relative; top: 100px;">			
+				<div id="content-ecran">
+					<div class="modal-choices" style=" margin-top: 20px; background: #000; padding: 15px; color: #fff; font-size: 14px;">
+						<div id="ecran1">
+							<div class="row">
+							    <div style="width: 100%; text-align: left;">
+									<input style="position: relative; top: 0px;" type="checkbox" value="1">
+									<img style="width: auto; height: auto;" src="Media/Memo/Arabe/MM-Lo-Ab-1.jpg"><br>
+									<label style="font-size: 11px; margin-left: 15px;">Ô</label>
+								</div>
+							</div>
+							<div class="row">
+							    <div style="width: 100%; text-align: left;">
+									<input style="position: relative; top: 0px;" type="checkbox" value="2">
+									<img style="width: auto; height: auto;" src="Media/Memo/Arabe/MM-Lo-Ab-2.jpg"><br>
+									<label style="font-size: 11px; margin-left: 15px;">Roi</label>
+								</div>
+							</div>
+							<div class="row">
+							    <div style="width: 100%; text-align: left;">
+									<input style="position: relative; top: 0px;" type="checkbox" value="3">
+									<img style="width: auto; height: auto;" src="Media/Memo/Arabe/MM-Lo-Ab-3.jpg"><br>
+									<label style="font-size: 11px; margin-left: 15px;">de gloire</label>
+								</div>
+							</div>
+							<div class="row">
+							    <div style="width: 100%; text-align: left;">
+									<input style="position: relative; top: 0px;" type="checkbox" value="4">
+									<img style="width: auto; height: auto;" src="Media/Memo/Arabe/MM-Lo-Ab-4.jpg"><br>
+									<label style="font-size: 11px; margin-left: 15px;">pardonnez</label>
+								</div>
+							</div>
+							<div class="row">
+							    <div style="width: 100%; text-align: left;">
+									<input style="position: relative; top: 0px;" type="checkbox" value="5">
+									<img style="width: auto; height: auto;" src="Media/Memo/Arabe/MM-Lo-Ab-5.jpg"><br>
+									<label style="font-size: 11px; margin-left: 15px;">nous</label>
+								</div>
+							</div>
+							<div class="row">
+							    <div style="width: 100%; text-align: left;">
+									<input style="position: relative; top: 0px;" type="checkbox" value="6">
+									<img style="width: auto; height: auto;" src="Media/Memo/Arabe/MM-Lo-Ab-6.jpg"><br>
+									<label style="font-size: 11px; margin-left: 15px;">Les péchés</label>
+								</div>
+							</div>
+							<div class="row">
+							    <div style="width: 100%; text-align: left;">
+									<input style="position: relative; top: 0px;" type="checkbox" value="7">
+									<img style="width: auto; height: auto;" src="Media/Memo/Arabe/MM-Lo-Ab-7.jpg"><br>
+									<label style="font-size: 11px; margin-left: 15px;">commis</label>
+								</div>
+							</div>
+							<div class="row">
+							    <div style="width: 100%; text-align: left;">
+									<input style="position: relative; top: 0px;" type="checkbox" value="8">
+									<img style="width: auto; height: auto;" src="Media/Memo/Arabe/MM-Lo-Ab-8.jpg"><br>
+									<label style="font-size: 11px; margin-left: 15px;">contre</label>
+								</div>
+							</div>
+							<div class="row">
+							    <div style="width: 100%; text-align: left;">
+									<input style="position: relative; top: 0px;" type="checkbox" value="9">
+									<img style="width: auto; height: auto;" src="Media/Memo/Arabe/MM-Lo-Ab-9.jpg"><br>
+									<label style="font-size: 11px; margin-left: 15px;">vous</label>
+								</div>
+							</div>							
+						</div>
+						<br/>
+						<div style="position: fixed; bottom: 0; width: 100%; left: 0px; margin-bottom: 5px;">	
+							<center>
+			            	<button id="play" class="select-test btn btn-primary" style="display: inline-block; border-radius: 100% 100%; width: 40px; height: 40px; padding: 0.5rem 0.9rem; font-size: 0; margin-right: 10px; margin-left: 10px;">
+			                  <i class="fa fa-play" style="font-size: 18px;"></i> 
+			                </button>
+			                <button id="pause" class="stop-btn btn btn-primary" style="display: none; border-radius: 100% 100%; width: 40px; height: 40px; padding: 0.5rem 0.74rem; font-size: 0; margin-right: 50px; margin-left: 50px;">
+			                  <i class="fa fa-pause" style="font-size: 18px;"></i> 
+			                </button>			               
+			                <!-- <button ng-click="fullScreen()" class="btn btn-secondary" style="display: inline-block; border-radius: 100% 100%; width: 25px; height: 25px; padding: 0.1rem 0.2rem; font-size: 0; float: right; margin-top: 8px; margin-right: 5px;">
+			                  <i class="fa fa-crop" style="font-size: 8px;"></i>
+			                </button> -->
+			                </center>
+			            </div>            
+				        <audio controls id="officePlayer" style="display: none;"></audio>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</div>	

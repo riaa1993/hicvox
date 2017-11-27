@@ -1,0 +1,218 @@
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#/accueil">Accueil</a>
+    <a href="#/veilleur">Office divin</a>
+    <a href="#/devotions">Dévotions</a>
+    <a href="#/entrainement">Mémorisations</a>
+    <a href="#/bible">Bible</a>
+</div>
+<div id="main">
+		<div class="bar bar-header " style="height: 50px; position: fixed;">
+		   <button onclick="openNav()" class="button" style="background-color: transparent;">
+		   	<img src="img/menu.gif">
+		   </button>
+		    <h1 class="title" style="letter-spacing: 2px; font-family:'Calligraphic', 'Roboto'; font-weight: 600; font-size: 44px; color: #e73931;"><a style="text-decoration: none;" href="#/accueil" >HicVox</a></h1>
+		   <button ng-click="gotoCarte()" class="button" style="background-color: transparent;">
+		   	<img src="img/logo.gif" style="height: 40px; width: auto;">
+		   </button>		   
+		</div>	
+		<script type="text/javascript">
+			$('#croix').click(function(){	
+				window.location = 'consecration.html';
+			});
+		</script>
+
+		<div class="bar bar-subheader " style="height: 50px; position: fixed; top: 50px; border: none;">
+		   <button class="button" onclick="window.history.back();" style="background-color: transparent;">
+		   	<i class="fa fa-chevron-left"></i>
+		   </button>
+		    <h1 class="title" style="letter-spacing: 2px;  font-weight: 600; font-size: 25px; color: blue;"><b>Papillon</b></h1>
+<!--		   <button data-toggle="modal" data-target="#basicModal" class="button" style="background-color: transparent;">-->
+<!--		   	<i class="fa fa-volume-up"></i>-->
+<!--		   </button>		   -->
+		</div>
+		<div>		
+			<div class="content" style="position: relative; top: 100px;">				
+				<div>
+					<center>                       
+                        <img src="img/image-Papillon.gif" style="width: 145px; margin-bottom: 5px;">
+                        <br/>
+                        <br>
+                        <p> 
+                            <span style="margin-left: 5px; margin-right: 10px;">Papillon est: </span>
+                            <span ng-click="papillonValue()">
+                                <input class="toogleMe" id="papillon-toggle" type="checkbox" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" data-size="medium" data-on="<span style='color:white;'>ACTIVE</span>" data-off="<span style='color:white;'>DESACTIVE</span>" data-style="ios"/>
+                            </span>                     
+                        </p>
+                    </center>
+                    <p style="margin: 10px; text-align: justify;">
+                      Avec l’<b> Office du Papillon</b>, tu vas encore faire un progrès dans l’<i>, Office divin</i>, dans le </i>, Office divin</i>,. C’est pareil que l’<b>Office de l’Abeille</b>, mais en plus pour Laudes, Sexte et Vêpres tu commences par l’<i>Angélus</i>, et pour l’<i>, Office de la Rose</i>,  tu vas réciter une dizaine de : <i> Je vous salue Marie</i>
+                    </p>
+                    <br/>
+					<div class="list" style="margin: 8px;">
+						<div class="item" style="text-align: center; padding: 5px;">
+							<p style="font-size: 10px; display: inline-block; position: relative; top: 5px;"><span style="font-style: italic;">Une dizaine de Chapelet</span> <br>à l'heure qui te convient</p>								
+							<img data-toggle="modal" data-target="#modal-dizaine" src="img/alarme.jpeg" style="width: 23px; display: inline-block; position: relative; top: -8px;">
+						</div>						
+					</div>
+					<div class="list" style="margin: 8px;">
+						<div class="item" style="text-align: center; padding: 5px; text-align: left;">
+							<p style="text-align: center; color: #000;">
+							<b style="font-size: 12px;">Ecoutes et choisis la version de l'Angelus que tu veux réciter.</b><br>
+							<span style="font-size: 12px;">10 secondes avant tu as un tintement de cloche pour te préparer</span>
+						</p>					
+						<div style="margin-left: 20px;">
+							<input ng-click="angelusSonnerie()" type="radio" name="angelus" id="angelus-sonnerie" value="Angelus-cloches"><label for="angelus-sonnerie" style="margin-left: 10px;"><b>Sonnerie de cloche</b></label>
+						</div>
+						<div class="row" style="padding: 10px; padding-top: 0px; margin-bottom: 10px; margin-left: 0px; margin-right: 0px;">
+							<audio controls style="width: 100%;" src="Media/Audio/Angelus-cloches.mp3">
+							  <source type="audio/mpeg">
+							</audio>
+			          	</div>
+			          	<div style="margin-left: 20px;">
+							<input ng-click="angelusTrad()" type="radio" name="angelus" id="angelus-trad" value="Angelus-traditionel" checked><label for="angelus-trad" style="margin-left: 10px;"><b>Paroles Traditionnelles</b></label>
+						</div>
+						<div class="row" style="padding: 10px; padding-top: 0px; margin-bottom: 10px; margin-left: 0px; margin-right: 0px;">
+							<audio controls style="width: 100%;" src="Media/Audio/Angelus-traditionel.mp3">
+							  <source type="audio/mpeg">
+							</audio>
+			          	</div>
+			          	<div style="margin-left: 20px;">
+							<input ng-click="angelusCommunaute()" type="radio" name="angelus" id="angelus-communaute" value="Angelus-scouts"><label for="angelus-communaute" style="margin-left: 10px;"><b>Communauté de l'Emmanuel</b></label>
+						</div>
+						<div class="row" style="padding: 10px; padding-top: 0px; margin-bottom: 10px; margin-left: 0px; margin-right: 0px;">
+							<audio controls style="width: 100%;" src="Media/Audio/Angelus-scouts.mp3">
+							  <source type="audio/mpeg">
+							</audio>
+			          	</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+				
+	</div>	
+	<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	          <div class="modal-header" style="padding: 5px">
+	            <center><h4 class="modal-title" id="myModalLabel" style="color: rgb(0, 153, 255); font-size: 18px; font-weight: bold;  ">Papillon</h4></center>
+	          </div>
+	          <div class="modal-body">	                      
+	          	<div class="row" style="background: #fff; padding: 10px; padding-top: 15px; margin-bottom: 20px; margin-left: 0px; margin-right: 0px; margin-top: 10px;">
+        
+	          		</div>
+		        	<div class="modal-footer" style="padding: 5px">
+		            	<center>
+                            <button type="button" id="merci" class="btn btn-default" style="background: rgb(0, 153, 255); color: #fff; font-size: 12px;" data-dismiss="modal">Fermer</button>
+                        </center>
+		        	</div>
+	        	</div>
+	    	</div>
+		</div> 
+	</div>
+
+    <div class="modal fade" id="modal-dizaine" tabindex="-1" role="dialog" aria-labelledby="modal-dizaine" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header" style="padding: 5px">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <center>
+                    <h4 class="modal-title" style="color: rgb(0, 153, 255); font-size: 18px; font-weight: bold;">Dizainier</h4>
+                </center>
+              </div>
+              <div class="modal-body">
+                    <div class="row" style="padding: 10px; padding-top: 15px; margin-bottom: 20px; margin-left: 0px; margin-right: 0px; margin-top: 10px;">
+                        Choisis l'heure qui te convient pour une dizaine de Chapelet.
+                    </div>
+                    <p style="margin-left: 20px;">                        
+                        <input type="time" id="time-dizaine" style="border-radius: 0; font-size: 10px;" class="form-control" />
+                        <br><br>                        
+                    </p>
+                    <div class="modal-footer" style="padding: 5px">
+                        <center><button type="button" ng-click="scheduleNotificationDizaine()" class="btn btn-default" style="background: rgb(0, 153, 255); color: #fff; font-size: 12px;">Choisir</button></center>                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-laudes" tabindex="-1" role="dialog" aria-labelledby="modal-laudes" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="padding: 5px">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <center>
+                    <h4 class="modal-title" style="color: rgb(0, 153, 255); font-size: 18px; font-weight: bold;">Laudes</h4>
+                </center>
+            </div>
+            <div class="modal-body">
+                <div class="row" style="padding: 10px; padding-top: 15px; margin-bottom: 20px; margin-left: 0px; margin-right: 0px; margin-top: 10px;">
+                    Choisis l'heure des Laudes, 07h00 et 08h00
+                </div>
+                <p style="margin-left: 20px;">
+                <!-- <input type="time" id="time-laudes" style="border-radius: 0; font-size: 10px;" class="form-control" min="07:00:00" max="08:00:00" /> -->
+                <input type="time" id="time-laudes" style="border-radius: 0; font-size: 10px;" class="form-control" />
+                <br><br>
+                </p>
+                <div class="modal-footer" style="padding: 5px">
+                    <center><button type="button" ng-click="scheduleNotificationLaudesPapillon()" class="btn btn-default" style="background: rgb(0, 153, 255); color: #fff; font-size: 12px;">Choisir</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modal-sexte" tabindex="-1" role="dialog" aria-labelledby="modal-sexte" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="padding: 5px">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <center>
+                    <h4 class="modal-title" style="color: rgb(0, 153, 255); font-size: 18px; font-weight: bold;">Sexte</h4>
+                </center>
+            </div>
+            <div class="modal-body">
+                <div class="row" style="padding: 10px; padding-top: 15px; margin-bottom: 20px; margin-left: 0px; margin-right: 0px; margin-top: 10px;">
+                    Choisis l'heure des Sexte, 12h00 et 13h00
+                </div>
+                <p style="margin-left: 20px;">
+                <!-- <input type="time" id="time-sexte" style="border-radius: 0; font-size: 10px;" class="form-control" min="12:00:00" max="13:00:00" /> -->
+                <input type="time" id="time-sexte" style="border-radius: 0; font-size: 10px;" class="form-control" />
+                <br><br>
+                </p>
+                <div class="modal-footer" style="padding: 5px">
+                    <center>
+                        <button type="button" ng-click="scheduleNotificationSextePapillon()" class="btn btn-default" style="background: rgb(0, 153, 255); color: #fff; font-size: 12px;">Choisir</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modal-vepres" tabindex="-1" role="dialog" aria-labelledby="modal-vepres" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="padding: 5px">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <center>
+                    <h4 class="modal-title" style="color: rgb(0, 153, 255); font-size: 18px; font-weight: bold;">Vepres
+                    </h4>
+                </center>
+            </div>
+            <div class="modal-body">
+                <div class="row" style="padding: 10px; padding-top: 15px; margin-bottom: 20px; margin-left: 0px; margin-right: 0px; margin-top: 10px;">
+                    Choisis l'heure des Vepres, 17h00 et 19h00
+                </div>
+                <p style="margin-left: 20px;">
+                <!-- <input type="time" id="time-vepres" style="border-radius: 0; font-size: 10px;" class="form-control" min="17:00:00" max="19:00:00" /> -->
+                <input type="time" id="time-vepres" style="border-radius: 0; font-size: 10px;" class="form-control" />
+                <br><br>
+                </p>
+                <div class="modal-footer" style="padding: 5px">
+                    <center><button type="button" ng-click="scheduleNotificationVepresPapillon()" class="btn btn-default" style="background: rgb(0, 153, 255); color: #fff; font-size: 12px;">Choisir</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>

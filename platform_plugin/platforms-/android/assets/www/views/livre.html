@@ -1,0 +1,32 @@
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#/accueil">Accueil</a>
+  <a href="#/veilleur">Office divin</a>
+  <a href="#/devotions">Dévotions</a>
+  <a href="#/entrainement">Mémorisations</a>
+  <a href="#/bible">Bible</a>
+</div>
+<div id="main">
+<div class="bar bar-subheader " style="height: 50px; position: fixed; top: 0px;">
+   <button onclick="openNav()" class="button" style="background-color: transparent; outline:none;">
+    <img src="img/menu.gif">
+   </button>
+    <h1 class="title" style="letter-spacing: 2px; font-family:'Calligraphic', 'Roboto'; font-weight: 600; font-size: 44px; color: #e73931;"><a style="text-decoration: none;" href="#/info" >HicVox</a></h1>
+   <button  ng-click="gotoCarte()" class="button" style="background-color: transparent; outline:none;">
+      <img src="img/logo.gif" style="height: 40px; width: auto; background-color: transparent;">
+    </button>
+</div>
+<div class="bar bar-subheader " style="height: 50px; position: fixed; top: 50px; border: none;">
+   <button class="button" onclick="window.history.back();" style="background-color: transparent;">
+    <i class="fa fa-chevron-left"></i>
+   </button>
+    <h1 class="title" style="font-size: 18px;"><b style="color: blue;">{{the_book}}</b></h1>
+</div>
+  <div class="container" style="position: relative; top: 100px;">
+    <div class="list" style="margin: 0px; margin-top: 5px;">
+      <div ng-repeat="data in bookLivre" class="item" style="text-align: center; padding: 5px;">
+        <a style="text-decoration: none;" href="#/chapitre/livre={{data.livre}}/nbchap={{data.livre_long}}">{{data.livre_long}}</a>
+      </div>
+    </div>           
+  </div>
+</div>

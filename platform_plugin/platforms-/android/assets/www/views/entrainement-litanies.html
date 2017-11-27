@@ -1,0 +1,75 @@
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#/accueil">Accueil</a>
+    <a href="#/veilleur">Office divin</a>
+    <a href="#/devotions">Dévotions</a>
+    <a href="#/entrainement">Mémorisations</a>
+    <a href="#/bible">Bible</a>
+</div>
+<div id="main">
+		<div class="bar bar-header " style="height: 50px; position: fixed;">
+		   <button onclick="openNav()" class="button" style="background-color: transparent;">
+		   	<img src="img/menu.gif">
+		   </button>
+		    <h1 class="title" style="letter-spacing: 2px; font-family:'Calligraphic', 'Roboto'; font-weight: 600; font-size: 44px; color: #e73931;"><a style="text-decoration: none;" href="#/accueil" >HicVox</a></h1>
+		   <button ng-click="gotoCarte()" class="button" style="background-color: transparent;">
+		   	<img src="img/logo.gif" style="height: 40px; width: auto;">
+		   </button>		   
+		</div>		
+		<script type="text/javascript">
+			$('#croix').click(function(){	
+				window.location = 'consecration.html';
+			});
+		</script>
+
+		<div class="bar bar-subheader " style="height: 50px; position: fixed; top: 50px; border: none;">
+		   <button class="button" onclick="window.history.back();" style="background-color: transparent;">
+		   	<i class="fa fa-chevron-left"></i>
+		   </button>
+		    <h1 class="title"><b style="color: blue; font-size: 16px;">Litanies œcuméniques</b></h1>		 
+		</div>
+		
+		<div>		
+			<div class="content" style="position: relative; top: 100px;">				
+				<div style="margin-top: 20px;">
+				<center><img src="img/oecumenique.png" style="width: 120px;"></center>
+				</div>
+			</div>
+			<div class="bottom-div" style="position: fixed; bottom: 0; width: 100%; visibility: ;">
+				<a href="#/entrainement-arameen" class="a-deco"><div class="sub-bottom-div-7">
+					<span style="margin-left: 15px; font-size: 12px;"> <i class="fa fa-angle-right" style="font-size: 12px; position: relative; top: -1px; font-weight: bold;"></i><b>Chaldéen</b></span>
+				</div>				
+				</a>
+				<a href="#/entrainement-chinois" class="a-deco"><div class="sub-bottom-div-1">
+					<span style="margin-left: 15px; font-size: 12px;"> <i class="fa fa-angle-right" style="font-size: 12px; position: relative; top: -1px; font-weight: bold;"></i><b>Chinois</b></span>
+				</div>
+				</a>
+				<a href="#/entrainement-grec" class="a-deco"><div class="sub-bottom-div-6">
+					<span style="margin-left: 15px; font-size: 12px;"> <i class="fa fa-angle-right" style="font-size: 12px; position: relative; top: -1px; font-weight: bold;"></i><b>Grec</b></span>
+				</div>
+				</a>
+				<a href="#/entrainement-copte" class="a-deco"><div class="sub-bottom-div-8">
+					<span style="margin-left: 15px; font-size: 12px;"> <i class="fa fa-angle-right" style="font-size: 12px; position: relative; top: -1px; font-weight: bold;"></i><b>Copte</b></span>
+				</div>				
+				</a>
+				<a href="#/entrainement-latin" class="a-deco"><div class="sub-bottom-div-5">
+					<span style="margin-left: 15px; font-size: 12px;"> <i class="fa fa-angle-right" style="font-size: 12px; position: relative; top: -1px; font-weight: bold;"></i><b>Latin</b></span>
+				</div>
+				</a>
+				<a href="#/entrainement-aram" class="a-deco">
+					<div class="sub-bottom-div-2">
+						<span style="margin-left: 15px; font-size: 12px;"> <i class="fa fa-angle-right" style="font-size: 12px; position: relative; top: -1px; font-weight: bold;"></i><b>Arménien</b></span>
+					</div>
+				</a>
+				<a href="#/entrainement-slavon" class="a-deco">
+					<div class="sub-bottom-div-3">
+						<span style="margin-left: 15px; font-size: 12px;"> <i class="fa fa-angle-right" style="font-size: 12px; position: relative; top: -1px; font-weight: bold;"></i><b>Slavon</b></span>
+					</div>
+				</a>
+				<a href="#/entrainement-arabe" class="a-deco">
+					<div class="sub-bottom-div-4">
+						<span style="margin-left: 15px; font-size: 12px;"> <i class="fa fa-angle-right" style="font-size: 12px; position: relative; top: -1px; font-weight: bold;"></i><b>Arabe</b></span>
+					</div>
+				</a>
+			</div>
+	</div>	
