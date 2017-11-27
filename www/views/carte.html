@@ -1,0 +1,28 @@
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="#/accueil">Accueil</a>
+	  <a href="#/veilleur">Office divin</a>
+	  <a href="#/devotions">Dévotions</a>
+	  <a href="#/entrainement">Mémorisations</a>
+	  <a href="#/bible">Bible</a>
+	</div>
+<div id="main">
+	<div class="bar bar-header " style="height: 50px; position: fixed;">
+	   <button onclick="openNav()" class="button" style="background-color: transparent;">
+	   	<img src="img/menu.gif">
+	   </button>
+	    <h1 class="title" style="letter-spacing: 2px; font-family:'Calligraphic', 'Roboto'; font-weight: 600; font-size: 44px; color: #e73931;">
+	    	<a style="text-decoration: none;" href="#/accueil">HicVox</a>
+	    </h1>
+	   <button  ng-click="gotoCarte()" class="button" style="background-color: transparent; outline:none;">
+		   		<img src="img/logo.gif" style="height: 40px; width: auto; background-color: transparent;">
+		</button>
+	</div>	
+	<script type="text/javascript">
+		$('#croix').click(function(){	
+			window.location = 'consecration.html';
+		});
+	</script>								
+	<div id="map" class="content" style="position: relative; top: 50px; height: 600px;">		
+	</div>			 
+</div>			

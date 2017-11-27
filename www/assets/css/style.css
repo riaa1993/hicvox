@@ -1,0 +1,1218 @@
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v2-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Poppins Regular'), local('Poppins-Regular'),
+       url('../fonts/poppins-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/poppins-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/poppins-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/poppins-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/poppins-v2-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Ionicons";
+  src: url("../fonts/ionicons.eot?v=2.0.1");
+  src: url("../fonts/ionicons.eot?v=2.0.1#iefix") format("embedded-opentype"), url("../fonts/ionicons.ttf?v=2.0.1") format("truetype"), url("../fonts/ionicons.woff?v=2.0.1") format("woff"), url("../fonts/ionicons.svg?v=2.0.1#Ionicons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.ion, .ionicons, .ion-alert:before, .ion-alert-circled:before, .ion-android-add:before, .ion-android-add-circle:before, .ion-android-alarm-clock:before, .ion-android-alert:before, .ion-android-apps:before, .ion-android-archive:before, .ion-android-arrow-back:before, .ion-android-arrow-down:before, .ion-android-arrow-dropdown:before, .ion-android-arrow-dropdown-circle:before, .ion-android-arrow-dropleft:before, .ion-android-arrow-dropleft-circle:before, .ion-android-arrow-dropright:before, .ion-android-arrow-dropright-circle:before, .ion-android-arrow-dropup:before, .ion-android-arrow-dropup-circle:before, .ion-android-arrow-forward:before, .ion-android-arrow-up:before, .ion-android-attach:before, .ion-android-bar:before, .ion-android-bicycle:before, .ion-android-boat:before, .ion-android-bookmark:before, .ion-android-bulb:before, .ion-android-bus:before, .ion-android-calendar:before, .ion-android-call:before, .ion-android-camera:before, .ion-android-cancel:before, .ion-android-car:before, .ion-android-cart:before, .ion-android-chat:before, .ion-android-checkbox:before, .ion-android-checkbox-blank:before, .ion-android-checkbox-outline:before, .ion-android-checkbox-outline-blank:before, .ion-android-checkmark-circle:before, .ion-android-clipboard:before, .ion-android-close:before, .ion-android-cloud:before, .ion-android-cloud-circle:before, .ion-android-cloud-done:before, .ion-android-cloud-outline:before, .ion-android-color-palette:before, .ion-android-compass:before, .ion-android-contact:before, .ion-android-contacts:before, .ion-android-contract:before, .ion-android-create:before, .ion-android-delete:before, .ion-android-desktop:before, .ion-android-document:before, .ion-android-done:before, .ion-android-done-all:before, .ion-android-download:before, .ion-android-drafts:before, .ion-android-exit:before, .ion-android-expand:before, .ion-android-favorite:before, .ion-android-favorite-outline:before, .ion-android-film:before, .ion-android-folder:before, .ion-android-folder-open:before, .ion-android-funnel:before, .ion-android-globe:before, .ion-android-hand:before, .ion-android-hangout:before, .ion-android-happy:before, .ion-android-home:before, .ion-android-image:before, .ion-android-laptop:before, .ion-android-list:before, .ion-android-locate:before, .ion-android-lock:before, .ion-android-mail:before, .ion-android-map:before, .ion-android-menu:before, .ion-android-microphone:before, .ion-android-microphone-off:before, .ion-android-more-horizontal:before, .ion-android-more-vertical:before, .ion-android-navigate:before, .ion-android-notifications:before, .ion-android-notifications-none:before, .ion-android-notifications-off:before, .ion-android-open:before, .ion-android-options:before, .ion-android-people:before, .ion-android-person:before, .ion-android-person-add:before, .ion-android-phone-landscape:before, .ion-android-phone-portrait:before, .ion-android-pin:before, .ion-android-plane:before, .ion-android-playstore:before, .ion-android-print:before, .ion-android-radio-button-off:before, .ion-android-radio-button-on:before, .ion-android-refresh:before, .ion-android-remove:before, .ion-android-remove-circle:before, .ion-android-restaurant:before, .ion-android-sad:before, .ion-android-search:before, .ion-android-send:before, .ion-android-settings:before, .ion-android-share:before, .ion-android-share-alt:before, .ion-android-star:before, .ion-android-star-half:before, .ion-android-star-outline:before, .ion-android-stopwatch:before, .ion-android-subway:before, .ion-android-sunny:before, .ion-android-sync:before, .ion-android-textsms:before, .ion-android-time:before, .ion-android-train:before, .ion-android-unlock:before, .ion-android-upload:before, .ion-android-volume-down:before, .ion-android-volume-mute:before, .ion-android-volume-off:before, .ion-android-volume-up:before, .ion-android-walk:before, .ion-android-warning:before, .ion-android-watch:before, .ion-android-wifi:before, .ion-aperture:before, .ion-archive:before, .ion-arrow-down-a:before, .ion-arrow-down-b:before, .ion-arrow-down-c:before, .ion-arrow-expand:before, .ion-arrow-graph-down-left:before, .ion-arrow-graph-down-right:before, .ion-arrow-graph-up-left:before, .ion-arrow-graph-up-right:before, .ion-arrow-left-a:before, .ion-arrow-left-b:before, .ion-arrow-left-c:before, .ion-arrow-move:before, .ion-arrow-resize:before, .ion-arrow-return-left:before, .ion-arrow-return-right:before, .ion-arrow-right-a:before, .ion-arrow-right-b:before, .ion-arrow-right-c:before, .ion-arrow-shrink:before, .ion-arrow-swap:before, .ion-arrow-up-a:before, .ion-arrow-up-b:before, .ion-arrow-up-c:before, .ion-asterisk:before, .ion-at:before, .ion-backspace:before, .ion-backspace-outline:before, .ion-bag:before, .ion-battery-charging:before, .ion-battery-empty:before, .ion-battery-full:before, .ion-battery-half:before, .ion-battery-low:before, .ion-beaker:before, .ion-beer:before, .ion-bluetooth:before, .ion-bonfire:before, .ion-bookmark:before, .ion-bowtie:before, .ion-briefcase:before, .ion-bug:before, .ion-calculator:before, .ion-calendar:before, .ion-camera:before, .ion-card:before, .ion-cash:before, .ion-chatbox:before, .ion-chatbox-working:before, .ion-chatboxes:before, .ion-chatbubble:before, .ion-chatbubble-working:before, .ion-chatbubbles:before, .ion-checkmark:before, .ion-checkmark-circled:before, .ion-checkmark-round:before, .ion-chevron-down:before, .ion-chevron-left:before, .ion-chevron-right:before, .ion-chevron-up:before, .ion-clipboard:before, .ion-clock:before, .ion-close:before, .ion-close-circled:before, .ion-close-round:before, .ion-closed-captioning:before, .ion-cloud:before, .ion-code:before, .ion-code-download:before, .ion-code-working:before, .ion-coffee:before, .ion-compass:before, .ion-compose:before, .ion-connection-bars:before, .ion-contrast:before, .ion-crop:before, .ion-cube:before, .ion-disc:before, .ion-document:before, .ion-document-text:before, .ion-drag:before, .ion-earth:before, .ion-easel:before, .ion-edit:before, .ion-egg:before, .ion-eject:before, .ion-email:before, .ion-email-unread:before, .ion-erlenmeyer-flask:before, .ion-erlenmeyer-flask-bubbles:before, .ion-eye:before, .ion-eye-disabled:before, .ion-female:before, .ion-filing:before, .ion-film-marker:before, .ion-fireball:before, .ion-flag:before, .ion-flame:before, .ion-flash:before, .ion-flash-off:before, .ion-folder:before, .ion-fork:before, .ion-fork-repo:before, .ion-forward:before, .ion-funnel:before, .ion-gear-a:before, .ion-gear-b:before, .ion-grid:before, .ion-hammer:before, .ion-happy:before, .ion-happy-outline:before, .ion-headphone:before, .ion-heart:before, .ion-heart-broken:before, .ion-help:before, .ion-help-buoy:before, .ion-help-circled:before, .ion-home:before, .ion-icecream:before, .ion-image:before, .ion-images:before, .ion-information:before, .ion-information-circled:before, .ion-ionic:before, .ion-ios-alarm:before, .ion-ios-alarm-outline:before, .ion-ios-albums:before, .ion-ios-albums-outline:before, .ion-ios-americanfootball:before, .ion-ios-americanfootball-outline:before, .ion-ios-analytics:before, .ion-ios-analytics-outline:before, .ion-ios-arrow-back:before, .ion-ios-arrow-down:before, .ion-ios-arrow-forward:before, .ion-ios-arrow-left:before, .ion-ios-arrow-right:before, .ion-ios-arrow-thin-down:before, .ion-ios-arrow-thin-left:before, .ion-ios-arrow-thin-right:before, .ion-ios-arrow-thin-up:before, .ion-ios-arrow-up:before, .ion-ios-at:before, .ion-ios-at-outline:before, .ion-ios-barcode:before, .ion-ios-barcode-outline:before, .ion-ios-baseball:before, .ion-ios-baseball-outline:before, .ion-ios-basketball:before, .ion-ios-basketball-outline:before, .ion-ios-bell:before, .ion-ios-bell-outline:before, .ion-ios-body:before, .ion-ios-body-outline:before, .ion-ios-bolt:before, .ion-ios-bolt-outline:before, .ion-ios-book:before, .ion-ios-book-outline:before, .ion-ios-bookmarks:before, .ion-ios-bookmarks-outline:before, .ion-ios-box:before, .ion-ios-box-outline:before, .ion-ios-briefcase:before, .ion-ios-briefcase-outline:before, .ion-ios-browsers:before, .ion-ios-browsers-outline:before, .ion-ios-calculator:before, .ion-ios-calculator-outline:before, .ion-ios-calendar:before, .ion-ios-calendar-outline:before, .ion-ios-camera:before, .ion-ios-camera-outline:before, .ion-ios-cart:before, .ion-ios-cart-outline:before, .ion-ios-chatboxes:before, .ion-ios-chatboxes-outline:before, .ion-ios-chatbubble:before, .ion-ios-chatbubble-outline:before, .ion-ios-checkmark:before, .ion-ios-checkmark-empty:before, .ion-ios-checkmark-outline:before, .ion-ios-circle-filled:before, .ion-ios-circle-outline:before, .ion-ios-clock:before, .ion-ios-clock-outline:before, .ion-ios-close:before, .ion-ios-close-empty:before, .ion-ios-close-outline:before, .ion-ios-cloud:before, .ion-ios-cloud-download:before, .ion-ios-cloud-download-outline:before, .ion-ios-cloud-outline:before, .ion-ios-cloud-upload:before, .ion-ios-cloud-upload-outline:before, .ion-ios-cloudy:before, .ion-ios-cloudy-night:before, .ion-ios-cloudy-night-outline:before, .ion-ios-cloudy-outline:before, .ion-ios-cog:before, .ion-ios-cog-outline:before, .ion-ios-color-filter:before, .ion-ios-color-filter-outline:before, .ion-ios-color-wand:before, .ion-ios-color-wand-outline:before, .ion-ios-compose:before, .ion-ios-compose-outline:before, .ion-ios-contact:before, .ion-ios-contact-outline:before, .ion-ios-copy:before, .ion-ios-copy-outline:before, .ion-ios-crop:before, .ion-ios-crop-strong:before, .ion-ios-download:before, .ion-ios-download-outline:before, .ion-ios-drag:before, .ion-ios-email:before, .ion-ios-email-outline:before, .ion-ios-eye:before, .ion-ios-eye-outline:before, .ion-ios-fastforward:before, .ion-ios-fastforward-outline:before, .ion-ios-filing:before, .ion-ios-filing-outline:before, .ion-ios-film:before, .ion-ios-film-outline:before, .ion-ios-flag:before, .ion-ios-flag-outline:before, .ion-ios-flame:before, .ion-ios-flame-outline:before, .ion-ios-flask:before, .ion-ios-flask-outline:before, .ion-ios-flower:before, .ion-ios-flower-outline:before, .ion-ios-folder:before, .ion-ios-folder-outline:before, .ion-ios-football:before, .ion-ios-football-outline:before, .ion-ios-game-controller-a:before, .ion-ios-game-controller-a-outline:before, .ion-ios-game-controller-b:before, .ion-ios-game-controller-b-outline:before, .ion-ios-gear:before, .ion-ios-gear-outline:before, .ion-ios-glasses:before, .ion-ios-glasses-outline:before, .ion-ios-grid-view:before, .ion-ios-grid-view-outline:before, .ion-ios-heart:before, .ion-ios-heart-outline:before, .ion-ios-help:before, .ion-ios-help-empty:before, .ion-ios-help-outline:before, .ion-ios-home:before, .ion-ios-home-outline:before, .ion-ios-infinite:before, .ion-ios-infinite-outline:before, .ion-ios-information:before, .ion-ios-information-empty:before, .ion-ios-information-outline:before, .ion-ios-ionic-outline:before, .ion-ios-keypad:before, .ion-ios-keypad-outline:before, .ion-ios-lightbulb:before, .ion-ios-lightbulb-outline:before, .ion-ios-list:before, .ion-ios-list-outline:before, .ion-ios-location:before, .ion-ios-location-outline:before, .ion-ios-locked:before, .ion-ios-locked-outline:before, .ion-ios-loop:before, .ion-ios-loop-strong:before, .ion-ios-medical:before, .ion-ios-medical-outline:before, .ion-ios-medkit:before, .ion-ios-medkit-outline:before, .ion-ios-mic:before, .ion-ios-mic-off:before, .ion-ios-mic-outline:before, .ion-ios-minus:before, .ion-ios-minus-empty:before, .ion-ios-minus-outline:before, .ion-ios-monitor:before, .ion-ios-monitor-outline:before, .ion-ios-moon:before, .ion-ios-moon-outline:before, .ion-ios-more:before, .ion-ios-more-outline:before, .ion-ios-musical-note:before, .ion-ios-musical-notes:before, .ion-ios-navigate:before, .ion-ios-navigate-outline:before, .ion-ios-nutrition:before, .ion-ios-nutrition-outline:before, .ion-ios-paper:before, .ion-ios-paper-outline:before, .ion-ios-paperplane:before, .ion-ios-paperplane-outline:before, .ion-ios-partlysunny:before, .ion-ios-partlysunny-outline:before, .ion-ios-pause:before, .ion-ios-pause-outline:before, .ion-ios-paw:before, .ion-ios-paw-outline:before, .ion-ios-people:before, .ion-ios-people-outline:before, .ion-ios-person:before, .ion-ios-person-outline:before, .ion-ios-personadd:before, .ion-ios-personadd-outline:before, .ion-ios-photos:before, .ion-ios-photos-outline:before, .ion-ios-pie:before, .ion-ios-pie-outline:before, .ion-ios-pint:before, .ion-ios-pint-outline:before, .ion-ios-play:before, .ion-ios-play-outline:before, .ion-ios-plus:before, .ion-ios-plus-empty:before, .ion-ios-plus-outline:before, .ion-ios-pricetag:before, .ion-ios-pricetag-outline:before, .ion-ios-pricetags:before, .ion-ios-pricetags-outline:before, .ion-ios-printer:before, .ion-ios-printer-outline:before, .ion-ios-pulse:before, .ion-ios-pulse-strong:before, .ion-ios-rainy:before, .ion-ios-rainy-outline:before, .ion-ios-recording:before, .ion-ios-recording-outline:before, .ion-ios-redo:before, .ion-ios-redo-outline:before, .ion-ios-refresh:before, .ion-ios-refresh-empty:before, .ion-ios-refresh-outline:before, .ion-ios-reload:before, .ion-ios-reverse-camera:before, .ion-ios-reverse-camera-outline:before, .ion-ios-rewind:before, .ion-ios-rewind-outline:before, .ion-ios-rose:before, .ion-ios-rose-outline:before, .ion-ios-search:before, .ion-ios-search-strong:before, .ion-ios-settings:before, .ion-ios-settings-strong:before, .ion-ios-shuffle:before, .ion-ios-shuffle-strong:before, .ion-ios-skipbackward:before, .ion-ios-skipbackward-outline:before, .ion-ios-skipforward:before, .ion-ios-skipforward-outline:before, .ion-ios-snowy:before, .ion-ios-speedometer:before, .ion-ios-speedometer-outline:before, .ion-ios-star:before, .ion-ios-star-half:before, .ion-ios-star-outline:before, .ion-ios-stopwatch:before, .ion-ios-stopwatch-outline:before, .ion-ios-sunny:before, .ion-ios-sunny-outline:before, .ion-ios-telephone:before, .ion-ios-telephone-outline:before, .ion-ios-tennisball:before, .ion-ios-tennisball-outline:before, .ion-ios-thunderstorm:before, .ion-ios-thunderstorm-outline:before, .ion-ios-time:before, .ion-ios-time-outline:before, .ion-ios-timer:before, .ion-ios-timer-outline:before, .ion-ios-toggle:before, .ion-ios-toggle-outline:before, .ion-ios-trash:before, .ion-ios-trash-outline:before, .ion-ios-undo:before, .ion-ios-undo-outline:before, .ion-ios-unlocked:before, .ion-ios-unlocked-outline:before, .ion-ios-upload:before, .ion-ios-upload-outline:before, .ion-ios-videocam:before, .ion-ios-videocam-outline:before, .ion-ios-volume-high:before, .ion-ios-volume-low:before, .ion-ios-wineglass:before, .ion-ios-wineglass-outline:before, .ion-ios-world:before, .ion-ios-world-outline:before, .ion-ipad:before, .ion-iphone:before, .ion-ipod:before, .ion-jet:before, .ion-key:before, .ion-knife:before, .ion-laptop:before, .ion-leaf:before, .ion-levels:before, .ion-lightbulb:before, .ion-link:before, .ion-load-a:before, .ion-load-b:before, .ion-load-c:before, .ion-load-d:before, .ion-location:before, .ion-lock-combination:before, .ion-locked:before, .ion-log-in:before, .ion-log-out:before, .ion-loop:before, .ion-magnet:before, .ion-male:before, .ion-man:before, .ion-map:before, .ion-medkit:before, .ion-merge:before, .ion-mic-a:before, .ion-mic-b:before, .ion-mic-c:before, .ion-minus:before, .ion-minus-circled:before, .ion-minus-round:before, .ion-model-s:before, .ion-monitor:before, .ion-more:before, .ion-mouse:before, .ion-music-note:before, .ion-navicon:before, .ion-navicon-round:before, .ion-navigate:before, .ion-network:before, .ion-no-smoking:before, .ion-nuclear:before, .ion-outlet:before, .ion-paintbrush:before, .ion-paintbucket:before, .ion-paper-airplane:before, .ion-paperclip:before, .ion-pause:before, .ion-person:before, .ion-person-add:before, .ion-person-stalker:before, .ion-pie-graph:before, .ion-pin:before, .ion-pinpoint:before, .ion-pizza:before, .ion-plane:before, .ion-planet:before, .ion-play:before, .ion-playstation:before, .ion-plus:before, .ion-plus-circled:before, .ion-plus-round:before, .ion-podium:before, .ion-pound:before, .ion-power:before, .ion-pricetag:before, .ion-pricetags:before, .ion-printer:before, .ion-pull-request:before, .ion-qr-scanner:before, .ion-quote:before, .ion-radio-waves:before, .ion-record:before, .ion-refresh:before, .ion-reply:before, .ion-reply-all:before, .ion-ribbon-a:before, .ion-ribbon-b:before, .ion-sad:before, .ion-sad-outline:before, .ion-scissors:before, .ion-search:before, .ion-settings:before, .ion-share:before, .ion-shuffle:before, .ion-skip-backward:before, .ion-skip-forward:before, .ion-social-android:before, .ion-social-android-outline:before, .ion-social-angular:before, .ion-social-angular-outline:before, .ion-social-apple:before, .ion-social-apple-outline:before, .ion-social-bitcoin:before, .ion-social-bitcoin-outline:before, .ion-social-buffer:before, .ion-social-buffer-outline:before, .ion-social-chrome:before, .ion-social-chrome-outline:before, .ion-social-codepen:before, .ion-social-codepen-outline:before, .ion-social-css3:before, .ion-social-css3-outline:before, .ion-social-designernews:before, .ion-social-designernews-outline:before, .ion-social-dribbble:before, .ion-social-dribbble-outline:before, .ion-social-dropbox:before, .ion-social-dropbox-outline:before, .ion-social-euro:before, .ion-social-euro-outline:before, .ion-social-facebook:before, .ion-social-facebook-outline:before, .ion-social-foursquare:before, .ion-social-foursquare-outline:before, .ion-social-freebsd-devil:before, .ion-social-github:before, .ion-social-github-outline:before, .ion-social-google:before, .ion-social-google-outline:before, .ion-social-googleplus:before, .ion-social-googleplus-outline:before, .ion-social-hackernews:before, .ion-social-hackernews-outline:before, .ion-social-html5:before, .ion-social-html5-outline:before, .ion-social-instagram:before, .ion-social-instagram-outline:before, .ion-social-javascript:before, .ion-social-javascript-outline:before, .ion-social-linkedin:before, .ion-social-linkedin-outline:before, .ion-social-markdown:before, .ion-social-nodejs:before, .ion-social-octocat:before, .ion-social-pinterest:before, .ion-social-pinterest-outline:before, .ion-social-python:before, .ion-social-reddit:before, .ion-social-reddit-outline:before, .ion-social-rss:before, .ion-social-rss-outline:before, .ion-social-sass:before, .ion-social-skype:before, .ion-social-skype-outline:before, .ion-social-snapchat:before, .ion-social-snapchat-outline:before, .ion-social-tumblr:before, .ion-social-tumblr-outline:before, .ion-social-tux:before, .ion-social-twitch:before, .ion-social-twitch-outline:before, .ion-social-twitter:before, .ion-social-twitter-outline:before, .ion-social-usd:before, .ion-social-usd-outline:before, .ion-social-vimeo:before, .ion-social-vimeo-outline:before, .ion-social-whatsapp:before, .ion-social-whatsapp-outline:before, .ion-social-windows:before, .ion-social-windows-outline:before, .ion-social-wordpress:before, .ion-social-wordpress-outline:before, .ion-social-yahoo:before, .ion-social-yahoo-outline:before, .ion-social-yen:before, .ion-social-yen-outline:before, .ion-social-youtube:before, .ion-social-youtube-outline:before, .ion-soup-can:before, .ion-soup-can-outline:before, .ion-speakerphone:before, .ion-speedometer:before, .ion-spoon:before, .ion-star:before, .ion-stats-bars:before, .ion-steam:before, .ion-stop:before, .ion-thermometer:before, .ion-thumbsdown:before, .ion-thumbsup:before, .ion-toggle:before, .ion-toggle-filled:before, .ion-transgender:before, .ion-trash-a:before, .ion-trash-b:before, .ion-trophy:before, .ion-tshirt:before, .ion-tshirt-outline:before, .ion-umbrella:before, .ion-university:before, .ion-unlocked:before, .ion-upload:before, .ion-usb:before, .ion-videocamera:before, .ion-volume-high:before, .ion-volume-low:before, .ion-volume-medium:before, .ion-volume-mute:before, .ion-wand:before, .ion-waterdrop:before, .ion-wifi:before, .ion-wineglass:before, .ion-woman:before, .ion-wrench:before, .ion-xbox:before {
+  display: inline-block;
+  font-family: "Ionicons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #888;
+    line-height: 18px;
+    text-align: center;
+}
+
+body::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+	background-color: #24aee3;
+}
+
+body::-webkit-scrollbar{
+	width: 5px;
+	background-color: #24aee3;
+}
+
+body::-webkit-scrollbar-thumb{
+	background-color: #000000;
+}
+
+strong { font-weight: 600; }
+
+a, a:hover, a:focus {
+	/*color: #ff8a38;*/
+	color: #333;
+	text-decoration: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+h1, h2 {
+	margin-top: 10px;
+	font-size: 38px;
+    font-weight: 300;
+    color: #555;
+    line-height: 50px;
+    font-style: italic;
+}
+
+h3 {
+	font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    line-height: 30px;
+    /*font-style: italic;*/
+}
+
+img { max-width: 100%; }
+
+.medium-paragraph {
+	font-size: 17px;
+	line-height: 32px;
+}
+
+.colored-text { color: #ff8a38; }
+
+::-moz-selection { background: #ff8a38; color: #fff; text-shadow: none; }
+::selection { background: #ff8a38; color: #fff; text-shadow: none; }
+
+
+/***** Loader *****/
+
+.loader {
+	/*position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;*/
+	width: 100%;
+	height: 100%;
+	background: #24aee3;
+	overflow: hidden !important;
+	z-index: 99999;
+	padding: 20px; 
+}
+
+.loader-img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -30px 0 0 -30px;
+	width: 60px;
+	height: 60px;
+	background: url(../img/loading.gif) center center no-repeat;
+}
+
+.progress {
+	height: 12px;
+	background: #ebebeb;
+	/*border-left: 1px solid transparent;*/
+	/*border-right: 1px solid transparent;*/
+	border-radius: 0px;
+	width: 100%;
+}
+.progress > span {
+	position: relative;
+	float: left;
+	/*margin: 0 -1px;*/
+	min-width: 30px;
+	height: 18px;
+	line-height: 16px;
+	text-align: right;
+	background: #cccccc;
+	border: 1px solid;
+	border-color: #bfbfbf #b3b3b3 #9e9e9e;
+	border-radius: 0px;
+	background-image: -webkit-linear-gradient(top, #f0f0f0, #dbdbdb 70%, #cccccc);
+	background-image: -moz-linear-gradient(top, #f0f0f0, #dbdbdb 70%, #cccccc);
+	background-image: -o-linear-gradient(top, #f0f0f0, #dbdbdb 70%, #cccccc);
+	background-image: linear-gradient(to bottom, #f0f0f0, #dbdbdb 70%, #cccccc);
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.progress > span > span {
+	padding: 0 8px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #404040;
+	color: rgba(0, 0, 0, 0.7);
+	text-shadow: 0 1px rgba(255, 255, 255, 0.4);
+}
+.progress > span:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	height: 18px;
+	border-radius: 0px;
+}
+.progress .blue {
+	background: #5aaadb;
+	border-color: #459fd6 #3094d2 #277db2;
+	background-image: -webkit-linear-gradient(top, #aed5ed, #7bbbe2 70%, #5aaadb);
+	background-image: -moz-linear-gradient(top, #aed5ed, #7bbbe2 70%, #5aaadb);
+	background-image: -o-linear-gradient(top, #aed5ed, #7bbbe2 70%, #5aaadb);
+	background-image: linear-gradient(to bottom, #aed5ed, #7bbbe2 70%, #5aaadb);
+}
+
+/***** General style, all sections *****/
+
+.section-container {
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.section-container-gray-bg {
+	background: #f8f8f8;
+}
+
+.section-container-image-bg, 
+.section-container-image-bg h2, 
+.section-container-image-bg h3 {
+	color: #fff;
+}
+
+.section-container-image-bg .divider-1 span {
+	border-color: #fff;
+}
+
+.section-description {
+	margin-top: 60px;
+    padding-bottom: 10px;
+}
+
+.section-description p {
+    margin-top: 20px;
+	padding: 0 120px;
+}
+.section-container-image-bg .section-description p {
+	opacity: 0.8;
+}
+
+.section-bottom-button {
+	padding-top: 60px;
+}
+
+.btn-link-1 {
+	display: inline-block;
+	height: 50px;
+	margin: 0 5px;
+	padding: 16px 40px 0 40px;
+	
+	background: #ff8a38; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffb24b 0%, #ff8a38 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb24b), color-stop(100%,#ff8a38)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffb24b 0%,#ff8a38 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#ff8a38',GradientType=0 ); /* IE6-9 */
+	
+	border: 0;
+	
+	font-size: 15px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    -moz-border-radius: 40px; -webkit-border-radius: 40px; border-radius: 40px;
+}
+.btn-link-1:hover, .btn-link-1:focus, .btn-link-1:active {
+	background: #ff8a38; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffb24b 0%, #ff8a38 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb24b), color-stop(100%,#ff8a38)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffb24b 0%,#ff8a38 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#ff8a38',GradientType=0 ); /* IE6-9 */
+	
+	outline: 0;
+	opacity: 0.6;
+	color: #fff;
+}
+
+.btn-link-2 {
+	display: inline-block;
+	height: 50px;
+	margin: 0 5px;
+	padding: 16px 40px 0 40px;
+	background: #444;
+	background: rgba(0, 0, 0, 0.3);
+	border: 0;
+	font-size: 15px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    -moz-border-radius: 40px; -webkit-border-radius: 40px; border-radius: 40px;
+}
+.btn-link-2:hover, .btn-link-2:focus, 
+.btn-link-2:active, .btn-link-2:active:focus { outline: 0; opacity: 0.6; background: rgba(0, 0, 0, 0.3); color: #fff; }
+
+
+/***** Divider *****/
+
+.divider-1 span {
+	display: inline-block;
+	width: 200px;
+	border-bottom: 1px dotted #aaa;
+}
+
+
+/***** Top menu *****/
+
+.navbar {
+	margin-bottom: 0;
+	background: #444;
+	border: 0;
+	-o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
+}
+.navbar.navbar-no-bg { background: #444; background:  #24aee3; }
+
+.navbar-right { margin-right: 0; }
+
+ul.navbar-nav {
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.navbar-inverse ul.navbar-nav li a { 
+	padding-top: 18px; 
+	padding-bottom: 15px; 
+	color: #fff; 
+	opacity: 0.8; 
+}
+.navbar-inverse ul.navbar-nav li a:hover { color: #fff; opacity: 1; }
+.navbar-inverse ul.navbar-nav li a:focus { color: #fff; outline: 0; opacity: 1; }
+
+.navbar-text a {
+	margin: 0 8px;
+	font-size: 26px;
+	color: #fff;
+	line-height: 28px;
+	opacity: 0.8;
+}
+.navbar-text a:hover { opacity: 1; }
+
+.navbar-toggle {
+	margin-top: 13px;
+	margin-bottom: 13px;
+}
+
+
+/***** Top content *****/
+
+.inner-bg {
+    padding: 210px 0;
+}
+
+.top-content .text {
+	color: #fff;
+}
+
+.top-content .text .logo {
+	padding-bottom: 20px;
+}
+
+.top-content .text .logo a {
+	display: inline-block;
+	width: 130px;
+	height: 69px;
+	background: url(../img/logo.png) center center no-repeat;
+}
+
+.top-content .text h1 {
+	margin-top: 25px;
+	color: #fff;
+}
+
+.top-content .description {
+	margin: 30px 0 10px 0;
+}
+
+.top-content .description p { opacity: 0.8; }
+
+.top-content .top-big-link {
+	margin-top: 45px;
+}
+
+
+/***** Services *****/
+
+.services-box {
+	padding-top: 30px;
+	text-align: left;
+}
+
+.services-box .services-box-icon {
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	
+	background: #ff8a38; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffb24b 0%, #ff8a38 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb24b), color-stop(100%,#ff8a38)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffb24b 0%,#ff8a38 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#ff8a38',GradientType=0 ); /* IE6-9 */
+
+    font-size: 40px;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+    -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
+    -o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
+}
+
+.services-box h3 {
+	margin-top: 0;
+	padding: 0 0 10px 0;
+}
+
+
+/***** Great support *****/
+
+.great-support-container {
+	padding-bottom: 0;
+	overflow: hidden;
+}
+
+.great-support-box {
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+
+.great-support-box-text {
+	margin-top: 40px;
+	padding-left: 30px;
+	overflow: hidden;
+	text-align: left;
+}
+.great-support-box-text:first-child { margin-top: 20px; }
+
+.great-support-box-text-left {
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+.great-support-box-text h3 {
+	margin-top: 0;
+}
+
+.great-support-box-text .medium-paragraph {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.great-support-box-phone {
+	margin-bottom: 0;
+}
+
+.great-support-box-phone img {
+	margin-bottom: -300px;
+}
+
+
+/***** More services *****/
+
+.more-services-box {
+	margin-top: 30px;
+	text-align: left;
+}
+
+.more-services-box .more-services-box-icon {
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+	
+	background: #ff8a38; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffb24b 0%, #ff8a38 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb24b), color-stop(100%,#ff8a38)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffb24b 0%,#ff8a38 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#ff8a38',GradientType=0 ); /* IE6-9 */
+	
+    font-size: 32px;
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+    -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
+}
+
+.more-services-box h3 {
+	margin-top: 0;
+	padding: 0 0 10px 0;
+}
+
+
+/***** Call to action *****/
+
+.call-to-action-container .section-bottom-button {
+	padding-top: 30px;
+}
+
+
+/***** Portfolio *****/
+
+.portfolio-box {
+	padding-top: 30px;
+	text-align: left;
+}
+
+.portfolio-box-image {
+	overflow: hidden;
+}
+
+.portfolio-box-image img {
+	-o-transition: all .8s; -moz-transition: all .8s; -webkit-transition: all .8s; -ms-transition: all .8s; transition: all .8s;
+}
+
+.portfolio-box-image:hover img {
+	-o-transform: scale(1.25); -moz-transform: scale(1.25); -webkit-transform: scale(1.25); -ms-transform: scale(1.25); transform: scale(1.25);
+}
+
+.portfolio-box h3 {
+	margin-top: 30px;
+}
+.portfolio-box h3 a { color: #555; }
+.portfolio-box h3 a:hover, .portfolio-box h3 a:focus { color: #ff8a38; }
+
+.portfolio-box h3 i {
+	padding-left: 10px;
+	color: #ccc;
+	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+.portfolio-box h3:hover i { padding-left: 15px; }
+
+.portfolio-box-date {
+	padding-bottom: 10px;
+	font-size: 14px;
+	color: #aaa;
+	text-transform: uppercase;
+}
+
+.portfolio-box-date i {
+	padding-right: 5px;
+	color: #ddd;
+}
+
+.portfolio-container .section-bottom-button {
+	padding-top: 40px;
+}
+
+
+/***** Testimonials *****/
+
+.testimonials-container {
+	padding-bottom: 70px;
+}
+
+.testimonial-list {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.testimonial-list .testimonial-image img {
+	max-width: 160px;
+	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
+}
+
+.testimonial-list .testimonial-text {
+	margin-top: 30px;
+	opacity: 0.8;
+}
+
+.testimonial-list .testimonial-text a {
+	color: #fff;
+	border-bottom: 1px dotted #fff;
+}
+.testimonial-list .testimonial-text a:hover, 
+.testimonial-list .testimonial-text a:focus { color: #fff; border: 0; }
+
+.testimonial-list .nav-tabs {
+	margin-top: 30px;
+    border: 0;
+}
+
+.testimonial-list .nav-tabs li {
+	float: none;
+	display: inline-block;
+	margin-left: 7px;
+    margin-right: 7px;
+}
+
+.testimonial-list .nav-tabs li a {
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    background: none;
+    border: 1px solid #fff;
+    border-color: rgba(255, 255, 255, 0.8);
+    -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
+}
+
+.testimonial-list .nav-tabs li a:hover {
+	background: #fff;
+	background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #fff;
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
+.testimonial-list .nav-tabs li.active a,
+.testimonial-list .nav-tabs li.active a:focus {
+	background: #ff8a38; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffb24b 0%, #ff8a38 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb24b), color-stop(100%,#ff8a38)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffb24b 0%,#ff8a38 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#ff8a38',GradientType=0 ); /* IE6-9 */
+	
+	border: 0;
+}
+
+
+/***** Blog *****/
+
+.blog-box {
+	margin-top: 30px;
+	text-align: left;
+}
+
+.blog-box-image {
+	margin-top: 8px;
+	overflow: hidden;
+}
+
+.blog-box-image img {
+	-o-transition: all .8s; -moz-transition: all .8s; -webkit-transition: all .8s; -ms-transition: all .8s; transition: all .8s;
+}
+
+.blog-box-image:hover img {
+	-o-transform: scale(1.25); -moz-transform: scale(1.25); -webkit-transform: scale(1.25); -ms-transform: scale(1.25); transform: scale(1.25);
+}
+
+.blog-box h3 {
+	margin-top: 0;
+}
+.blog-box h3 a { color: #555; }
+.blog-box h3 a:hover, .blog-box h3 a:focus { color: #ff8a38; }
+
+.blog-box h3 i {
+	padding-left: 10px;
+	color: #ccc;
+	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+.blog-box h3:hover i { padding-left: 15px; }
+
+.blog-box-date {
+	padding-bottom: 10px;
+	font-size: 14px;
+	color: #aaa;
+	text-transform: uppercase;
+}
+
+.blog-box-date i {
+	padding-right: 5px;
+	color: #ddd;
+}
+
+.blog-container .section-bottom-button {
+	padding-top: 40px;
+}
+
+
+/***** Footer *****/
+
+footer {
+	padding: 40px 0 0 0;
+	background: #444;
+	color: #aaa;
+	text-align: left;
+}
+
+footer h3 {
+	color: #aaa;
+}
+
+.contact-form {
+	padding-top: 20px;
+}
+
+.contact-form textarea {
+	height: 100px;
+}
+
+.contact-form .input-error {
+	border-color: #ff8a38;
+}
+
+.footer-social {
+	padding-top: 20px;
+}
+
+.footer-social a {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin-right: 6px;
+	margin-bottom: 10px;
+	padding-top: 7px;
+	background: #666;
+	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
+    font-size: 32px;
+    color: #ddd;
+    line-height: 40px;
+    text-align: center;
+}
+.footer-social a:hover, .footer-social a:focus { background: #777; color: #eee; }
+
+.footer-social a i { vertical-align: middle; }
+
+.footer-copyright {
+	margin-top: 25px;
+	padding-top: 25px;
+	border-top: 1px dotted #777;
+}
+
+.footer-copyright a { color: #ddd; }
+.footer-copyright a:hover, .footer-copyright a:focus { color: #eee; }
+
+.footer-bottom {
+	margin-top: 60px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	background: #3d3d3d;
+	text-align: center;
+}
+
+.footer-bottom a {
+	font-size: 32px;
+    color: #666;
+    line-height: 40px;
+}
+
+.footer-bottom a:hover, .footer-bottom a:focus { color: #888; }
+
+footer i{
+	color: #24aee3;
+}
+
+footer {
+    background-color: #F8F8F8;
+    border-top: 1px solid rgb(113, 202, 236);
+    text-align:center;
+    /*padding:20px;*/
+    padding-top: 10px;  
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 56px;
+    width: 100%;
+}
+
+.footer-icon-svg{
+	width: 35px; height: auto;
+}
+.logo-svg {	
+	width: 100px;
+	height: auto;
+}
+
+.logo-svg path{
+	fill: #fff;	
+}
+
+#test path{
+	fill: #fff;	
+}
+
+.nav>li>a{
+	padding-bottom: 0px;
+}
+
+.navbar-inverse ul.navbar-nav li a{
+	padding-bottom: 0px;	
+}
+
+#a-logo{
+	opacity: 1; position: relative; top: -11px;
+}
+
+.carousel-member-img{
+	width: 35px;
+	height: auto;
+	vertical-align: top;
+}
+
+.member-img{
+	width: 80px;
+	height: auto;
+	vertical-align: top;
+}
+
+.opt-img{
+	width: 38px; 
+	height: auto;
+}
+
+.group-quest{
+	display: inline-block; font-size: 10px; line-height: 15px; margin-top: 18px; margin-left: 5px;
+}
+
+.opt-span{
+	margin-top: 10px; color: #000; font-size: 15px;
+}
+
+.line{
+	margin-top: 8px; margin-bottom: 3px; border: 0; border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.button {
+
+  display: inline-block;
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  padding-right: 30px;
+  padding-left: 70px;
+  position: relative;
+  background-color:rgb(0,0,0);
+  color:rgb(255,255,255);
+  text-decoration: none;
+  text-transform: none
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+  /*text-shadow:1px 1px 0px rgba(0,0,0,0.5);*/
+/*-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ff123852,Positive=true)";zoom:1;
+filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=2,Color=#ff123852,Positive=true);
+
+  -moz-box-shadow:0px 2px 2px rgba(0,0,0,0.2);
+  -webkit-box-shadow:0px 2px 2px rgba(0,0,0,0.7);
+  box-shadow:0px 2px 2px rgba(0,0,0,0.7);
+  -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=2,Color=#33000000,Positive=true)";
+filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#33002200,Positive=true);*/
+
+  text-shadow: none; box-shadow: none;
+}
+
+.button:hover{
+    text-decoration: none;
+    color:rgb(255,255,255);
+  	/*color: #ff3333;*/
+}
+
+.button p{
+	font-size: 12px;
+	text-align: left;
+}
+.button span {
+  position: absolute;
+  left: 0;
+  width: 50px;
+  font-size:30px;
+  -webkit-border-top-left-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border-right: 1px solid  rgba(0,0,0,0.15);
+    text-decoration: none;
+    text-align: center;
+}
+
+.button i {
+	position: relative; top: 2px;
+}
+
+
+.button.twitter {
+  background: #00acee;
+}
+
+.button.facebook {
+ background: #3b5998;
+}
+
+.button.google-plus{
+  background: #db4a39;
+}
+
+.button.linkedin {
+  background: #0e76a8;
+}
+
+.button.youtube {
+ background: #c4302b;
+}
+
+.button.github{
+  background: #171515;
+}
+
+.button.android {
+  background: #a4c639;
+}
+
+.button.skype {
+ background: #00aff0;
+ }
+
+.button.dropbox{
+  background: #3d9ae8;
+}
+
+.button.foursquare{
+  background: #25a0ca;
+}
+
+.button.apple{
+  background: #cdcdcd;
+}
+
+.button.dribbble{
+  background: #ea4c89;
+}
+
+.button.instagram{
+  background: #3f729b;
+}
+
+.button.pinterest{
+  background: #c8232c;
+}
+
+.button.stackexchange{
+  background: #ef8236;
+}
+
+.button.flickr{
+  background: #ff0084;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.a-bottom{
+	color: #24aee3;
+	font-size: 13px;
+}
+
+.btn-s-blue {
+  color: #fff;
+  background-color: #24aee3;
+  border-color: #24aee3;
+  width: 100%;
+  font-size: 13px;
+  border-radius: 0;
+}
+
+.btn-s-blue:hover {
+  color: #fff;
+  background-color: rgb(21, 130, 170);
+  border-color: rgb(21, 130, 170);
+}
+
+.btn-s-blue:focus, .btn-s-blue.focus {
+  color: #fff;
+  background-color: rgb(21, 130, 170);
+  border-color: #01549b;
+}
+
+.btn-s-blue:active, .btn-s-blue.active,
+.open > .btn-s-blue.dropdown-toggle {
+  color: #fff;
+  background-color: rgb(21, 130, 170);
+  border-color: #01549b;
+  background-image: none;
+}
+
+.btn-s-blue:active:hover, .btn-s-blue:active:focus, .btn-s-blue:active.focus, .btn-s-blue.active:hover, .btn-s-blue.active:focus, .btn-s-blue.active.focus,
+.open > .btn-s-blue.dropdown-toggle:hover,
+.open > .btn-s-blue.dropdown-toggle:focus,
+.open > .btn-s-blue.dropdown-toggle.focus {
+  color: #fff;
+  background-color: #014682;
+  border-color: #01315a;
+}
+
+.btn-s-blue.disabled:focus, .btn-s-blue.disabled.focus, .btn-s-blue:disabled:focus, .btn-s-blue:disabled.focus {
+  background-color: #24aee3;
+  border-color: #24aee3;
+}
+
+.btn-s-blue.disabled:hover, .btn-s-blue:disabled:hover {
+  background-color: #24aee3;
+  border-color: #24aee3;
+}
+
+.btn-s-pink {
+  color: #fff;
+  background-color: rgb(233, 91, 83);
+  border-color: rgb(233, 91, 83);
+  width: 100%;
+  font-size: 13px;
+  border-radius: 0;
+}
+
+.btn-s-pink:hover {
+  color: #fff;
+  background-color: rgb(205, 35, 27);
+  border-color: rgb(205, 35, 27);
+}
+
+.btn-s-pink:focus, .btn-s-pink.focus {
+  color: #fff;
+  background-color: rgb(205, 35, 27);
+  border-color: rgb(205, 35, 27);
+}
+
+.btn-s-pink:active, .btn-s-pink.active,
+.open > .btn-s-pink.dropdown-toggle {
+  color: #fff;
+  background-color: rgb(205, 35, 27);
+  border-color: rgb(205, 35, 27);
+  background-image: none;
+}
+
+.btn-s-default{color:#333;background-color:#e6e6e6;border-color:#adadad;
+	width: 100%;
+	font-size: 13px;
+	border-radius: 0;}
+.btn-s-default.focus,.btn-s-default:focus{color:#333;background-color:#e6e6e6;border-color:#e6e6e6}
+.btn-s-default:hover{color:#333;background-color:#fff;border-color:#e6e6e6}
+.btn-s-default.active,.btn-s-default:active,.open>.dropdown-toggle.btn-s-default{color:#333;background-color:#e6e6e6;border-color:#adadad}
+.btn-s-default.active.focus,.btn-s-default.active:focus,.btn-s-default.active:hover,.btn-s-default:active.focus,.btn-s-default:active:focus,.btn-s-default:active:hover,.open>.dropdown-toggle.btn-s-default.focus,.open>.dropdown-toggle.btn-s-default:focus,.open>.dropdown-toggle.btn-s-default:hover{color:#333;background-color:#d4d4d4;border-color:#8c8c8c}.btn-s-default.active,.btn-s-default:active,.open>.dropdown-toggle.btn-s-default{background-image:none}
+.btn-s-default.disabled,.btn-s-default.disabled.active,.btn-s-default.disabled.focus,.btn-s-default.disabled:active,.btn-s-default.disabled:focus,.btn-s-default.disabled:hover,.btn-s-default[disabled],.btn-s-default[disabled].active,.btn-s-default[disabled].focus,.btn-s-default[disabled]:active,.btn-s-default[disabled]:focus,.btn-s-default[disabled]:hover,fieldset[disabled] .btn-s-default,fieldset[disabled] .btn-s-default.active,fieldset[disabled] .btn-s-default.focus,fieldset[disabled] .btn-s-default:active,fieldset[disabled] .btn-s-default:focus,fieldset[disabled].btn-s-default:hover{background-color:#fff;border-color:#ccc}
+.btn-s-default .badge{color:#fff;background-color:#333}
+
+.ion-plus:before {
+  content: "\f218"; }
+
+.ion-close:before {
+  content: "\f12a"; }
+
+.ion-close-circled:before {
+  content: "\f128"; }
+
+.ion-close-round:before {
+  content: "\f129"; }
+
+.ion-closed-captioning:before {
+  content: "\f317"; }
+
+.button.button-fab.button-fab-bottom-right {
+    top: auto;
+    right: 9px;
+    bottom: 50px;
+    left: auto;
+    position: fixed;
+}
+
+.button.button-fab.button-fab-bottom-left {
+    top: auto;
+    left: 9px;
+    bottom: 50px;
+    right: auto;
+    position: fixed;
+}
+
+.button.button-fab {
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+    z-index: 9999;
+    width: 56px;
+    height: 56px;
+    max-height: initial;
+    max-width: initial;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 0px;
+    transform: translate3d(0px, 0px, 0px);
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: transform, box-shadow;
+}
+
+.button-fixed-bottom, .bar .button-fixed-bottom.activated, .button-fixed-bottom:active{
+    background-color: #24aee3;
+    color: #FFF;
+}
+
+.button-fixed-bottom:hover{
+	background-color: rgb(21, 131, 172);
+    color: #FFF;
+}
+
+.button-fixed-bottom-green, .button-fixed-bottom-green.activated, .button-fixed-bottom-green:active{
+    background-color: rgb(146, 208, 80);
+    color: #FFF;
+}
+
+.button-fixed-bottom-green:hover{
+  background-color: rgb(105, 160, 44);
+    color: #FFF;
+}
+
+.button-clear, .button-clear:link, .button-clear:visited, .button-fab, .button-fab:link, .button-fab:visited, .button-flat, .button-flat:link, .button-flat:visited, .button-raised, .button-raised:link, .button-raised:visited, .ink-button, .ink-button-input, .ink-button:link, .ink-button:visited {
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: medium none;
+    outline: 0px none;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.button-fixed-bottom-close, .bar .button-fixed-bottom-close.activated, .button-fixed-bottom-close:active{
+    background-color: transparent;
+    border: 4px solid #24aee3;
+    color: #24aee3;
+}
+
+.button-fixed-bottom-close:hover{
+  background-color: #24aee3;
+  color: #FFF;
+}
+
+
+.image_nb {
+-moz-filter:grayscale(100%);
+-webkit-filter:grayscale(100%);
+-o-filter:grayscale(100%);
+-ms-filter:grayscale(100%);
+filter:grayscale(100%); 
+}
+
+.tentative_image_nb {
+-moz-filter:grayscale(100%);
+-webkit-filter:grayscale(100%);
+-o-filter:grayscale(100%);
+-ms-filter:grayscale(100%);
+filter:grayscale(100%); 
+max-width:80px;
+width:20%;
+cursor:pointer;
+margin-right:5px;
+}
+
+.valide_image_nb {
+-moz-filter:grayscale(100%);
+-webkit-filter:grayscale(100%);
+-o-filter:grayscale(100%);
+-ms-filter:grayscale(100%);
+filter:grayscale(100%); 
+max-width:80px;
+width:20%;
+height: auto;
+cursor:pointer;
+margin-right:5px;
+}
+
+.icon-pos{
+  color: rgb(233, 87, 79);
+  font-size: 35px;
+  position: absolute;
+  left: 50px;
+  bottom: 20px;  
+  display: none;
+}
+
+.owl-controls i{
+  font-size: 40px;
+  color: rgb(166, 166, 166);  
+}
+
+.owl-carousel .owl-controls .owl-nav .owl-next, .owl-carousel .owl-controls .owl-nav .owl-prev {
+    background: transparent;
+}
+
+.profil-wall{  
+  height: 170px;
+  width: 100%;  
+  background: url(../img/wall/1.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.sidenav {
+    margin-top: 55px;
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 50; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.4s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 36px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;    
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

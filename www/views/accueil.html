@@ -1,0 +1,303 @@
+    <link href="css/sidebar_home.css" rel="stylesheet">
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="#/accueil">Accueil</a>
+	  <a href="#/veilleur">Office divin</a>
+	  <a href="#/devotions">Dévotions</a>
+	  <a href="#/entrainement">Mémorisations</a>
+	  <a href="#/bible">Bible</a>
+	</div>
+
+	<div id="rightSidenav" class="sidenav_right">
+	  <a id="closeRightNav" href="javascript:void(0)" class="closebtn" onclick="closeRightNav()">&times;</a>
+	  <a ng-click="signout()" style="color: #818181; cursor: pointer;">Déconnexion</a>
+	  <a href="#/espace-personnel">Espace personnel</a>
+	</div>
+	<div id="main">
+		<div class="bar bar-header" style="height: 30px; position: fixed; padding: 0; border: 0; background-image: none;">
+			<button class="button" style="background-color: transparent; outline:none; visibility: hidden;"></button>
+			<!-- <button class="button" style="background-color: transparent; position: absolute; top: -5px; padding-top: 5px; margin-left: 9px; outline:none;" ng-click="toogleIt()">
+		   		<input class="toogleMe" id="toggle-trigger" type="checkbox" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" data-size="small" data-on="<span style='color:transparent;'>.</span>" data-off="<span style='color:transparent;'>.</span>" data-style="ios"/>
+			</button> -->
+			<button id="btn-log" class="button" style="background-color: transparent; position: absolute; top: -5px; color: blue; z-index: 9999; outline:none;">
+				{{log}}	
+			</button>			
+		</div>
+		<div class="bar bar-subheader " style="height: 50px; position: fixed; top: 30px; background-image: none;">
+		   <button onclick="openNav()" class="button" style="background-color: transparent; outline:none;">
+		   	<!-- <img src="img/menu.gif"> -->
+		   	<img src="img/nouvelle.png" class="icons-img" style="background-color: transparent; height: 49px; width: auto;">
+		   </button>
+		    <h1 class="title">
+		    	<b><a style="text-decoration: none; color: blue; font-size: 25px;">Bonnes nouvelles</a></b>
+		    </h1>
+		   <button data-toggle="modal" data-target="#playerModal" class="button" style="background-color: transparent;">
+		   	<i class="fa fa-volume-up"></i>
+		   </button>		   
+		</div>					
+		<div>		
+			<div class="content" style="position: relative; top: 80px;">
+				<a id="connex-modal-btn" data-toggle="modal" data-target="#connexionModal"></a>
+				<!-- <div>
+                    <button data-toggle="modal" data-target="#partageModal" class="btn btn-primary" style="margin-top: 10px; font-size: 10px; float: right; margin-right: 10px;">
+                        Je partage une bonne nouvelle
+                    </button>					
+				</div> -->
+				<br>
+				                 
+				<br>
+				<!-- BONNES NOUVELLES -->				
+				<br>				
+				<div class="item" style="padding: 8px; white-space: normal; border-color: transparent;">
+					<div>
+						<button data-toggle="modal" data-target="#partageModal" class="btn btn-primary" style=" font-size: 10px; float: left; margin-right: 10px;">
+                        	Je partage une bonne nouvelle
+                    	</button>
+                    	<img src="img/marqueur.png" class="icons-img" style="float: right; width: 28px; height: auto;">
+					</div>
+				</div>				
+				<div style="z-index: 3; margin-bottom: 149px;">					
+					<div ng-repeat="(key, data) in news" class="item" style="padding: 8px; white-space: normal; ">
+	                    <div style="font-family: Helvetica, Arial, sans-serif;">
+	                        <div style="font-size: 10px;">
+	                            <b style="color: blue;">
+	                            	<span id=name{{key}} ></span>, 
+	                            	<span id=ville{{key}}></span>
+	                            </b>
+	                            <b style="float: right; font-size: 8.4px;">
+	                                {{data.newsDate}}
+	                            </b>
+	                        </div>
+	                        <div style="font-size: 10px; margin-top: 5px;">
+	                            <span>{{data.newsText}}</span>
+	                        </div>
+	                        <span ng-init="getNewsPublisher(data.userID, key)"></span>
+	                    </div>
+	                    <!-- <hr style="margin-top: 8px; margin-bottom: 3px; border: 0; border-top: 1px solid rgba(0, 0, 0, 0.1);">                         -->
+	                    <div style="display: block; float: left; margin-top: 5px;">
+	                       <a ng-click="updateModal(data.newsID)" data-toggle="modal" data-target="#basicModal" style="text-decoration: none;">
+	                           <img src="img/merci.gif">
+	                       </a>
+	                        <b>
+	                        	<span id=rose{{key}} style="font-size: 10px; position: relative; left: 3px;"></span>
+	                        </b>
+	                        <img ng-click="addRose(data.userID, data.newsID)" src="img/Rose.png" style="height: 20px; width: auto; cursor:pointer;">                        
+
+	                        <b>
+	                        	<span id=dizainer{{key}} style="font-size: 10px; position: relative; left: 3px;">
+	                        	
+	                        	</span>
+	                        </b>
+	                        <img  ng-click="addDizainier(data.userID, data.newsID)" src="img/dizainier.png" style="height: 20px; width: auto; cursor:pointer;">                            
+	                        <b>
+	                        	<span id=chapelet{{key}} style="font-size: 10px; position: relative; left: 3px;">
+	                        	
+	                        	</span>
+	                        </b>
+	                        <img ng-click="addChapelet(data.userID, data.newsID)" src="img/chapelet.png" style="height: 20px; width: auto; cursor:pointer;">                            
+	                    </div>
+	                    <span ng-init="getNbRose(data.newsID, key)"></span>
+	                    <span ng-init="getNbDizainer(data.newsID, key)"></span>
+	                    <span ng-init="getNbChapelet(data.newsID, key)"></span>
+	                </div>					
+				</div>
+			</div>
+			<!-- <div class="bottom-div" style="z-index: 3; position: fixed; bottom: 0; width: 100%;">
+				<a href="#/dons" class="a-deco"><div class="expert">
+					<center style="font-size: 13px; padding: 6px; margin-bottom: 0; padding-bottom: 2px;"><b>FAIRE UN DON</b></center>
+				  </div>
+				</a>
+			</div> -->
+		</div>
+	</div>
+
+	<div class="modal fade" id="unpartageModal" tabindex="-1" role="dialog" aria-labelledby="unpartageModal" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	          <div class="modal-header" style="padding: 5px">
+	            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	            <center><h4 class="modal-title" id="myModalLabel" style="color: rgb(0, 153, 255); font-size: 18px; font-weight: bold;  ">Je partage</h4></center>
+	          </div>
+	          <div class="modal-body">	                      
+	          	<div style="margin: 0px; text-align: center; font-size: 10px;">
+			        <span>Tu dois être inscrit et connecter pour poster une Bonne nouvelle</span>
+			        <br>
+			         <a href="index.php" class="btn btn-large" style="line-height: 0.5; color: rgb(0, 153, 255); font-size: 10px;">Connectes-toi</a>
+			        <br>			       
+			        <a href="signup.php" class="btn btn-large" style="line-height: 0.5; color: rgb(0, 153, 255); font-size: 10px;">Inscription</a>
+			        <p style="margin-top: 5px; font-size: 10px;">
+			          <a href="fpass.php" style="text-decoration: none; line-height: 0.5; color: rgb(0, 153, 255);">Mot de passe perdu</a>
+			        </p>
+		        </div>
+		        <div class="modal-footer">		                          
+		        </div>
+	        </div>
+	    </div>
+	</div> 
+	</div>
+
+	<div class="modal fade" id="partageModal" tabindex="-1" role="dialog" aria-labelledby="partageModal" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	          <div class="modal-header" style="padding: 5px">
+	            <button id="partageClose" type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	            <center><h4 class="modal-title" id="myModalLabel" style="color: rgb(0, 153, 255); font-size: 18px; font-weight: bold;  ">Je partage</h4></center>
+	          </div>
+	          <div class="modal-body">	                      
+	          	<div class="row" style="margin: 0px;">
+			        <form class="form-group" style="width: 100%;">
+			            <textarea style="height: 100px;" class="form-control" id="news_text"></textarea>
+			            <br>
+			            <button ng-click="publish()" style="width: 100%;" name="publish" class="btn btn-danger"> Publier la bonne nouvelle </button>
+			        </form>
+		        </div>
+		        <div class="modal-footer">		                          
+		        </div>
+	        </div>
+	    </div>
+	</div> 
+	</div>
+
+	<div class="modal fade" id="connexionModal" tabindex="-1" role="dialog" aria-labelledby="connexionModal" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	          <div class="modal-header" style="padding: 5px">
+	            <button id="closeSignIn" type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	            <center><h4 class="modal-title" id="myModalLabel" style="color: rgb(0, 153, 255); font-size: 18px; font-weight: bold;">Connexion</h4></center>
+	          </div>
+	          <div class="modal-body">
+	          	<div style="margin: 5px;">
+					<div id="alert-inactive" class='alert alert-danger' role="alert" style="display: none;">
+						<button class='close' data-dismiss='alert'>&times;</button>
+						<strong><span class="sr-only">Désolé!</span> Ce compte n'est pas encore activé, veuillez consulter votre courriel.</strong> 
+					</div>
+					<div id="alert-error" class='alert alert-danger' style="display: none;">
+						<button class='close' data-dismiss='alert'>&times;</button>
+						<strong>Le mail ou le mot de passe ne correspond pas!</strong> 
+					</div>
+					<form class="form-group" method="post">
+						<div>
+							<input class="form-control" style="border-radius: 0; margin-bottom: 15px; font-size: 10px;" type="email"  placeholder="Courriel" id="txtemail" name="txtemail" required />  
+						</div>
+						<div>
+							<input class="form-control" style="border-radius: 0; margin-bottom: 15px; font-size: 10px;" type="password"  placeholder="Mot de passe" id="txtupass" name="txtupass" required />
+						</div>
+						<div>
+							<button ng-click="login()" style="border-radius: 0; width: 100%; font-size: 10px;" class="btn btn-large btn-primary" type="submit" name="btn-login">Connexion</button>
+						</div>
+						<div>
+						<center>          
+							<p style="font-size: 10px; margin-top: 10px; margin-bottom: 10px;">
+							  <a  style="text-decoration: none; line-height: 0.5; color: rgb(0, 153, 255);">Vous avez oubliez votre mot de passe?</a>
+							</p>
+							<hr style="margin-top: 5px; margin-bottom: 5px;">
+							<p style="margin-top: 10px; margin-bottom: 0px; font-size: 10px; ">
+							  Vous n'avez pas encore de compte ? 
+							  <a ng-click="gotoInscription()" style="margin-top: 10px; border-radius: 0; width: 100%; font-size: 10px; color: #fff;" class="btn btn-large btn-primary">Ouvrir un nouveau compte</a>							  
+							</p>        
+						</center>
+						</div>                       
+					</form>						
+		        </div>
+		        <div class="modal-footer" style="padding: 5px">
+		            <center><button id="closeLogModal" type="button" class="btn btn-default" style="background: rgb(0, 153, 255); color: #fff; font-size: 12px;" data-dismiss="modal">Fermer la fenêtre</button></center>                
+		        </div>
+	        </div>
+	    </div>
+	</div> 
+	</div>
+
+	<div class="modal fade" id="playerModal" tabindex="-1" role="dialog" aria-labelledby="playerModal" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	          <div class="modal-header" style="padding: 5px">
+	            <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> -->
+	            <center><h4 class="modal-title" id="myModalLabel" style="color: rgb(0, 153, 255); font-size: 18px; font-weight: bold;  ">Bonnes nouvelles</h4></center>
+	          </div>
+
+	          <div class="modal-body">	                      
+	          	<div class="row" style="padding: 10px; padding-top: 15px; margin-bottom: 20px; margin-left: 0px; margin-right: 0px; margin-top: 10px;">
+					<audio controls style="width: 100%;" id="newsPlayer" src="Media/Explication/Bonnes-nouvelles.mp3">
+					  <source  type="audio/mpeg">
+					</audio>
+	          </div>
+	          <div class="modal-footer" style="padding: 5px">
+	            <center><button type="button" id='merciNews' class="btn btn-default" style="background: rgb(0, 153, 255); color: #fff; font-size: 12px;" data-dismiss="modal">Merci d'avoir écouté</button></center>                
+	          </div>
+	        </div>
+	    </div>
+	</div> 
+	</div>
+
+	<div class="modal fade" id="donModal" tabindex="-1" role="dialog" aria-labelledby="donModal" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	          <div class="modal-header" style="padding: 5px">
+	            <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> -->
+	            <center>
+	            	<h4 class="modal-title" id="myModalLabel" style="color: rgb(0, 153, 255); font-size: 18px; ">Faire un don</h4>
+	            </center>
+	          </div>
+	          <div class="modal-body">	                      
+	          	<div class="row" style=" padding: 10px; padding-top: 15px; margin-bottom: 20px; margin-left: 0px; margin-right: 0px; margin-top: 10px;">
+					<audio controls style="width: 100%;" id="donPlayer" src="Media/Explication/Donnes.mp3">
+					  <source  type="audio/mpeg">
+					</audio>
+	          </div>
+	          <div class="modal-footer" style="padding: 5px">
+	            <center><button type="button" id='merciDon' class="btn btn-default" style="background: rgb(0, 153, 255); color: #fff; font-size: 12px;" data-dismiss="modal">Merci d'avoir écouté</button></center>                
+	          </div>
+	        </div>
+	    </div>
+	</div>  
+	</div>
+
+	 <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header" style="padding: 5px">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <center><h4 class="modal-title" id="myModalLabel" style="color: rgb(0, 153, 255); font-size: 18px; font-weight: bold;  font-family: Arial;">Merci Seigneur</h4></center>
+              </div>
+              <div class="modal-body">
+                <center>
+                <p style="font-size: 10px; font-family: Arial;"><span>Si tu veux remercier le Seigneur</span><br>
+                    <span>pour une bonne nouvelle,</span><br>
+                    <span>tu peux:</span><br>
+                    <span>Réciter un <b>Je vous salue Marie</b> en cliquant sur la rose : 
+                    <img src="img/Rose.png" style="height: 20px; width: auto;">
+                    </span><br>
+                    <span>Réciter une dizaine de <b>Je vous salue Marie</b> en cliquant sur le dizainier : 
+                    <img src="img/dizainier.png" style="height: 20px; width: auto;">
+                    </span><br>
+                    <span>Réciter un chapelet en cliquant sur le chapelet : 
+                    <img src="img/chapelet.png" style="height: 20px; width: auto;">
+                    </span>
+                </p>
+                <p style="font-size: 10px; font-family: Arial;">
+                            <span>Qui a rendu grace à cette bonne nouvelle</span><br>
+                </p>
+                </center>
+                <div class="row" style="font-size: 10px; font-family: Arial;">
+                     <div class="col-md-2"></div>
+                     <div class="col-md-8">                             
+                            <span> <span id="nbRoseClickers"></span> <img src="img/Rose.png" style="height: 20px; width: auto;"> <span id="roseClickers"></span>
+                            </span><br>
+                            <span><span id="nbDizainierClickers"></span> <img src="img/dizainier.png" style="height: 20px; width: auto;"> <span id="dizainierClickers"></span>
+                            </span><br>
+                            <span><span id="nbChapeletClickers"></span> <img src="img/chapelet.png" style="height: 20px; width: auto;"> <span id="chapeletClickers"></span>
+                            </span><br>                            
+                     </div>
+                     <div class="col-md-2"></div>
+                </div>
+                                    
+              </div>
+              <div class="modal-footer" style="padding: 5px">
+                <center><button type="button" class="btn btn-default" style="background: rgb(0, 153, 255); color: #fff; font-size: 12px;" data-dismiss="modal">Merci</button></center>                
+              </div>
+            </div>
+        </div>
+    </div> 
+<script type="text/javascript">	
+ 	
+</script>

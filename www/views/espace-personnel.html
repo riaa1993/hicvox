@@ -1,0 +1,48 @@
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#/accueil">Accueil</a>
+    <a href="#/veilleur">Office divin</a>
+    <a href="#/devotions">Dévotions</a>
+    <a href="#/entrainement">Mémorisations</a>
+    <a href="#/bible">Bible</a>
+  </div>
+<div class="bar bar-subheader " style="height: 50px; position: fixed; top: 0px;">
+   <button onclick="openNav()" class="button" style="background-color: transparent; outline:none;">
+   	<img src="img/menu.gif">
+   </button>
+    <h1 class="title" style="letter-spacing: 2px; font-family:'Calligraphic', 'Roboto'; font-weight: 600; font-size: 44px; color: #e73931;"><a style="text-decoration: none;" href="#/info" >HicVox</a></h1>
+    <button  ng-click="gotoCarte()" class="button" style="background-color: transparent; outline:none;">
+          <img src="img/logo.gif" style="height: 40px; width: auto; background-color: transparent;">
+    </button> 
+</div>
+<div class="bar bar-subheader " style="height: 50px; position: fixed; top: 50px; border: none;">
+   <button class="button" onclick="window.history.back();" style="background-color: transparent;">
+    <i class="fa fa-chevron-left"></i>
+   </button>
+    <h1 class="title"><b style="color: blue; font-size: 25px;">Espace personnel</b></h1>
+   <button class="button" style="background-color: transparent;">        
+   </button>       
+</div>
+<div class="container" style="position: relative; top: 100px;">
+  <div class="row"></div>				
+  <form class="form-group" >
+  	<div id="success" class='alert alert-success' style="display: none;">
+		<button class='close' data-dismiss='alert'>&times;</button>
+		<strong>Succès!</strong>  Votre profil est à jour. 
+	</div> 
+	<div id="success-pwd" class='alert alert-success' style="display: none;">
+		<button class='close' data-dismiss='alert'>&times;</button>
+		<strong>Succès!</strong>  Votre mot de passe est à jour. 
+	</div>                    
+    <input style="border-radius: 0; margin-bottom: 15px;" type="text" class="form-control" placeholder="Nouveau nom d'utilisateur" id="txtuname" value={{userName}} required />
+    <input style="border-radius: 0; margin-bottom: 15px;" type="text" class="form-control" placeholder="Ville et pays" name="ville" id="ville" value={{userVille}} required /> 
+    <input style="border-radius: 0; margin-bottom: 15px;" type="hidden" class="form-control" placeholder="Pays" name="pays" id="pays" value={{userPays}} required />  
+    <input style="border-radius: 0; margin-bottom: 15px;" type="email" class="form-control" placeholder="Nouveau courriel" id="txtemail" value={{userEmail}} required />       
+    <button ng-click="updateInfo()" style="border-radius: 0; width: 100%;" class="btn btn-large btn-primary" name="btn-update-info">Changer les informations</button>                    
+  </form>
+  <form class="form-group">        
+    <hr style="margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid rgba(0, 0, 0, 0.1);"> 
+    <input style="border-radius: 0; margin-bottom: 15px;" type="password" class="form-control" placeholder="Nouveau mot de passe" id="new_txtpass" required /> 
+    <button ng-click="updatePwd()" style="border-radius: 0; width: 100%;" class="btn btn-large btn-primary" name="btn-update-pwd">Changer le mot de passe</button>                       
+  </form>      
+</div> <!-- /container -->     

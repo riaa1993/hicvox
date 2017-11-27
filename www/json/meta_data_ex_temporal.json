@@ -1,0 +1,2557 @@
+[
+  {
+    "id": 1,
+    "Te_Date": "TA011",
+    "Te-classe": 1,
+    "Te-La": "Dominica I Adventus",
+    "Te-Fr": "1er dimanche de l’Avent"
+  },
+  {
+    "id": 2,
+    "Te_Date": "TA012",
+    "Te-classe": 3,
+    "Te-La": "Feria II infra Hebd I Adventus",
+    "Te-Fr": "Lundi de la 1ère semaine de l’Avent"
+  },
+  {
+    "id": 3,
+    "Te_Date": "TA013",
+    "Te-classe": 3,
+    "Te-La": "Feria III infra Hebd I Adventus",
+    "Te-Fr": "Mardi de la 1ère semaine de l’Avent"
+  },
+  {
+    "id": 4,
+    "Te_Date": "TA014",
+    "Te-classe": 3,
+    "Te-La": "Feria IV infra Hebd I Adventus",
+    "Te-Fr": "Mercredi de la 1ère semaine de l’Avent"
+  },
+  {
+    "id": 5,
+    "Te_Date": "TA015",
+    "Te-classe": 3,
+    "Te-La": "Feria V infra Hebd I Adventus",
+    "Te-Fr": "Jeudi de la 1ère semaine de l’Avent"
+  },
+  {
+    "id": 6,
+    "Te_Date": "TA016",
+    "Te-classe": 3,
+    "Te-La": "Feria VI infra Hebd I Adventus",
+    "Te-Fr": "Vendredi de la 1ère semaine de l’Avent"
+  },
+  {
+    "id": 7,
+    "Te_Date": "TA017",
+    "Te-classe": 3,
+    "Te-La": "Sabbato infra Hebd I Adventus",
+    "Te-Fr": "Samedi de la 1ère semaine de l’Avent"
+  },
+  {
+    "id": 8,
+    "Te_Date": "TA021",
+    "Te-classe": 1,
+    "Te-La": "Dominica II Adventus",
+    "Te-Fr": "2ème dimanche de l’Avent"
+  },
+  {
+    "id": 9,
+    "Te_Date": "TA022",
+    "Te-classe": 3,
+    "Te-La": "Feria II infra Hebd II Adventus",
+    "Te-Fr": "Lundi de la 2ème semaine de l’Avent"
+  },
+  {
+    "id": 10,
+    "Te_Date": "TA023",
+    "Te-classe": 3,
+    "Te-La": "Feria III infra Hebd II Adventus",
+    "Te-Fr": "Mardi de la 2ème semaine de l’Avent"
+  },
+  {
+    "id": 11,
+    "Te_Date": "TA024",
+    "Te-classe": 3,
+    "Te-La": "Feria IV infra Hebd II Adventus",
+    "Te-Fr": "Mercredi de la 2ème semaine de l’Avent"
+  },
+  {
+    "id": 12,
+    "Te_Date": "TA025",
+    "Te-classe": 3,
+    "Te-La": "Feria V infra Hebd II Adventus",
+    "Te-Fr": "Jeudi de la 2ème semaine de l’Avent"
+  },
+  {
+    "id": 13,
+    "Te_Date": "TA026",
+    "Te-classe": 3,
+    "Te-La": "Feria VI infra Hebd II Adventus",
+    "Te-Fr": "Vendredi de la 2ème semaine de l’Avent"
+  },
+  {
+    "id": 14,
+    "Te_Date": "TA027",
+    "Te-classe": 3,
+    "Te-La": "Sabbato infra Hebd II Adventus",
+    "Te-Fr": "Samedi de la 2ème semaine de l’Avent"
+  },
+  {
+    "id": 15,
+    "Te_Date": "TA031",
+    "Te-classe": 1,
+    "Te-La": "Dominica III Adventus",
+    "Te-Fr": "3ème dimanche de l’Avent"
+  },
+  {
+    "id": 16,
+    "Te_Date": "TA032",
+    "Te-classe": 4,
+    "Te-La": "Feria II infra Hebd III Adventus",
+    "Te-Fr": "Lundi de la 3ème semaine de l’Avent"
+  },
+  {
+    "id": 17,
+    "Te_Date": "TA033",
+    "Te-classe": 4,
+    "Te-La": "Feria III infra Hebd III Adventus",
+    "Te-Fr": "Mardi de la 3ème semaine de l’Avent"
+  },
+  {
+    "id": 18,
+    "Te_Date": "TA034",
+    "Te-classe": 4,
+    "Te-La": "Feria IV Quattuor Temporum Adventus",
+    "Te-Fr": "Mercredi des Quatre-Temps de l’Avent"
+  },
+  {
+    "id": 19,
+    "Te_Date": "TA035",
+    "Te-classe": 4,
+    "Te-La": "Feria V infra Hebd III Adventus",
+    "Te-Fr": "Jeudi de la 3ème semaine de l’Avent"
+  },
+  {
+    "id": 20,
+    "Te_Date": "TA036",
+    "Te-classe": 4,
+    "Te-La": "Feria VI Quattuor Temporum Adventus",
+    "Te-Fr": "Vendredi des Quatre-Temps de l’Avent"
+  },
+  {
+    "id": 21,
+    "Te_Date": "TA037",
+    "Te-classe": 4,
+    "Te-La": "Sabbato Quattuor Temporum Adventus",
+    "Te-Fr": "Samedi des Quatre-Temps de l’Avent"
+  },
+  {
+    "id": 22,
+    "Te_Date": "TA041",
+    "Te-classe": 1,
+    "Te-La": "Dominica IV Adventus",
+    "Te-Fr": "4ème dimanche de l’Avent"
+  },
+  {
+    "id": 23,
+    "Te_Date": "TA042",
+    "Te-classe": 3,
+    "Te-La": "Feria II infra Hebd IV Adventus",
+    "Te-Fr": "Lundi de la 4ème semaine de l’Avent"
+  },
+  {
+    "id": 24,
+    "Te_Date": "TA043",
+    "Te-classe": 3,
+    "Te-La": "Feria III infra Hebd IV Adventus",
+    "Te-Fr": "Mardi de la 4ème semaine de l’Avent"
+  },
+  {
+    "id": 25,
+    "Te_Date": "TA044",
+    "Te-classe": 3,
+    "Te-La": "Feria IV infra Hebd IV Adventus",
+    "Te-Fr": "Mercredi de la 4ème semaine de l’Avent"
+  },
+  {
+    "id": 26,
+    "Te_Date": "TA045",
+    "Te-classe": 3,
+    "Te-La": "Feria V infra Hebd IV Adventus",
+    "Te-Fr": "Jeudi de la 4ème semaine de l’Avent"
+  },
+  {
+    "id": 27,
+    "Te_Date": "TA046",
+    "Te-classe": 3,
+    "Te-La": "Feria VI infra Hebd IV Adventus",
+    "Te-Fr": "Vendredi de la 4ème semaine de l’Avent"
+  },
+  {
+    "id": 28,
+    "Te_Date": "TA047",
+    "Te-classe": 3,
+    "Te-La": "Sabbato infra Hebd IV Adventus",
+    "Te-Fr": "Vigile de la Nativité"
+  },
+  {
+    "id": 29,
+    "Te_Date": "TN0do",
+    "Te-classe": 2,
+    "Te-La": "Die Octavae Nativitatis Domini",
+    "Te-Fr": "Dimanche dans l’Octave de la Nativité"
+  },
+  {
+    "id": 30,
+    "Te_Date": "TN0sn",
+    "Te-classe": 2,
+    "Te-La": "Sanctissimi Nominis Jesu",
+    "Te-Fr": "Très saint Nom de Jésus (Dimanche du 2 au 5 janvier ou le 2 janvier)"
+  },
+  {
+    "id": 31,
+    "Te_Date": "TE001",
+    "Te-classe": 4,
+    "Te-La": "Feria II infra Hebd I post Epiphaniam",
+    "Te-Fr": "Féries du Temps de l’Epiphanie 7"
+  },
+  {
+    "id": 32,
+    "Te_Date": "TE002",
+    "Te-classe": 4,
+    "Te-La": "Feria III infra Hebd I post Epiphaniam",
+    "Te-Fr": "Féries du Temps de l’Epiphanie 8"
+  },
+  {
+    "id": 33,
+    "Te_Date": "TE003",
+    "Te-classe": 4,
+    "Te-La": "Feria IV infra Hebd I post Epiphaniam",
+    "Te-Fr": "Féries du Temps de l’Epiphanie 9"
+  },
+  {
+    "id": 34,
+    "Te_Date": "TE004",
+    "Te-classe": 4,
+    "Te-La": "Feria V infra Hebd I post Epiphaniam",
+    "Te-Fr": "Féries du Temps de l’Epiphanie 10"
+  },
+  {
+    "id": 35,
+    "Te_Date": "TE005",
+    "Te-classe": 4,
+    "Te-La": "Feria VI infra Hebd I post Epiphaniam",
+    "Te-Fr": "Féries du Temps de l’Epiphanie 11"
+  },
+  {
+    "id": 36,
+    "Te_Date": "TE006",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd I post Epiphaniam",
+    "Te-Fr": "Féries du Temps de l’Epiphanie 12"
+  },
+  {
+    "id": 37,
+    "Te_Date": "TE011",
+    "Te-classe": 2,
+    "Te-La": "Sanctae Familiae Jesu Mariae Joseph",
+    "Te-Fr": "La Sainte Famille (dimanche après l’Epiphanie)"
+  },
+  {
+    "id": 38,
+    "Te_Date": "TE012",
+    "Te-classe": 4,
+    "Te-La": "Feria II infra Hebd I post Epiphaniam",
+    "Te-Fr": "Lundi du 1e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 39,
+    "Te_Date": "TE013",
+    "Te-classe": 4,
+    "Te-La": "Feria III infra Hebd I post Epiphaniam",
+    "Te-Fr": "Mardi du 1e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 40,
+    "Te_Date": "TE014",
+    "Te-classe": 4,
+    "Te-La": "Feria IV infra Hebd I post Epiphaniam",
+    "Te-Fr": "Mercredi du 1e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 41,
+    "Te_Date": "TE015",
+    "Te-classe": 4,
+    "Te-La": "Feria V infra Hebd I post Epiphaniam",
+    "Te-Fr": "Jeudi du 1e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 42,
+    "Te_Date": "TE016",
+    "Te-classe": 4,
+    "Te-La": "Feria VI infra Hebd I post Epiphaniam",
+    "Te-Fr": "Vendredi du 1e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 43,
+    "Te_Date": "TE017",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd I post Epiphaniam",
+    "Te-Fr": "Samedi du 1e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 44,
+    "Te_Date": "TE021",
+    "Te-classe": 2,
+    "Te-La": "Dominica II post Epiphaniam",
+    "Te-Fr": "2e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 45,
+    "Te_Date": "TE022",
+    "Te-classe": 4,
+    "Te-La": "Feria II infra Hebd II post Epiphaniam",
+    "Te-Fr": "Lundi du 2e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 46,
+    "Te_Date": "TE023",
+    "Te-classe": 4,
+    "Te-La": "Feria III infra Hebd II post Epiphaniam",
+    "Te-Fr": "Mardi du 2e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 47,
+    "Te_Date": "TE024",
+    "Te-classe": 4,
+    "Te-La": "Feria IV infra Hebd II post Epiphaniam",
+    "Te-Fr": "Mercredi du 2e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 48,
+    "Te_Date": "TE025",
+    "Te-classe": 4,
+    "Te-La": "Feria V infra Hebd II post Epiphaniam",
+    "Te-Fr": "Jeudi du 2e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 49,
+    "Te_Date": "TE026",
+    "Te-classe": 4,
+    "Te-La": "Feria VI infra Hebd II post Epiphaniam",
+    "Te-Fr": "Vendredi du 2e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 50,
+    "Te_Date": "TE027",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd II post Epiphaniam",
+    "Te-Fr": "Samedi du 2e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 51,
+    "Te_Date": "TE031",
+    "Te-classe": 2,
+    "Te-La": "Dominica III Post Epiphaniam",
+    "Te-Fr": "3e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 52,
+    "Te_Date": "TE032",
+    "Te-classe": 4,
+    "Te-La": "Feria II infra Hebd III post Epiphaniam",
+    "Te-Fr": "Lundi du 3e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 53,
+    "Te_Date": "TE033",
+    "Te-classe": 4,
+    "Te-La": "Feria III infra Hebd III post Epiphaniam",
+    "Te-Fr": "Mardi du 3e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 54,
+    "Te_Date": "TE034",
+    "Te-classe": 4,
+    "Te-La": "Feria IV infra Hebd III post Epiphaniam",
+    "Te-Fr": "Mercredi du 3e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 55,
+    "Te_Date": "TE035",
+    "Te-classe": 4,
+    "Te-La": "Feria V infra Hebd III post Epiphaniam",
+    "Te-Fr": "Jeudi du 3e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 56,
+    "Te_Date": "TE036",
+    "Te-classe": 4,
+    "Te-La": "Feria VI infra Hebd III post Epiphaniam",
+    "Te-Fr": "Vendredi du 3e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 57,
+    "Te_Date": "TE037",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd III post Epiphaniam",
+    "Te-Fr": "Samedi du 3e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 58,
+    "Te_Date": "TE041",
+    "Te-classe": 2,
+    "Te-La": "Dominica IV Post Epiphaniam",
+    "Te-Fr": "4e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 59,
+    "Te_Date": "TE042",
+    "Te-classe": 4,
+    "Te-La": "Feria II infra Hebd IV post Epiphaniam",
+    "Te-Fr": "Lundi du 4e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 60,
+    "Te_Date": "TE043",
+    "Te-classe": 4,
+    "Te-La": "Feria III infra Hebd IV post Epiphaniam",
+    "Te-Fr": "Mardi du 4e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 61,
+    "Te_Date": "TE044",
+    "Te-classe": 4,
+    "Te-La": "Feria IV infra Hebd IV post Epiphaniam",
+    "Te-Fr": "Mercredi du 4e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 62,
+    "Te_Date": "TE045",
+    "Te-classe": 4,
+    "Te-La": "Feria V infra Hebd IV post Epiphaniam",
+    "Te-Fr": "Jeudi du 4e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 63,
+    "Te_Date": "TE046",
+    "Te-classe": 4,
+    "Te-La": "Feria VI infra Hebd IV post Epiphaniam",
+    "Te-Fr": "Vendredi du 4e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 64,
+    "Te_Date": "TE047",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd IV post Epiphaniam",
+    "Te-Fr": "Samedi du 4e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 65,
+    "Te_Date": "TE051",
+    "Te-classe": 2,
+    "Te-La": "Dominica V Post Epiphaniam",
+    "Te-Fr": "5e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 66,
+    "Te_Date": "TE052",
+    "Te-classe": 4,
+    "Te-La": "Feria II infra Hebd V post Epiphaniam",
+    "Te-Fr": "Lundi du 5e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 67,
+    "Te_Date": "TE053",
+    "Te-classe": 4,
+    "Te-La": "Feria III infra Hebd V post Epiphaniam",
+    "Te-Fr": "Mardi du 5e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 68,
+    "Te_Date": "TE054",
+    "Te-classe": 4,
+    "Te-La": "Feria IV infra Hebd V post Epiphaniam",
+    "Te-Fr": "Mercredi du 5e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 69,
+    "Te_Date": "TE055",
+    "Te-classe": 4,
+    "Te-La": "Feria V infra Hebd V post Epiphaniam",
+    "Te-Fr": "Jeudi du 5e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 70,
+    "Te_Date": "TE056",
+    "Te-classe": 4,
+    "Te-La": "Feria VI infra Hebd V post Epiphaniam",
+    "Te-Fr": "Vendredi du 5e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 71,
+    "Te_Date": "TE057",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd V post Epiphaniam",
+    "Te-Fr": "Samedi du 5e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 72,
+    "Te_Date": "TE061",
+    "Te-classe": 2,
+    "Te-La": "Dominica VI Post Epiphaniam",
+    "Te-Fr": "6e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 73,
+    "Te_Date": "TE062",
+    "Te-classe": 4,
+    "Te-La": "Feria II infra Hebd VI post Epiphaniam",
+    "Te-Fr": "Lundi du 6e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 74,
+    "Te_Date": "TE063",
+    "Te-classe": 4,
+    "Te-La": "Feria III infra Hebd VI post Epiphaniam",
+    "Te-Fr": "Mardi du 6e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 75,
+    "Te_Date": "TE064",
+    "Te-classe": 4,
+    "Te-La": "Feria IV infra Hebd VI post Epiphaniam",
+    "Te-Fr": "Mercredi du 6e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 76,
+    "Te_Date": "TE065",
+    "Te-classe": 4,
+    "Te-La": "Feria V infra Hebd VI post Epiphaniam",
+    "Te-Fr": "Jeudi du 6e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 77,
+    "Te_Date": "TE066",
+    "Te-classe": 4,
+    "Te-La": "Feria VI infra Hebd VI post Epiphaniam",
+    "Te-Fr": "Vendredi du 6e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 78,
+    "Te_Date": "TE067",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd VI post Epiphaniam",
+    "Te-Fr": "Samedi du 6e dimanche après l'Epiphanie"
+  },
+  {
+    "id": 79,
+    "Te_Date": "TS011",
+    "Te-classe": 2,
+    "Te-La": "Dominica in Septuagesima",
+    "Te-Fr": "Dimanche de la Septuagésime"
+  },
+  {
+    "id": 80,
+    "Te_Date": "TS012",
+    "Te-classe": 4,
+    "Te-La": "Feria II infra Hebd Septuagesimae",
+    "Te-Fr": "Lundi de la Septuagésime"
+  },
+  {
+    "id": 81,
+    "Te_Date": "TS013",
+    "Te-classe": 4,
+    "Te-La": "Feria III infra Hebd Septuagesimae",
+    "Te-Fr": "Mardi de la Septuagésime"
+  },
+  {
+    "id": 82,
+    "Te_Date": "TS014",
+    "Te-classe": 4,
+    "Te-La": "Feria IV infra Hebd Septuagesimae",
+    "Te-Fr": "Mercredi de la Septuagésime"
+  },
+  {
+    "id": 83,
+    "Te_Date": "TS015",
+    "Te-classe": 4,
+    "Te-La": "Feria V infra Hebd Septuagesimae",
+    "Te-Fr": "Jeudi de la Septuagésime"
+  },
+  {
+    "id": 84,
+    "Te_Date": "TS016",
+    "Te-classe": 4,
+    "Te-La": "Feria VI infra Hebd Septuagesimae",
+    "Te-Fr": "Vendredi de la Septuagésime"
+  },
+  {
+    "id": 85,
+    "Te_Date": "TS017",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Septuagesimae",
+    "Te-Fr": "Samedi de la Septuagésime"
+  },
+  {
+    "id": 86,
+    "Te_Date": "TS021",
+    "Te-classe": 2,
+    "Te-La": "Dominica in Sexagesima",
+    "Te-Fr": "Dimanche de la Sexagésime"
+  },
+  {
+    "id": 87,
+    "Te_Date": "TS022",
+    "Te-classe": 4,
+    "Te-La": "Feria II infra Hebd Sexagesimae",
+    "Te-Fr": "Lundi de la Sexagésime"
+  },
+  {
+    "id": 88,
+    "Te_Date": "TS023",
+    "Te-classe": 4,
+    "Te-La": "Feria III infra Hebd Sexagesimae",
+    "Te-Fr": "Mardi de la Sexagésime"
+  },
+  {
+    "id": 89,
+    "Te_Date": "TS024",
+    "Te-classe": 4,
+    "Te-La": "Tempora: Feria IV infra Hebd Sexagesimae",
+    "Te-Fr": "Mercredi de la Sexagésime"
+  },
+  {
+    "id": 90,
+    "Te_Date": "TS025",
+    "Te-classe": 4,
+    "Te-La": "Feria V infra Hebd Sexagesimae",
+    "Te-Fr": "Jeudi de la Sexagésime"
+  },
+  {
+    "id": 91,
+    "Te_Date": "TS026",
+    "Te-classe": 4,
+    "Te-La": "Tempora: Feria VI infra Hebd Sexagesimae",
+    "Te-Fr": "Vendredi de la Sexagésime"
+  },
+  {
+    "id": 92,
+    "Te_Date": "TS027",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd Sexagesimae",
+    "Te-Fr": "Samedi de la Sexagésime"
+  },
+  {
+    "id": 93,
+    "Te_Date": "TS031",
+    "Te-classe": 2,
+    "Te-La": "Dominica in Quinquagesima",
+    "Te-Fr": "Dimanche de la Quinquagésime"
+  },
+  {
+    "id": 94,
+    "Te_Date": "TS032",
+    "Te-classe": 4,
+    "Te-La": "Feria II infra Hebd Quinquagesimae",
+    "Te-Fr": "Lundi de la Quinquagésime"
+  },
+  {
+    "id": 95,
+    "Te_Date": "TS033",
+    "Te-classe": 4,
+    "Te-La": "Feria III infra Hebd Quinquagesimae",
+    "Te-Fr": "Mardi de la Quinquagésime"
+  },
+  {
+    "id": 96,
+    "Te_Date": "TS034",
+    "Te-classe": 1,
+    "Te-La": "Feria IV Cinerum",
+    "Te-Fr": "Mercredi des Cendres"
+  },
+  {
+    "id": 97,
+    "Te_Date": "TS035",
+    "Te-classe": 3,
+    "Te-La": "Feria V post Cineres",
+    "Te-Fr": "Jeudi après les Cendres"
+  },
+  {
+    "id": 98,
+    "Te_Date": "TS036",
+    "Te-classe": 3,
+    "Te-La": "Feria VI post Cineres",
+    "Te-Fr": "Vendredi après les Cendres"
+  },
+  {
+    "id": 99,
+    "Te_Date": "TS037",
+    "Te-classe": 3,
+    "Te-La": "Sabbato post Cineres",
+    "Te-Fr": "Samedi après les Cendres"
+  },
+  {
+    "id": 100,
+    "Te_Date": "TQ011",
+    "Te-classe": 1,
+    "Te-La": "Dominica I in Quadr",
+    "Te-Fr": "1e Dimanche de Carême"
+  },
+  {
+    "id": 101,
+    "Te_Date": "TQ012",
+    "Te-classe": 3,
+    "Te-La": "Feria Secunda infra Hebd I in Quadr",
+    "Te-Fr": "Lundi du 1e dimanche de Carême"
+  },
+  {
+    "id": 102,
+    "Te_Date": "TQ013",
+    "Te-classe": 3,
+    "Te-La": "Feria Tertia infra Hebd I in Quadr",
+    "Te-Fr": "Mardi du 1e dimanche de Carême"
+  },
+  {
+    "id": 103,
+    "Te_Date": "TQ014",
+    "Te-classe": 3,
+    "Te-La": "Feria Quarta Quattuor Temporum Quadre",
+    "Te-Fr": "Mercredi du 1e dimanche de Carême"
+  },
+  {
+    "id": 104,
+    "Te_Date": "TQ015",
+    "Te-classe": 3,
+    "Te-La": "Feria Quinta infra Hebd I in Quadr",
+    "Te-Fr": "Jeudi du 1e dimanche de Carême"
+  },
+  {
+    "id": 105,
+    "Te_Date": "TQ016",
+    "Te-classe": "",
+    "Te-La": "Feria Sexta Quattuor Temporum Quadre",
+    "Te-Fr": "Vendredi du 1e dimanche de Carême"
+  },
+  {
+    "id": 106,
+    "Te_Date": "TQ017",
+    "Te-classe": "",
+    "Te-La": "Sabbato Quattuor Temporum Quadre",
+    "Te-Fr": "Samedi du 1e dimanche de Carême"
+  },
+  {
+    "id": 107,
+    "Te_Date": "TQ021",
+    "Te-classe": 1,
+    "Te-La": "Dominica II in Quadr",
+    "Te-Fr": "2e Dimanche de Carême"
+  },
+  {
+    "id": 108,
+    "Te_Date": "TQ022",
+    "Te-classe": 3,
+    "Te-La": "Feria Secunda infra Hebd II in Quadr",
+    "Te-Fr": "Lundi du 2e dimanche de Carême"
+  },
+  {
+    "id": 109,
+    "Te_Date": "TQ023",
+    "Te-classe": 3,
+    "Te-La": "Feria Tertia infra Hebd II in Quadr",
+    "Te-Fr": "Mardi du 2e dimanche de Carême"
+  },
+  {
+    "id": 110,
+    "Te_Date": "TQ024",
+    "Te-classe": 3,
+    "Te-La": "Feria Quarta infra Hebd II in Quadr",
+    "Te-Fr": "Mercredi du 2e dimanche de Carême"
+  },
+  {
+    "id": 111,
+    "Te_Date": "TQ025",
+    "Te-classe": 3,
+    "Te-La": "Feria Quinta infra Hebd II in Quadr",
+    "Te-Fr": "Jeudi du 2e dimanche de Carême"
+  },
+  {
+    "id": 112,
+    "Te_Date": "TQ026",
+    "Te-classe": 3,
+    "Te-La": "Feria Sexta infra Hebd II in Quadr",
+    "Te-Fr": "Vendredi du 2e dimanche de Carême"
+  },
+  {
+    "id": 113,
+    "Te_Date": "TQ027",
+    "Te-classe": 3,
+    "Te-La": "Sabbato infra Hebd II in Quadr",
+    "Te-Fr": "Samedi du 2e dimanche de Carême"
+  },
+  {
+    "id": 114,
+    "Te_Date": "TQ031",
+    "Te-classe": 1,
+    "Te-La": "Dominica III in Quadr",
+    "Te-Fr": "3e Dimanche de Carême"
+  },
+  {
+    "id": 115,
+    "Te_Date": "TQ032",
+    "Te-classe": 3,
+    "Te-La": "Feria Secunda infra Hebd III in Quadr",
+    "Te-Fr": "Lundi du 3e dimanche de Carême"
+  },
+  {
+    "id": 116,
+    "Te_Date": "TQ033",
+    "Te-classe": 3,
+    "Te-La": "Feria Tertia infra Hebd III in Quadr",
+    "Te-Fr": "Mardi du 3e dimanche de Carême"
+  },
+  {
+    "id": 117,
+    "Te_Date": "TQ034",
+    "Te-classe": 3,
+    "Te-La": "Feria Quarta infra Hebd III in Quadr",
+    "Te-Fr": "Mercredi du 3e dimanche de Carême"
+  },
+  {
+    "id": 118,
+    "Te_Date": "TQ035",
+    "Te-classe": 3,
+    "Te-La": "Feria Quinta infra Hebd III in Quadr",
+    "Te-Fr": "Jeudi du 3e dimanche de Carême"
+  },
+  {
+    "id": 119,
+    "Te_Date": "TQ036",
+    "Te-classe": 3,
+    "Te-La": "Feria Sexta infra Hebd III in Quadr",
+    "Te-Fr": "Vendredi du 3e dimanche de Carême"
+  },
+  {
+    "id": 120,
+    "Te_Date": "TQ037",
+    "Te-classe": 3,
+    "Te-La": "Sabbato infra Hebd III in Quadr",
+    "Te-Fr": "Samedi du 3e dimanche de Carême"
+  },
+  {
+    "id": 121,
+    "Te_Date": "TQ041",
+    "Te-classe": 1,
+    "Te-La": "Dominica IV in Quadr",
+    "Te-Fr": "4e Dimanche de Carême"
+  },
+  {
+    "id": 122,
+    "Te_Date": "TQ042",
+    "Te-classe": 3,
+    "Te-La": "Feria Secunda infra Hebd IV in Quadr",
+    "Te-Fr": "Lundi du 4e dimanche de Carême"
+  },
+  {
+    "id": 123,
+    "Te_Date": "TQ043",
+    "Te-classe": 3,
+    "Te-La": "Feria Tertia infra Hebd IV in Quadr",
+    "Te-Fr": "Mardi du 4e dimanche de Carême"
+  },
+  {
+    "id": 124,
+    "Te_Date": "TQ044",
+    "Te-classe": 3,
+    "Te-La": "Feria Quarta infra Hebd IV in Quadr",
+    "Te-Fr": "Mercredi du 4e dimanche de Carême"
+  },
+  {
+    "id": 125,
+    "Te_Date": "TQ045",
+    "Te-classe": 3,
+    "Te-La": "Feria Quinta infra Hebd IV in Quadr",
+    "Te-Fr": "Jeudi du 4e dimanche de Carême"
+  },
+  {
+    "id": 126,
+    "Te_Date": "TQ046",
+    "Te-classe": 3,
+    "Te-La": "Feria Sexta infra Hebd IV in Quadr",
+    "Te-Fr": "Vendredi du 4e dimanche de Carême"
+  },
+  {
+    "id": 127,
+    "Te_Date": "TQ047",
+    "Te-classe": 3,
+    "Te-La": "Sabbato infra Hebd IV in Quadr",
+    "Te-Fr": "Samedi du 4e dimanche de Carême"
+  },
+  {
+    "id": 128,
+    "Te_Date": "TQ051",
+    "Te-classe": 1,
+    "Te-La": "Dominica I Passionis",
+    "Te-Fr": "Dimanche de la Passion"
+  },
+  {
+    "id": 129,
+    "Te_Date": "TQ052",
+    "Te-classe": 3,
+    "Te-La": "Feria Secunda infra Hebd Passionis",
+    "Te-Fr": "Lundi du Dimanche de la Passion"
+  },
+  {
+    "id": 130,
+    "Te_Date": "TQ053",
+    "Te-classe": 3,
+    "Te-La": "Feria Tertia infra Hebd Passionis",
+    "Te-Fr": "Mardi du Dimanche de la Passion"
+  },
+  {
+    "id": 131,
+    "Te_Date": "TQ054",
+    "Te-classe": 3,
+    "Te-La": "Feria Quarta infra Hebd Passionis",
+    "Te-Fr": "Mercredi du Dimanche de la Passion"
+  },
+  {
+    "id": 132,
+    "Te_Date": "TQ055",
+    "Te-classe": 3,
+    "Te-La": "Feria Quinta infra Hebd Passionis",
+    "Te-Fr": "Jeudi du Dimanche de la Passion"
+  },
+  {
+    "id": 133,
+    "Te_Date": "TQ056",
+    "Te-classe": 3,
+    "Te-La": "Feria Sexta infra Hebd Passionis",
+    "Te-Fr": "Vendredi du Dimanche de la Passion"
+  },
+  {
+    "id": 134,
+    "Te_Date": "TQ057",
+    "Te-classe": 3,
+    "Te-La": "Sabbato infra Hebd Passionis",
+    "Te-Fr": "Samedi du Dimanche de la Passion"
+  },
+  {
+    "id": 135,
+    "Te_Date": "TQ061",
+    "Te-classe": 1,
+    "Te-La": "Dominica II Passionis seu in Palmis",
+    "Te-Fr": "Dimanche des Rameaux"
+  },
+  {
+    "id": 136,
+    "Te_Date": "TQ062",
+    "Te-classe": 1,
+    "Te-La": "Feria Secunda Hebdomadæ Sanctæ",
+    "Te-Fr": "Lundi saint"
+  },
+  {
+    "id": 137,
+    "Te_Date": "TQ063",
+    "Te-classe": 1,
+    "Te-La": "Feria Tertia Hebdomadæ Sanctæ",
+    "Te-Fr": "Mardi saint"
+  },
+  {
+    "id": 138,
+    "Te_Date": "TQ064",
+    "Te-classe": 1,
+    "Te-La": "Feria Quarta Hebdomadæ Sanctæ",
+    "Te-Fr": "Mercredi saint"
+  },
+  {
+    "id": 139,
+    "Te_Date": "TQ065",
+    "Te-classe": 1,
+    "Te-La": "Feria Quinta in Cena Domini",
+    "Te-Fr": "Jeudi saint"
+  },
+  {
+    "id": 140,
+    "Te_Date": "TQ066",
+    "Te-classe": 1,
+    "Te-La": "Feria Sexta in Passione et Morte Domini",
+    "Te-Fr": "Vendredi saint"
+  },
+  {
+    "id": 141,
+    "Te_Date": "TQ067",
+    "Te-classe": 1,
+    "Te-La": "Sabbato Sancto",
+    "Te-Fr": "Samedi sainnt"
+  },
+  {
+    "id": 142,
+    "Te_Date": "TP001",
+    "Te-classe": 1,
+    "Te-La": "Dominica Resurrectionis",
+    "Te-Fr": "Dimanche de la Pâques"
+  },
+  {
+    "id": 143,
+    "Te_Date": "TP002",
+    "Te-classe": 1,
+    "Te-La": "Die II infra octavam Paschae    Dies Octavae",
+    "Te-Fr": "Lundi de Pâques"
+  },
+  {
+    "id": 144,
+    "Te_Date": "TP003",
+    "Te-classe": 1,
+    "Te-La": "Die III infra octavam Paschae    Dies Octavae",
+    "Te-Fr": "Mardi de Pâques"
+  },
+  {
+    "id": 145,
+    "Te_Date": "TP004",
+    "Te-classe": 1,
+    "Te-La": "Die IV infra octavam Paschae    Dies Octavae",
+    "Te-Fr": "Mercredi de Pâques"
+  },
+  {
+    "id": 146,
+    "Te_Date": "TP005",
+    "Te-classe": 1,
+    "Te-La": "Die V infra octavam Paschae    Dies Octavae",
+    "Te-Fr": "Jeudi de Pâques"
+  },
+  {
+    "id": 147,
+    "Te_Date": "TP006",
+    "Te-classe": 1,
+    "Te-La": "Die VI infra octavam Paschæ    Dies Octavae",
+    "Te-Fr": "Vendredi de Pâques"
+  },
+  {
+    "id": 148,
+    "Te_Date": "TP007",
+    "Te-classe": 1,
+    "Te-La": "Sabbato in Albis    Dies Octavae",
+    "Te-Fr": "Samedi in Albis"
+  },
+  {
+    "id": 149,
+    "Te_Date": "TP011",
+    "Te-classe": 1,
+    "Te-La": "Dominica in Albis in Octava Paschæ",
+    "Te-Fr": "Dimanche in Albis"
+  },
+  {
+    "id": 150,
+    "Te_Date": "TP012",
+    "Te-classe": 4,
+    "Te-La": "Feria Secunda infra Hebd I post Octavam Paschae",
+    "Te-Fr": "Lundi du 1e dimanche après Pâques"
+  },
+  {
+    "id": 151,
+    "Te_Date": "TP013",
+    "Te-classe": 4,
+    "Te-La": "Tempora: Feria Tertia infra Hebd I post Octavam Paschae",
+    "Te-Fr": "Mardi du 1e dimanche après Pâques"
+  },
+  {
+    "id": 152,
+    "Te_Date": "TP014",
+    "Te-classe": 4,
+    "Te-La": "Feria Quarta infra Hebd I post Octavam Paschae",
+    "Te-Fr": "Mercredi du 1e dimanche après Pâques"
+  },
+  {
+    "id": 153,
+    "Te_Date": "TP015",
+    "Te-classe": 4,
+    "Te-La": "Feria Quinta infra Hebd I post Octavam Paschae",
+    "Te-Fr": "Jeudi du 1e dimanche après Pâques"
+  },
+  {
+    "id": 154,
+    "Te_Date": "TP016",
+    "Te-classe": 4,
+    "Te-La": "Feria Sexta infra Hebd I post Octavam Paschae",
+    "Te-Fr": "Vendredi du 1e dimanche après Pâques"
+  },
+  {
+    "id": 155,
+    "Te_Date": "TP017",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd I post Octavam Paschae",
+    "Te-Fr": "Samedi du 1e dimanche après Pâques"
+  },
+  {
+    "id": 156,
+    "Te_Date": "TP021",
+    "Te-classe": 2,
+    "Te-La": "Dominica II Post Pascha",
+    "Te-Fr": "2e Dimanche après Pâques"
+  },
+  {
+    "id": 157,
+    "Te_Date": "TP022",
+    "Te-classe": 4,
+    "Te-La": "Feria Secunda infra Hebd II post Octavam Paschae",
+    "Te-Fr": "Lundi du 2e dimanche après Pâques"
+  },
+  {
+    "id": 158,
+    "Te_Date": "TP023",
+    "Te-classe": 4,
+    "Te-La": "Feria Tertia infra Hebd II post Octavam Paschae",
+    "Te-Fr": "Mardi du 2e dimanche après Pâques"
+  },
+  {
+    "id": 159,
+    "Te_Date": "TP024",
+    "Te-classe": 4,
+    "Te-La": "Feria Quarta infra Hebd II post Octavam Paschae",
+    "Te-Fr": "Mercredi du 2e dimanche après Pâques"
+  },
+  {
+    "id": 160,
+    "Te_Date": "TP025",
+    "Te-classe": 4,
+    "Te-La": "Feria Quinta infra Hebd II post Octavam Paschae",
+    "Te-Fr": "Jeudi du 2e dimanche après Pâques"
+  },
+  {
+    "id": 161,
+    "Te_Date": "TP026",
+    "Te-classe": 4,
+    "Te-La": "Feria Sexta infra Hebd II post Octavam Paschae",
+    "Te-Fr": "Vendredi du 2e dimanche après Pâques"
+  },
+  {
+    "id": 162,
+    "Te_Date": "TP027",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd II post Octavam Paschae",
+    "Te-Fr": "Samedi du 2e dimanche après Pâques"
+  },
+  {
+    "id": 163,
+    "Te_Date": "TP031",
+    "Te-classe": 2,
+    "Te-La": "Dominica III Post Pascha",
+    "Te-Fr": "3e Dimanche après Pâques"
+  },
+  {
+    "id": 164,
+    "Te_Date": "TP032",
+    "Te-classe": 4,
+    "Te-La": "Feria Secunda infra Hebd III post Octavam Paschae",
+    "Te-Fr": "Lundi du 3e dimanche après Pâques"
+  },
+  {
+    "id": 165,
+    "Te_Date": "TP033",
+    "Te-classe": 4,
+    "Te-La": "Feria Tertia infra Hebd III post Octavam Paschae",
+    "Te-Fr": "Mardi du 3e dimanche après Pâques"
+  },
+  {
+    "id": 166,
+    "Te_Date": "TP034",
+    "Te-classe": 4,
+    "Te-La": "Feria Quarta infra Hebd III post Octavam Paschae",
+    "Te-Fr": "Mercredi du 3e dimanche après Pâques"
+  },
+  {
+    "id": 167,
+    "Te_Date": "TP035",
+    "Te-classe": 4,
+    "Te-La": "Tempora: Feria Quinta infra Hebd III post Octavam Paschae",
+    "Te-Fr": "Jeudi du 3e dimanche après Pâques"
+  },
+  {
+    "id": 168,
+    "Te_Date": "TP036",
+    "Te-classe": 4,
+    "Te-La": "Feria Sexta infra Hebd III post Octavam Paschae",
+    "Te-Fr": "Vendredi du 3e dimanche après Pâques"
+  },
+  {
+    "id": 169,
+    "Te_Date": "TP037",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd III post Octavam Paschae",
+    "Te-Fr": "Samedi du 3e dimanche après Pâques"
+  },
+  {
+    "id": 170,
+    "Te_Date": "TP041",
+    "Te-classe": 2,
+    "Te-La": "Dominica IV Post Pascha",
+    "Te-Fr": "4e Dimanche après Pâques"
+  },
+  {
+    "id": 171,
+    "Te_Date": "TP042",
+    "Te-classe": 4,
+    "Te-La": "Feria Secunda infra Hebd IV post Octavam Paschae",
+    "Te-Fr": "Lundi du 4e dimanche après Pâques"
+  },
+  {
+    "id": 172,
+    "Te_Date": "TP043",
+    "Te-classe": 4,
+    "Te-La": "Feria Tertia infra Hebd IV post Octavam Paschae",
+    "Te-Fr": "Mardi du 4e dimanche après Pâques"
+  },
+  {
+    "id": 173,
+    "Te_Date": "TP044",
+    "Te-classe": 4,
+    "Te-La": "Feria Quarta infra Hebd IV post Octavam Paschae",
+    "Te-Fr": "Mercredi du 4e dimanche après Pâques"
+  },
+  {
+    "id": 174,
+    "Te_Date": "TP045",
+    "Te-classe": 4,
+    "Te-La": "Feria Quinta infra Hebd IV post Octavam Paschae",
+    "Te-Fr": "Jeudi du 4e dimanche après Pâques"
+  },
+  {
+    "id": 175,
+    "Te_Date": "TP046",
+    "Te-classe": 4,
+    "Te-La": "Feria Sexta infra Hebd IV post Octavam Paschae",
+    "Te-Fr": "Vendredi du 4e dimanche après Pâques"
+  },
+  {
+    "id": 176,
+    "Te_Date": "TP047",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd IV post Octavam Paschae",
+    "Te-Fr": "Samedi du 4e dimanche après Pâques"
+  },
+  {
+    "id": 177,
+    "Te_Date": "TP051",
+    "Te-classe": 2,
+    "Te-La": "Dominica V Post Pascha",
+    "Te-Fr": "5e Dimanche après Pâques"
+  },
+  {
+    "id": 178,
+    "Te_Date": "TP052",
+    "Te-classe": 4,
+    "Te-La": "Feria Secunda in Rogationibus",
+    "Te-Fr": "Lundi des Rogations"
+  },
+  {
+    "id": 179,
+    "Te_Date": "TP053",
+    "Te-classe": 4,
+    "Te-La": "Feria Tertia in Rogationibus",
+    "Te-Fr": "Mardi des Rogations"
+  },
+  {
+    "id": 180,
+    "Te_Date": "TP054",
+    "Te-classe": "",
+    "Te-La": "In Vigilia Ascensionis    Feria",
+    "Te-Fr": "Vigile de l'Ascension"
+  },
+  {
+    "id": 181,
+    "Te_Date": "TP055",
+    "Te-classe": 1,
+    "Te-La": "In Ascensione Domini",
+    "Te-Fr": "Ascension de Notre Seigneur"
+  },
+  {
+    "id": 182,
+    "Te_Date": "TP056",
+    "Te-classe": 4,
+    "Te-La": "Feria VI post Ascensionem",
+    "Te-Fr": "Vendredi après l'Ascennsion"
+  },
+  {
+    "id": 183,
+    "Te_Date": "TP057",
+    "Te-classe": 4,
+    "Te-La": "Sabbato post Ascensionem",
+    "Te-Fr": "Samedi après l'Ascension"
+  },
+  {
+    "id": 184,
+    "Te_Date": "TP061",
+    "Te-classe": 2,
+    "Te-La": "Dominica post Ascensionem",
+    "Te-Fr": "Dimanche après l'Ascension"
+  },
+  {
+    "id": 185,
+    "Te_Date": "TP062",
+    "Te-classe": 4,
+    "Te-La": "Feria II post Ascensionem",
+    "Te-Fr": "Lundi après l'Ascension"
+  },
+  {
+    "id": 186,
+    "Te_Date": "TP063",
+    "Te-classe": 4,
+    "Te-La": "Feria III post Ascensionem",
+    "Te-Fr": "Mardi après l'Ascebsion"
+  },
+  {
+    "id": 187,
+    "Te_Date": "TP064",
+    "Te-classe": 4,
+    "Te-La": "Tempora: Feria IV post Ascensionem",
+    "Te-Fr": "Mercredi après l'Ascension"
+  },
+  {
+    "id": 188,
+    "Te_Date": "TP065",
+    "Te-classe": 4,
+    "Te-La": "Feria V infra Hebd post Ascensionem",
+    "Te-Fr": "Jeudi après l'Ascention"
+  },
+  {
+    "id": 189,
+    "Te_Date": "TP066",
+    "Te-classe": 4,
+    "Te-La": "Feria VI infra Hebd post Ascensionem",
+    "Te-Fr": "Vendredi après l'Ascension"
+  },
+  {
+    "id": 190,
+    "Te_Date": "TP067",
+    "Te-classe": 1,
+    "Te-La": "Sabbato in Vigilia Pentecostes",
+    "Te-Fr": "Vigile de la Pentecôte"
+  },
+  {
+    "id": 191,
+    "Te_Date": "Tp001",
+    "Te-classe": 1,
+    "Te-La": "Dominica Pentecostes",
+    "Te-Fr": "Dimanche de la Pentecôte"
+  },
+  {
+    "id": 192,
+    "Te_Date": "Tp002",
+    "Te-classe": 1,
+    "Te-La": "Die II infra octavam Pentecostes    Dies Octavae",
+    "Te-Fr": "Lundi de l'octave de la Pentecôte"
+  },
+  {
+    "id": 193,
+    "Te_Date": "Tp003",
+    "Te-classe": 1,
+    "Te-La": "Die III infra octavam Pentecostes    Dies Octavae",
+    "Te-Fr": "Mardi de l'octave de la Pentecôte"
+  },
+  {
+    "id": 194,
+    "Te_Date": "Tp004",
+    "Te-classe": 1,
+    "Te-La": "Feria Quarta Quattuor Temporum Pentecostes    Dies Octavae",
+    "Te-Fr": "Mercredi de l'octave de la Pentecôte"
+  },
+  {
+    "id": 195,
+    "Te_Date": "Tp005",
+    "Te-classe": 1,
+    "Te-La": "Die Quinta infra octavam Pentecostes    Dies Octavae",
+    "Te-Fr": "Jeudi de l'octave de la Pentecôte"
+  },
+  {
+    "id": 196,
+    "Te_Date": "Tp006",
+    "Te-classe": 1,
+    "Te-La": "Feria Sexta Quattuor Temporum Pentecostes    Dies Octavae",
+    "Te-Fr": "Vendredi des Quatre temps de Pentecôte"
+  },
+  {
+    "id": 197,
+    "Te_Date": "Tp007",
+    "Te-classe": 4,
+    "Te-La": "Sabbato Quattuor Temporum Pentecostes    Dies Octavae",
+    "Te-Fr": "Samedi des Quatre temps de Pentecôte"
+  },
+  {
+    "id": 198,
+    "Te_Date": "Tp011",
+    "Te-classe": 1,
+    "Te-La": "Dominica Sanctissimae Trinitatis",
+    "Te-Fr": "Dimanche de la Trinité"
+  },
+  {
+    "id": 199,
+    "Te_Date": "Tp012",
+    "Te-classe": 4,
+    "Te-La": "Feria Secunda infra Hebd I post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 1e dimanche après la Pentecôte"
+  },
+  {
+    "id": 200,
+    "Te_Date": "Tp013",
+    "Te-classe": 4,
+    "Te-La": "Feria Tertia infra Hebd I post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 1e dimanche après la Pentecôte"
+  },
+  {
+    "id": 201,
+    "Te_Date": "Tp014",
+    "Te-classe": 4,
+    "Te-La": "Feria Quarta infra Hebd I post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 1e dimanche après la Pentecôte"
+  },
+  {
+    "id": 202,
+    "Te_Date": "Tp015",
+    "Te-classe": 1,
+    "Te-La": "Festum Sanctissimi Corporis Christi",
+    "Te-Fr": "Jeudi du 1e dimanche après la Pentecôte"
+  },
+  {
+    "id": 203,
+    "Te_Date": "Tp016",
+    "Te-classe": 4,
+    "Te-La": "Feria VI infra Hebd I post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 1e dimanche après la Pentecôte"
+  },
+  {
+    "id": 204,
+    "Te_Date": "Tp017",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd I post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 1e dimanche après la Pentecôte"
+  },
+  {
+    "id": 205,
+    "Te_Date": "Tp021",
+    "Te-classe": 2,
+    "Te-La": "Dominica II. Post Pentecosten",
+    "Te-Fr": "2e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 206,
+    "Te_Date": "Tp022",
+    "Te-classe": 4,
+    "Te-La": "Feria II infra Hebd II post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 2e dimanche après la Pentecôte"
+  },
+  {
+    "id": 207,
+    "Te_Date": "Tp023",
+    "Te-classe": 4,
+    "Te-La": "Feria III infra Hebd II post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 2e dimanche après la Pentecôte"
+  },
+  {
+    "id": 208,
+    "Te_Date": "Tp024",
+    "Te-classe": 4,
+    "Te-La": "Feria IV infra Hebd II post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 2e dimanche après la Pentecôte"
+  },
+  {
+    "id": 209,
+    "Te_Date": "Tp025",
+    "Te-classe": 4,
+    "Te-La": "Feria V infra Hebd II post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 2e dimanche après la Pentecôte"
+  },
+  {
+    "id": 210,
+    "Te_Date": "Tp026",
+    "Te-classe": 1,
+    "Te-La": "Sanctissimi Cordis Domini Nostri Jesu Christi",
+    "Te-Fr": "Vendredi du 2e dimanche après la Pentecôte"
+  },
+  {
+    "id": 211,
+    "Te_Date": "Tp027",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd II post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 2e dimanche après la Pentecôte"
+  },
+  {
+    "id": 212,
+    "Te_Date": "Tp031",
+    "Te-classe": 2,
+    "Te-La": "Dominica III Post Pentecosten",
+    "Te-Fr": "3e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 213,
+    "Te_Date": "Tp032",
+    "Te-classe": 4,
+    "Te-La": "Feria secunda infra Hebd III post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 3e dimanche après la Pentecôte"
+  },
+  {
+    "id": 214,
+    "Te_Date": "Tp033",
+    "Te-classe": 4,
+    "Te-La": "Feria tertia infra Hebd III post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 3e dimanche après la Pentecôte"
+  },
+  {
+    "id": 215,
+    "Te_Date": "Tp034",
+    "Te-classe": 4,
+    "Te-La": "Feria quarta infra Hebd III post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 3e dimanche après la Pentecôte"
+  },
+  {
+    "id": 216,
+    "Te_Date": "Tp035",
+    "Te-classe": 4,
+    "Te-La": "Tempora: Feria quinta infra Hebd III post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 3e dimanche après la Pentecôte"
+  },
+  {
+    "id": 217,
+    "Te_Date": "Tp036",
+    "Te-classe": 4,
+    "Te-La": "Feria sexta infra Hebd III post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 3e dimanche après la Pentecôte"
+  },
+  {
+    "id": 218,
+    "Te_Date": "Tp037",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd III post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 3e dimanche après la Pentecôte"
+  },
+  {
+    "id": 219,
+    "Te_Date": "Tp041",
+    "Te-classe": 2,
+    "Te-La": "Dominica IV Post Pentecosten",
+    "Te-Fr": "4e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 220,
+    "Te_Date": "Tp042",
+    "Te-classe": 4,
+    "Te-La": "Feria secunda infra Hebd IV post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 4e dimanche après la Pentecôte"
+  },
+  {
+    "id": 221,
+    "Te_Date": "Tp043",
+    "Te-classe": 4,
+    "Te-La": "Feria tertia infra Hebd IV post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 4e dimanche après la Pentecôte"
+  },
+  {
+    "id": 222,
+    "Te_Date": "Tp044",
+    "Te-classe": 4,
+    "Te-La": "Feria quarta infra Hebd IV post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 4e dimanche après la Pentecôte"
+  },
+  {
+    "id": 223,
+    "Te_Date": "Tp045",
+    "Te-classe": 4,
+    "Te-La": "Feria quinta infra Hebd IV post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 4e dimanche après la Pentecôte"
+  },
+  {
+    "id": 224,
+    "Te_Date": "Tp046",
+    "Te-classe": 4,
+    "Te-La": "Feria sexta infra Hebd IV post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 4e dimanche après la Pentecôte"
+  },
+  {
+    "id": 225,
+    "Te_Date": "Tp047",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd IV post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 4e dimanche après la Pentecôte"
+  },
+  {
+    "id": 226,
+    "Te_Date": "Tp051",
+    "Te-classe": 2,
+    "Te-La": "Dominica V Post Pentecosten",
+    "Te-Fr": "5e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 227,
+    "Te_Date": "Tp052",
+    "Te-classe": 4,
+    "Te-La": "Feria secunda infra Hebd V post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 5e dimanche après la Pentecôte"
+  },
+  {
+    "id": 228,
+    "Te_Date": "Tp053",
+    "Te-classe": 4,
+    "Te-La": "Feria tertia infra Hebd V post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 5e dimanche après la Pentecôte"
+  },
+  {
+    "id": 229,
+    "Te_Date": "Tp054",
+    "Te-classe": 4,
+    "Te-La": "Feria quarta infra Hebd V post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 5e dimanche après la Pentecôte"
+  },
+  {
+    "id": 230,
+    "Te_Date": "Tp055",
+    "Te-classe": 4,
+    "Te-La": "Feria quinta infra Hebd V post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 5e dimanche après la Pentecôte"
+  },
+  {
+    "id": 231,
+    "Te_Date": "Tp056",
+    "Te-classe": 4,
+    "Te-La": "Feria sexta infra Hebd V post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 5e dimanche après la Pentecôte"
+  },
+  {
+    "id": 232,
+    "Te_Date": "Tp057",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd V post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 5e dimanche après la Pentecôte"
+  },
+  {
+    "id": 233,
+    "Te_Date": "Tp061",
+    "Te-classe": 2,
+    "Te-La": "Dominica VI Post Pentecosten",
+    "Te-Fr": "6e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 234,
+    "Te_Date": "Tp062",
+    "Te-classe": 4,
+    "Te-La": "Feria secunda infra Hebd VI post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 6e dimanche après la Pentecôte"
+  },
+  {
+    "id": 235,
+    "Te_Date": "Tp063",
+    "Te-classe": 4,
+    "Te-La": "Feria tertia infra Hebd VI post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 6e dimanche après la Pentecôte"
+  },
+  {
+    "id": 236,
+    "Te_Date": "Tp064",
+    "Te-classe": 4,
+    "Te-La": "Feria quarta infra Hebd VI post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 6e dimanche après la Pentecôte"
+  },
+  {
+    "id": 237,
+    "Te_Date": "Tp065",
+    "Te-classe": 4,
+    "Te-La": "Feria quinta infra Hebd VI post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 6e dimanche après la Pentecôte"
+  },
+  {
+    "id": 238,
+    "Te_Date": "Tp066",
+    "Te-classe": 4,
+    "Te-La": "Feria sexta infra Hebd VI post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 6e dimanche après la Pentecôte"
+  },
+  {
+    "id": 239,
+    "Te_Date": "Tp067",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd VI post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 6e dimanche après la Pentecôte"
+  },
+  {
+    "id": 240,
+    "Te_Date": "Tp071",
+    "Te-classe": 2,
+    "Te-La": "Dominica VII Post Pentecosten",
+    "Te-Fr": "7e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 241,
+    "Te_Date": "Tp072",
+    "Te-classe": 4,
+    "Te-La": "Feria secunda infra Hebd VII post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 7e dimanche après la Pentecôte"
+  },
+  {
+    "id": 242,
+    "Te_Date": "Tp073",
+    "Te-classe": 4,
+    "Te-La": "Tempora: Feria tertia infra Hebd VII post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 7e dimanche après la Pentecôte"
+  },
+  {
+    "id": 243,
+    "Te_Date": "Tp074",
+    "Te-classe": 4,
+    "Te-La": "Tempora: Feria quarta infra Hebd VII post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 7e dimanche après la Pentecôte"
+  },
+  {
+    "id": 244,
+    "Te_Date": "Tp075",
+    "Te-classe": 4,
+    "Te-La": "Feria quinta infra Hebd VII post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 7e dimanche après la Pentecôte"
+  },
+  {
+    "id": 245,
+    "Te_Date": "Tp076",
+    "Te-classe": 4,
+    "Te-La": "Feria sexta infra Hebd VII post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 7e dimanche après la Pentecôte"
+  },
+  {
+    "id": 246,
+    "Te_Date": "Tp077",
+    "Te-classe": 4,
+    "Te-La": "Sabbato II infra Hebd VII post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 7e dimanche après la Pentecôte"
+  },
+  {
+    "id": 247,
+    "Te_Date": "Tp081",
+    "Te-classe": 2,
+    "Te-La": "Dominica VIII Post Pentecosten",
+    "Te-Fr": "8e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 248,
+    "Te_Date": "Tp082",
+    "Te-classe": 4,
+    "Te-La": "Feria secunda infra Hebd VIII post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 8e dimanche après la Pentecôte"
+  },
+  {
+    "id": 249,
+    "Te_Date": "Tp083",
+    "Te-classe": 4,
+    "Te-La": "Feria tertia infra Hebd VIII post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 8e dimanche après la Pentecôte"
+  },
+  {
+    "id": 250,
+    "Te_Date": "Tp084",
+    "Te-classe": 4,
+    "Te-La": "Feria quarta infra Hebd VIII post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 8e dimanche après la Pentecôte"
+  },
+  {
+    "id": 251,
+    "Te_Date": "Tp085",
+    "Te-classe": 4,
+    "Te-La": "Feria quinta infra Hebd VIII post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 8e dimanche après la Pentecôte"
+  },
+  {
+    "id": 252,
+    "Te_Date": "Tp086",
+    "Te-classe": 4,
+    "Te-La": "Feria sexta infra Hebd VIII post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 8e dimanche après la Pentecôte"
+  },
+  {
+    "id": 253,
+    "Te_Date": "Tp087",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd VIII post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 8e dimanche après la Pentecôte"
+  },
+  {
+    "id": 254,
+    "Te_Date": "Tp091",
+    "Te-classe": 2,
+    "Te-La": "Dominica IX Post Pentecosten",
+    "Te-Fr": "9e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 255,
+    "Te_Date": "Tp092",
+    "Te-classe": 4,
+    "Te-La": "Feria secunda infra Hebd IX post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 9e dimanche après la Pentecôte"
+  },
+  {
+    "id": 256,
+    "Te_Date": "Tp093",
+    "Te-classe": 4,
+    "Te-La": "Feria tertia infra Hebd IX post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 9e dimanche après la Pentecôte"
+  },
+  {
+    "id": 257,
+    "Te_Date": "Tp094",
+    "Te-classe": 4,
+    "Te-La": "Feria quarta infra Hebd IX post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 9e dimanche après la Pentecôte"
+  },
+  {
+    "id": 258,
+    "Te_Date": "Tp095",
+    "Te-classe": 4,
+    "Te-La": "Tempora: Feria quinta infra Hebd IX post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 9e dimanche après la Pentecôte"
+  },
+  {
+    "id": 259,
+    "Te_Date": "Tp096",
+    "Te-classe": 4,
+    "Te-La": "Feria sexta infra Hebd IX post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 9e dimanche après la Pentecôte"
+  },
+  {
+    "id": 260,
+    "Te_Date": "Tp097",
+    "Te-classe": 4,
+    "Te-La": "Sabbato secunda infra Hebd IX post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 9e dimanche après la Pentecôte"
+  },
+  {
+    "id": 261,
+    "Te_Date": "Tp101",
+    "Te-classe": 2,
+    "Te-La": "Dominica X Post Pentecosten",
+    "Te-Fr": "3e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 262,
+    "Te_Date": "Tp102",
+    "Te-classe": 4,
+    "Te-La": "Feria secunda infra Hebd X post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 3e dimanche après la Pentecôte"
+  },
+  {
+    "id": 263,
+    "Te_Date": "Tp103",
+    "Te-classe": 4,
+    "Te-La": "Tempora: Feria tertia infra Hebd X post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 3e dimanche après la Pentecôte"
+  },
+  {
+    "id": 264,
+    "Te_Date": "Tp104",
+    "Te-classe": 4,
+    "Te-La": "Tempora: Feria quarta infra Hebd X post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 3e dimanche après la Pentecôte"
+  },
+  {
+    "id": 265,
+    "Te_Date": "Tp105",
+    "Te-classe": 4,
+    "Te-La": "Feria quinta infra Hebd X post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 3e dimanche après la Pentecôte"
+  },
+  {
+    "id": 266,
+    "Te_Date": "Tp106",
+    "Te-classe": 4,
+    "Te-La": "Feria sexta infra Hebd X post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 3e dimanche après la Pentecôte"
+  },
+  {
+    "id": 267,
+    "Te_Date": "Tp107",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd X post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 3e dimanche après la Pentecôte"
+  },
+  {
+    "id": 268,
+    "Te_Date": "Tp111",
+    "Te-classe": 2,
+    "Te-La": "Dominica XI Post Pentecosten",
+    "Te-Fr": "11e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 269,
+    "Te_Date": "Tp112",
+    "Te-classe": 4,
+    "Te-La": "Feria secunda infra Hebd XI post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 11e dimanche après la Pentecôte"
+  },
+  {
+    "id": 270,
+    "Te_Date": "Tp113",
+    "Te-classe": 4,
+    "Te-La": "Tempora: Feria tertia infra Hebd XI post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 11e dimanche après la Pentecôte"
+  },
+  {
+    "id": 271,
+    "Te_Date": "Tp114",
+    "Te-classe": 4,
+    "Te-La": "Feria quarta infra Hebd XI post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 11e dimanche après la Pentecôte"
+  },
+  {
+    "id": 272,
+    "Te_Date": "Tp115",
+    "Te-classe": 4,
+    "Te-La": "Tempora: Feria quinta infra Hebd XI post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 11e dimanche après la Pentecôte"
+  },
+  {
+    "id": 273,
+    "Te_Date": "Tp116",
+    "Te-classe": 4,
+    "Te-La": "Feria sexta infra Hebd XI post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 11e dimanche après la Pentecôte"
+  },
+  {
+    "id": 274,
+    "Te_Date": "Tp117",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd XI post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 11e dimanche après la Pentecôte"
+  },
+  {
+    "id": 275,
+    "Te_Date": "Tp121",
+    "Te-classe": 2,
+    "Te-La": "Dominica XII Post Pentecosten",
+    "Te-Fr": "12e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 276,
+    "Te_Date": "Tp122",
+    "Te-classe": 4,
+    "Te-La": "Feria secunda infra Hebd XII post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 12e dimanche après la Pentecôte"
+  },
+  {
+    "id": 277,
+    "Te_Date": "Tp123",
+    "Te-classe": 4,
+    "Te-La": "Feria Tertia infra Hebd XII post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 12e dimanche après la Pentecôte"
+  },
+  {
+    "id": 278,
+    "Te_Date": "Tp124",
+    "Te-classe": 4,
+    "Te-La": "Feria Quarta infra Hebd XII post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 12e dimanche après la Pentecôte"
+  },
+  {
+    "id": 279,
+    "Te_Date": "Tp125",
+    "Te-classe": 4,
+    "Te-La": "Feria Quinta infra Hebd XII post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 12e dimanche après la Pentecôte"
+  },
+  {
+    "id": 280,
+    "Te_Date": "Tp126",
+    "Te-classe": 4,
+    "Te-La": "Feria Sexta infra Hebd XII post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 12e dimanche après la Pentecôte"
+  },
+  {
+    "id": 281,
+    "Te_Date": "Tp127",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd XII post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 12e dimanche après la Pentecôte"
+  },
+  {
+    "id": 282,
+    "Te_Date": "Tp131",
+    "Te-classe": 2,
+    "Te-La": "Dominica XIII Post Pentecosten",
+    "Te-Fr": "13e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 283,
+    "Te_Date": "Tp132",
+    "Te-classe": 4,
+    "Te-La": "Feria Secunda infra Hebd XIII post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 13e dimanche après la Pentecôte"
+  },
+  {
+    "id": 284,
+    "Te_Date": "Tp133",
+    "Te-classe": 4,
+    "Te-La": "Feria Tertia infra Hebd XIII post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 13e dimanche après la Pentecôte"
+  },
+  {
+    "id": 285,
+    "Te_Date": "Tp134",
+    "Te-classe": 4,
+    "Te-La": "Feria Quarta infra Hebd XIII post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 13e dimanche après la Pentecôte"
+  },
+  {
+    "id": 286,
+    "Te_Date": "Tp135",
+    "Te-classe": 4,
+    "Te-La": "Feria Quinta infra Hebd XIII post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 13e dimanche après la Pentecôte"
+  },
+  {
+    "id": 287,
+    "Te_Date": "Tp136",
+    "Te-classe": 4,
+    "Te-La": "Tempora: Feria Sexta infra Hebd XIII post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 13e dimanche après la Pentecôte"
+  },
+  {
+    "id": 288,
+    "Te_Date": "Tp137",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd XIII post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 13e dimanche après la Pentecôte"
+  },
+  {
+    "id": 289,
+    "Te_Date": "Tp141",
+    "Te-classe": 2,
+    "Te-La": "Dominica XIV Post Pentecosten",
+    "Te-Fr": "14e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 290,
+    "Te_Date": "Tp142",
+    "Te-classe": 4,
+    "Te-La": "Feria Secunda infra Hebd XIV post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 14e dimanche après la Pentecôte"
+  },
+  {
+    "id": 291,
+    "Te_Date": "Tp143",
+    "Te-classe": 4,
+    "Te-La": "Feria Tertia infra Hebd XIV post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 14e dimanche après la Pentecôte"
+  },
+  {
+    "id": 292,
+    "Te_Date": "Tp144",
+    "Te-classe": 4,
+    "Te-La": "Feria Quarta infra Hebd XIV post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 14e dimanche après la Pentecôte"
+  },
+  {
+    "id": 293,
+    "Te_Date": "Tp145",
+    "Te-classe": 4,
+    "Te-La": "Feria Quinta infra Hebd XIV post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 14e dimanche après la Pentecôte"
+  },
+  {
+    "id": 294,
+    "Te_Date": "Tp146",
+    "Te-classe": 4,
+    "Te-La": "Tempora: Feria Sexta infra Hebd XIV post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 14e dimanche après la Pentecôte"
+  },
+  {
+    "id": 295,
+    "Te_Date": "Tp147",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd XIV post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 14e dimanche après la Pentecôte"
+  },
+  {
+    "id": 296,
+    "Te_Date": "Tp151",
+    "Te-classe": 2,
+    "Te-La": "Dominica XV Post Pentecosten III. Septembris",
+    "Te-Fr": "15e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 297,
+    "Te_Date": "Tp152",
+    "Te-classe": 4,
+    "Te-La": "Feria Secunda infra Hebd XV post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 15e dimanche après la Pentecôte"
+  },
+  {
+    "id": 298,
+    "Te_Date": "Tp153",
+    "Te-classe": 4,
+    "Te-La": "Feria Tertia infra Hebd XV post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 15e dimanche après la Pentecôte"
+  },
+  {
+    "id": 299,
+    "Te_Date": "Tp154",
+    "Te-classe": "",
+    "Te-La": "Feria Quarta Quattuor Temporum Septembris",
+    "Te-Fr": "Mercredi du 15e dimanche après la Pentecôte"
+  },
+  {
+    "id": 300,
+    "Te_Date": "Tp155",
+    "Te-classe": 4,
+    "Te-La": "Feria Quinta infra Hebd XV post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 15e dimanche après la Pentecôte"
+  },
+  {
+    "id": 301,
+    "Te_Date": "Tp156",
+    "Te-classe": "",
+    "Te-La": "Feria Sexta Quattuor Temporum Septembris",
+    "Te-Fr": "Vendredi des Quatre temps de septembre"
+  },
+  {
+    "id": 302,
+    "Te_Date": "Tp157",
+    "Te-classe": "",
+    "Te-La": "Sabbato Quattuor Temporum Septembris",
+    "Te-Fr": "Samedi des Quatre temps de septembre"
+  },
+  {
+    "id": 303,
+    "Te_Date": "Tp161",
+    "Te-classe": 2,
+    "Te-La": "Dominica XVI Post Pentecosten IV. Septembris",
+    "Te-Fr": "16e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 304,
+    "Te_Date": "Tp162",
+    "Te-classe": 4,
+    "Te-La": "Feria Secunda infra Hebd XVI post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 16e dimanche après la Pentecôte"
+  },
+  {
+    "id": 305,
+    "Te_Date": "Tp163",
+    "Te-classe": 4,
+    "Te-La": "Feria Tertia infra Hebd XVI post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 16e dimanche après la Pentecôte"
+  },
+  {
+    "id": 306,
+    "Te_Date": "Tp164",
+    "Te-classe": 4,
+    "Te-La": "Feria Quarta infra Hebd XVI post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 16e dimanche après la Pentecôte"
+  },
+  {
+    "id": 307,
+    "Te_Date": "Tp165",
+    "Te-classe": 4,
+    "Te-La": "Feria Quinta infra Hebd XVI post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 16e dimanche après la Pentecôte"
+  },
+  {
+    "id": 308,
+    "Te_Date": "Tp166",
+    "Te-classe": 4,
+    "Te-La": "Feria Sexta infra Hebd XVI post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 16e dimanche après la Pentecôte"
+  },
+  {
+    "id": 309,
+    "Te_Date": "Tp167",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd XVI post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 16e dimanche après la Pentecôte"
+  },
+  {
+    "id": 310,
+    "Te_Date": "Tp171",
+    "Te-classe": 2,
+    "Te-La": "Dominica XVII Post Pentecosten",
+    "Te-Fr": "17e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 311,
+    "Te_Date": "Tp172",
+    "Te-classe": 4,
+    "Te-La": "Feria Secunda infra Hebd XVII post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 17e dimanche après la Pentecôte"
+  },
+  {
+    "id": 312,
+    "Te_Date": "Tp173",
+    "Te-classe": 4,
+    "Te-La": "Feria Tertia infra Hebd XVII post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 17e dimanche après la Pentecôte"
+  },
+  {
+    "id": 313,
+    "Te_Date": "Tp174",
+    "Te-classe": 4,
+    "Te-La": "Feria Quarta infra Hebd XVII post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 17e dimanche après la Pentecôte"
+  },
+  {
+    "id": 314,
+    "Te_Date": "Tp175",
+    "Te-classe": 4,
+    "Te-La": "Feria Quinta infra Hebd XVII post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 17e dimanche après la Pentecôte"
+  },
+  {
+    "id": 315,
+    "Te_Date": "Tp176",
+    "Te-classe": 4,
+    "Te-La": "Feria Sexta infra Hebd XVII post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 17e dimanche après la Pentecôte"
+  },
+  {
+    "id": 316,
+    "Te_Date": "Tp177",
+    "Te-classe": 4,
+    "Te-La": "Tempora: Sabbato infra Hebd XVII post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 17e dimanche après la Pentecôte"
+  },
+  {
+    "id": 317,
+    "Te_Date": "Tp181",
+    "Te-classe": 2,
+    "Te-La": "Dominica XVIII Post Pentecosten",
+    "Te-Fr": "18e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 318,
+    "Te_Date": "Tp182",
+    "Te-classe": 4,
+    "Te-La": "Feria Secunda infra Hebd XVIII post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 18e dimanche après la Pentecôte"
+  },
+  {
+    "id": 319,
+    "Te_Date": "Tp183",
+    "Te-classe": 4,
+    "Te-La": "Feria Tertia infra Hebd XVIII post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 18e dimanche après la Pentecôte"
+  },
+  {
+    "id": 320,
+    "Te_Date": "Tp184",
+    "Te-classe": 4,
+    "Te-La": "Tempora: Feria Quarta infra Hebd XVIII post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 18e dimanche après la Pentecôte"
+  },
+  {
+    "id": 321,
+    "Te_Date": "Tp185",
+    "Te-classe": 4,
+    "Te-La": "Feria Quinta infra Hebd XVIII post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 18e dimanche après la Pentecôte"
+  },
+  {
+    "id": 322,
+    "Te_Date": "Tp186",
+    "Te-classe": 4,
+    "Te-La": "Feria Sexta infra Hebd XVIII post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 18e dimanche après la Pentecôte"
+  },
+  {
+    "id": 323,
+    "Te_Date": "Tp187",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd XVIII post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 18e dimanche après la Pentecôte"
+  },
+  {
+    "id": 324,
+    "Te_Date": "Tp191",
+    "Te-classe": 2,
+    "Te-La": "Dominica XIX Post Pentecosten",
+    "Te-Fr": "19e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 325,
+    "Te_Date": "Tp192",
+    "Te-classe": 4,
+    "Te-La": "Feria Secunda infra Hebd XIX post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 19e dimanche après la Pentecôte"
+  },
+  {
+    "id": 326,
+    "Te_Date": "Tp193",
+    "Te-classe": 4,
+    "Te-La": "Feria Tertia infra Hebd XIX post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 19e dimanche après la Pentecôte"
+  },
+  {
+    "id": 327,
+    "Te_Date": "Tp194",
+    "Te-classe": 4,
+    "Te-La": "Tempora: Feria Quarta infra Hebd XIX post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 19e dimanche après la Pentecôte"
+  },
+  {
+    "id": 328,
+    "Te_Date": "Tp195",
+    "Te-classe": 4,
+    "Te-La": "Feria Quinta infra Hebd XIX post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 19e dimanche après la Pentecôte"
+  },
+  {
+    "id": 329,
+    "Te_Date": "Tp196",
+    "Te-classe": 4,
+    "Te-La": "Feria Sexta infra Hebd XIX post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 19e dimanche après la Pentecôte"
+  },
+  {
+    "id": 330,
+    "Te_Date": "Tp197",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd XIX post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 19e dimanche après la Pentecôte"
+  },
+  {
+    "id": 331,
+    "Te_Date": "Tp201",
+    "Te-classe": 2,
+    "Te-La": "Dominica XX Post Pentecosten",
+    "Te-Fr": "20e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 332,
+    "Te_Date": "Tp202",
+    "Te-classe": 4,
+    "Te-La": "Feria Secunda infra Hebd XX post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 20e dimanche après la Pentecôte"
+  },
+  {
+    "id": 333,
+    "Te_Date": "Tp203",
+    "Te-classe": 4,
+    "Te-La": "Feria Tertia infra Hebd XX post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 20e dimanche après la Pentecôte"
+  },
+  {
+    "id": 334,
+    "Te_Date": "Tp204",
+    "Te-classe": 4,
+    "Te-La": "Feria Quarta infra Hebd XX post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 20e dimanche après la Pentecôte"
+  },
+  {
+    "id": 335,
+    "Te_Date": "Tp205",
+    "Te-classe": 4,
+    "Te-La": "Feria Quinta infra Hebd XX post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 20e dimanche après la Pentecôte"
+  },
+  {
+    "id": 336,
+    "Te_Date": "Tp206",
+    "Te-classe": 4,
+    "Te-La": "Feria Sexta infra Hebd XX post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 20e dimanche après la Pentecôte"
+  },
+  {
+    "id": 337,
+    "Te_Date": "Tp207",
+    "Te-classe": 4,
+    "Te-La": "Tempora: Sabbato infra Hebd XX post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 20e dimanche après la Pentecôte"
+  },
+  {
+    "id": 338,
+    "Te_Date": "Tp211",
+    "Te-classe": 2,
+    "Te-La": "Dominica XXI Post Pentecosten",
+    "Te-Fr": "21e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 339,
+    "Te_Date": "Tp212",
+    "Te-classe": 4,
+    "Te-La": "Feria Secunda infra Hebd XXI post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 21e dimanche après la Pentecôte"
+  },
+  {
+    "id": 340,
+    "Te_Date": "Tp213",
+    "Te-classe": 4,
+    "Te-La": "Feria Tertia infra Hebd XXI post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 21e dimanche après la Pentecôte"
+  },
+  {
+    "id": 341,
+    "Te_Date": "Tp214",
+    "Te-classe": 4,
+    "Te-La": "Feria Quarta infra Hebd XXI post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 21e dimanche après la Pentecôte"
+  },
+  {
+    "id": 342,
+    "Te_Date": "Tp215",
+    "Te-classe": 4,
+    "Te-La": "Feria Quinta infra Hebd XXI post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 21e dimanche après la Pentecôte"
+  },
+  {
+    "id": 343,
+    "Te_Date": "Tp216",
+    "Te-classe": 4,
+    "Te-La": "Sexta infra Hebd XXI post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 21e dimanche après la Pentecôte"
+  },
+  {
+    "id": 344,
+    "Te_Date": "Tp217",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd XXI post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 21e dimanche après la Pentecôte"
+  },
+  {
+    "id": 345,
+    "Te_Date": "Tp221",
+    "Te-classe": 2,
+    "Te-La": "Dominica XXII Post Pentecosten",
+    "Te-Fr": "22e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 346,
+    "Te_Date": "Tp222",
+    "Te-classe": 4,
+    "Te-La": "Secunda infra Hebd XXII post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 22e dimanche après la Pentecôte"
+  },
+  {
+    "id": 347,
+    "Te_Date": "Tp223",
+    "Te-classe": 4,
+    "Te-La": "Feria Tertia infra Hebd XXII post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 22e dimanche après la Pentecôte"
+  },
+  {
+    "id": 348,
+    "Te_Date": "Tp224",
+    "Te-classe": 4,
+    "Te-La": "Feria Quarta infra Hebd XXII post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 22e dimanche après la Pentecôte"
+  },
+  {
+    "id": 349,
+    "Te_Date": "Tp225",
+    "Te-classe": 4,
+    "Te-La": "Feria Quinta infra Hebd XXII post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 22e dimanche après la Pentecôte"
+  },
+  {
+    "id": 350,
+    "Te_Date": "Tp226",
+    "Te-classe": 4,
+    "Te-La": "Feria Sexta infra Hebd XXII post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 22e dimanche après la Pentecôte"
+  },
+  {
+    "id": 351,
+    "Te_Date": "Tp227",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd XXII post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 22e dimanche après la Pentecôte"
+  },
+  {
+    "id": 352,
+    "Te_Date": "Tp231",
+    "Te-classe": 2,
+    "Te-La": "Dominica XXIII Post Pentecosten",
+    "Te-Fr": "23e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 353,
+    "Te_Date": "Tp232",
+    "Te-classe": 4,
+    "Te-La": "Feria Secunda infra Hebd XXIII post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 23e dimanche après la Pentecôte"
+  },
+  {
+    "id": 354,
+    "Te_Date": "Tp233",
+    "Te-classe": 4,
+    "Te-La": "Feria Tertia infra Hebd XXIII post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 23e dimanche après la Pentecôte"
+  },
+  {
+    "id": 355,
+    "Te_Date": "Tp234",
+    "Te-classe": 4,
+    "Te-La": "Feria Quarta infra Hebd XXIII post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 23e dimanche après la Pentecôte"
+  },
+  {
+    "id": 356,
+    "Te_Date": "Tp235",
+    "Te-classe": 4,
+    "Te-La": "Feria Quinta infra Hebd XXIII post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 23e dimanche après la Pentecôte"
+  },
+  {
+    "id": 357,
+    "Te_Date": "Tp236",
+    "Te-classe": 4,
+    "Te-La": "Feria Sexta infra Hebd XXIII post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 23e dimanche après la Pentecôte"
+  },
+  {
+    "id": 358,
+    "Te_Date": "Tp237",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd XXIII post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 23e dimanche après la Pentecôte"
+  },
+  {
+    "id": 359,
+    "Te_Date": "Tp241",
+    "Te-classe": 2,
+    "Te-La": "Dominica XXIV Post Pentecosten",
+    "Te-Fr": "24e Dimanche après la Pentecôte"
+  },
+  {
+    "id": 360,
+    "Te_Date": "Tp242",
+    "Te-classe": 4,
+    "Te-La": "Feria Secunda infra Hebd XXIV post Octavam Pentecostes",
+    "Te-Fr": "Lundi du 24e dimanche après la Pentecôte"
+  },
+  {
+    "id": 361,
+    "Te_Date": "Tp243",
+    "Te-classe": 4,
+    "Te-La": "Feria Tertia infra Hebd XXIV post Octavam Pentecostes",
+    "Te-Fr": "Mardi du 24e dimanche après la Pentecôte"
+  },
+  {
+    "id": 362,
+    "Te_Date": "Tp244",
+    "Te-classe": 4,
+    "Te-La": "Feria Quarta infra Hebd XXIV post Octavam Pentecostes",
+    "Te-Fr": "Mercredi du 24e dimanche après la Pentecôte"
+  },
+  {
+    "id": 363,
+    "Te_Date": "Tp245",
+    "Te-classe": 4,
+    "Te-La": "Feria Quinta infra Hebd XXIV post Octavam Pentecostes",
+    "Te-Fr": "Jeudi du 24e dimanche après la Pentecôte"
+  },
+  {
+    "id": 364,
+    "Te_Date": "Tp246",
+    "Te-classe": 4,
+    "Te-La": "Feria Sexta infra Hebd XXIV post Octavam Pentecostes",
+    "Te-Fr": "Vendredi du 24e dimanche après la Pentecôte"
+  },
+  {
+    "id": 365,
+    "Te_Date": "Tp247",
+    "Te-classe": 4,
+    "Te-La": "Sabbato infra Hebd XXIV post Octavam Pentecostes",
+    "Te-Fr": "Samedi du 24e dimanche après la Pentecôte"
+  }
+]

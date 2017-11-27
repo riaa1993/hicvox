@@ -1,0 +1,183 @@
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#/accueil">Accueil</a>
+    <a href="#/veilleur">Office divin</a>
+    <a href="#/devotions">Dévotions</a>
+    <a href="#/entrainement">Mémorisations</a>
+    <a href="#/bible">Bible</a>
+</div>
+<div id="main">
+		<div class="bar bar-header " style="height: 50px; position: fixed;">
+		   <button onclick="openNav()" class="button" style="background-color: transparent;">
+		   	<img src="img/menu.gif">
+		   </button>
+		    <h1 class="title" style="letter-spacing: 2px; font-family:'Calligraphic', 'Roboto'; font-weight: 600; font-size: 44px; color: #e73931;"><a style="text-decoration: none;" href="#/accueil" >HicVox</a></h1>
+		   <button ng-click="gotoCarte()" class="button" style="background-color: transparent;">
+		   	<img src="img/logo.gif" style="height: 40px; width: auto;">
+		   </button>		   
+		</div>	
+		<script type="text/javascript">
+			$('#croix').click(function(){	
+				window.location = 'consecration.html';
+			});
+		</script>
+
+		<div class="bar bar-subheader " style="height: 50px; position: fixed; top: 50px; border: none;">
+		   <button class="button" onclick="window.history.back();" style="background-color: transparent;">
+		   	<i class="fa fa-chevron-left"></i>
+		   </button>
+		    <h1 class="title" style="letter-spacing: 2px;  font-weight: 600; font-size: 25px; color: blue;"><b>Flamme</b></h1>
+<!--		   <button data-toggle="modal" data-target="#basicModal" class="button" style="background-color: transparent;">-->
+<!--		   	<i class="fa fa-volume-up"></i>-->
+<!--		   </button>		   -->
+		</div>
+		
+		<div>		
+			<div class="content" style="position: relative; top: 100px;">				
+				<div>
+					<center>
+						<img src="img/Flamme.gif" style="width: 145px;">					
+						<br>
+						<br>
+						<p>	
+							<span style="margin-left: 5px; margin-right: 10px;">Flamme est: </span>
+							<span ng-click="flammeValue()">
+								<input class="toogleMe" id="flamme-toggle" type="checkbox" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" data-size="medium" data-on="<span style='color:white;'>ACTIVE</span>" data-off="<span style='color:white;'>DESACTIVE</span>" data-style="ios"/>
+							</span>						
+						</p>
+					</center>
+                    <p style="margin: 10px; text-align: justify;">
+                    
+                    L’office de la Flamme est fait de deux prières <strong>La Petite Pentecôte</strong> et <strong> La Veille du vendredi</strong>
+                    </p>
+                    <br/>
+                    <center>
+						<img src="img/pentecote.png">
+					</center>
+                    <p style="margin: 10px; text-align: justify;">
+                    Au Dieu qui t’a tout donné, offre lui 30 secondes par jour. Du fond du cœur dit lui : <i>Seigneur dépêchez-vous de me secourir</i>. Dis-le entre 9h et 10h du matin, c’est l’heure ou les Apôtres reçurent le Saint-Esprit à la Pentecôte. N’oublies pas que seul le Saint-Esprit va te permettre de connaître le Fils de Dieu, et qu’en voyant le Fils tu verras le Père.
+                    </p>
+                    <p style="text-align: center; color: #000;">
+						<b style="font-size: 12px;">Ecoutes et choisis la version de la prière</b><br>
+						<b>10 secondes avant tu as un tintement de cloche pour te préparer</b>
+					</p>					
+					<div style="margin-left: 20px;">
+						<input type="radio" ng-click="latin()" name="petite-ptk" id="ptk-latin" value="eLa-InA-v0"><label for="ptk-latin" style="margin-left: 10px;"><b>En latin</b></label>
+					</div>
+					<div class="row" style="padding: 10px; padding-top: 0px; margin-bottom: 10px; margin-left: 0px; margin-right: 0px;">
+						<audio controls style="width: 100%;" src="Media/Audio/eLa-InA-v0.mp3">
+						  <source type="audio/mpeg">
+						</audio>
+		          	</div>
+		          	<div style="margin-left: 20px;">
+						<input type="radio" ng-click="francais()" name="petite-ptk" id="ptk-fr-off" value="oFr-InA-v0" checked><label for="ptk-fr-off" style="margin-left: 10px;"><b>En français</b></label>
+					</div>
+					<div class="row" style="padding: 10px; padding-top: 0px; margin-bottom: 10px; margin-left: 0px; margin-right: 0px;">
+						<audio controls style="width: 100%;" src="Media/Audio/oFr-InA-v0.mp3">
+						  <source type="audio/mpeg">
+						</audio>
+		          	</div>
+					
+		          	<p style="text-align: center; color: #000; margin-bottom: 5px;">Choisis l'heure de la Petite Pentecôte, entre 9h00 et 10h00
+					</p>
+					<center style="margin-bottom: 5px;">
+						<img data-toggle="modal" data-target="#modal-petite-pentecote" src="img/alarme.jpeg" style="width: 25px;">
+					</center>
+					<hr>
+					<br>
+					<center style="margin-bottom: 5px;">
+						<img src="img/veille.png">
+					</center>
+                    <p style="margin: 10px; text-align: justify;">
+                      Veiller, c’est prendre de ton temps de sommeil pour prier. Le psalmiste nous le dis : <i> Au milieu de la nuit je me levais pour vous louer. </i> (Ps 118,62) Nous l’entendons aussi dans le Nouveau testament :
+                    <i>Souviens-toi donc de l'enseignement que tu as reçu et entendu ; gardes-le et repens-toi. Si donc tu ne veilles pas, je viendrai à toi comme un voleur</i> (Ap, 3, 3), C’est un moyen, de lutter contre le péché : <i>Veillez et priez afin que vous n'entriez pas en tentation. </i> (Mc, 14, 38) d’attendre le retour du Seigneur : <i>Veillez donc, puisque vous ne savez pas quel jour votre Seigneur doit venir. </i> (Mt, 24, 42). Et de garder la bonne doctrine : <i>Il s'élèvera du milieu de vous des hommes qui enseigneront des doctrines perverses pour entraîner les disciples après eux. C'est pourquoi veillez. </i> (Ac. 20, 30-31) Dans la nuit du jeudi au vendredi, entre minuit et 6h00 du matin, choisi une heure pour réciter la Veille du vendredi :                    </p>
+                    <p style="text-align: center; color: #000; margin-left: 20px; margin-right: 10px;">
+						<b>La prière de Veille est  précédé par la prière de la petite Pentecôte que tu as choisi</b>
+					</p>
+					<div class="row" style="padding: 10px; padding-top: 0px; margin-bottom: 10px; margin-left: 0px; margin-right: 0px;">
+						<audio controls style="width: 100%;" src="Media/Audio/veille.mp3">
+						  <source  type="audio/mpeg">
+						</audio>
+		          	</div>		          	
+		          	<p style="text-align: center; color: #000; margin-left: 20px; margin-right: 20px;">						
+						Choisis l'heure de la Veille, entre 23h00 et 05h00
+					</p>
+					<center style="margin-bottom: 5px;">
+						<img data-toggle="modal" data-target="#modal-veille" src="img/alarme.jpeg" style="width: 25px;">
+					</center>
+                    <br/>
+				</div>
+			</div>			
+		</div>
+	</div>	
+	<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	          <div class="modal-header" style="padding: 5px">
+	            <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> -->
+	            <center><h4 class="modal-title" id="myModalLabel" style="color: rgb(0, 153, 255); font-size: 18px; font-weight: bold;">Flamme</h4></center>
+	          </div>
+	          <div class="modal-body">	                      
+	          	<div class="row" style="background: #fff; padding: 10px; padding-top: 15px; margin-bottom: 20px; margin-left: 0px; margin-right: 0px; margin-top: 10px; font-size: 12px;">
+					
+	          </div>
+	          <div class="modal-footer" style="padding: 5px">
+	            <center><button type="button" id="merci" class="btn btn-default" style="background: rgb(0, 153, 255); color: #fff; font-size: 12px;" data-dismiss="modal">Fermer</button></center>
+	          </div>
+	        </div>
+	    </div>
+	</div> 
+	</div>
+	<script type="text/javascript">		 	
+	    $('#merci').click(function(){ document.getElementById("Player").pause(); });
+    </script>
+    <div class="modal fade" id="modal-petite-pentecote" tabindex="-1" role="dialog" aria-labelledby="modal-petite-pentecote" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	          <div class="modal-header" style="padding: 5px">
+	            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	            <center>
+	            	<h4 class="modal-title" style="color: rgb(0, 153, 255); font-size: 18px; font-weight: bold;">Petite Pentecôte</h4>
+	            </center>
+	          </div>
+	          <div class="modal-body">	                      
+	          		<div class="row" style="padding: 10px; padding-top: 15px; margin-bottom: 20px; margin-left: 0px; margin-right: 0px; margin-top: 10px;">
+						Choisis l'heure de la Petite Pentecôte, entre 9h00 et 10h00
+	         		</div>
+	         		<p style="margin-left: 20px;">
+						<input type="time" id="time-petite-pentecote" style="border-radius: 0; font-size: 10px;" class="form-control" />
+						<!-- <input type="time" id="time-petite-pentecote" style="border-radius: 0; font-size: 10px;" class="form-control" min="09:00:00" max="10:00:00" /> -->
+						<br><br>        				
+					</p>
+	          		<div class="modal-footer" style="padding: 5px">
+	            		<center><button type="button" ng-click="scheduleNotificationPetitePentecote()" class="btn btn-default" style="background: rgb(0, 153, 255); color: #fff; font-size: 12px;">Choisir</button></center>                
+	          		</div>
+	        	</div>
+	    	</div>
+		</div>
+	</div>
+	<div class="modal fade" id="modal-veille" tabindex="-1" role="dialog" aria-labelledby="modal-veille" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	          <div class="modal-header" style="padding: 5px">
+	            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	            <center>
+	            	<h4 class="modal-title" style="color: rgb(0, 153, 255); font-size: 18px; font-weight: bold;">Veille du vendredi</h4>
+	            </center>
+	          </div>
+	          <div class="modal-body">
+	          		<div class="row" style="padding: 10px; padding-top: 15px; margin-bottom: 20px; margin-left: 0px; margin-right: 0px; margin-top: 10px;">
+						Choisis l'heure de la Veille, entre 23h00 et 05h00
+	         		</div>
+	         		<p style="margin-left: 20px;">
+						<!-- <input type="time" id="time-veille" style="border-radius: 0; font-size: 10px;" class="form-control" min="23:00:00" max="05:00:00" /> -->
+						<input type="time" id="time-veille" style="border-radius: 0; font-size: 10px;" class="form-control" />
+						<br><br>        				
+					</p>
+	          		<div class="modal-footer" style="padding: 5px">
+	            		<center><button type="button" ng-click="scheduleNotificationVeille()" class="btn btn-default" style="background: rgb(0, 153, 255); color: #fff; font-size: 12px;">Choisir</button></center>                
+	          		</div>
+	        	</div>
+	    	</div>
+		</div>
+	</div>

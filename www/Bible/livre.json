@@ -1,0 +1,367 @@
+[
+{ "id": 1, 
+"bible": "AT", 
+"livre": "Gn", 
+"livre_long": "Genèse"
+},
+{ "id": 2, 
+"bible": "AT", 
+"livre": "Ex", 
+"livre_long": "Exode"
+},
+{ "id": 3, 
+"bible": "AT", 
+"livre": "Lv", 
+"livre_long": "Lévitique"
+},
+{ "id": 4, 
+"bible": "AT", 
+"livre": "Nb", 
+"livre_long": "Nombres"
+},
+{ "id": 5, 
+"bible": "AT", 
+"livre": "Dt", 
+"livre_long": "Deutéronome"
+},
+{ "id": 6, 
+"bible": "AT", 
+"livre": "Jos", 
+"livre_long": "Josué"
+},
+{ "id": 7, 
+"bible": "AT", 
+"livre": "Jug", 
+"livre_long": "Juges"
+},
+{ "id": 8, 
+"bible": "AT", 
+"livre": "Rt", 
+"livre_long": "Ruth"
+},
+{ "id": 9, 
+"bible": "AT", 
+"livre": "I S", 
+"livre_long": "I Samuel"
+},
+{ "id": 10, 
+"bible": "AT", 
+"livre": "II S", 
+"livre_long": "II Samuel"
+},
+{ "id": 11, 
+"bible": "AT", 
+"livre": "I R", 
+"livre_long": "I Rois"
+},
+{ "id": 12, 
+"bible": "AT", 
+"livre": "II R", 
+"livre_long": "II Rois"
+},
+{ "id": 13, 
+"bible": "AT", 
+"livre": "I Ch", 
+"livre_long": "I Chroniques"
+},
+{ "id": 14, 
+"bible": "AT", 
+"livre": "II Ch", 
+"livre_long": "II Chroniques"
+},
+{ "id": 15, 
+"bible": "AT", 
+"livre": "Esd", 
+"livre_long": "Esdras"
+},
+{ "id": 16, 
+"bible": "AT", 
+"livre": "Ne", 
+"livre_long": "Néhémie"
+},
+{ "id": 17, 
+"bible": "AT", 
+"livre": "Tb", 
+"livre_long": "Tobie"
+},
+{ "id": 18, 
+"bible": "AT", 
+"livre": "Jdt", 
+"livre_long": "Judith"
+},
+{ "id": 19, 
+"bible": "AT", 
+"livre": "Est", 
+"livre_long": "Esther"
+},
+{ "id": 20, 
+"bible": "AT", 
+"livre": "I M", 
+"livre_long": "I Maccabées"
+},
+{ "id": 21, 
+"bible": "AT", 
+"livre": "II M", 
+"livre_long": "II Maccabées"
+},
+{ "id": 22, 
+"bible": "AT", 
+"livre": "Jb", 
+"livre_long": "Job"
+},
+{ "id": 23, 
+"bible": "AT", 
+"livre": "Ps", 
+"livre_long": "Psaumes"
+},
+{ "id": 24, 
+"bible": "AT", 
+"livre": "Pr", 
+"livre_long": "Proverbes"
+},
+{ "id": 25, 
+"bible": "AT", 
+"livre": "Qo", 
+"livre_long": "Ecclésiaste"
+},
+{ "id": 26, 
+"bible": "AT", 
+"livre": "Ct", 
+"livre_long": "Cantique"
+},
+{ "id": 27, 
+"bible": "AT", 
+"livre": "Sg", 
+"livre_long": "Sagesse"
+},
+{ "id": 28, 
+"bible": "AT", 
+"livre": "Si", 
+"livre_long": "Ecclésiastique"
+},
+{ "id": 29, 
+"bible": "AT", 
+"livre": "Is", 
+"livre_long": "Isaïe"
+},
+{ "id": 30, 
+"bible": "AT", 
+"livre": "Jr", 
+"livre_long": "Jérémie"
+},
+{ "id": 31, 
+"bible": "AT", 
+"livre": "Lm", 
+"livre_long": "Lamentations"
+},
+{ "id": 32, 
+"bible": "AT", 
+"livre": "Ba", 
+"livre_long": "Baruch"
+},
+{ "id": 33, 
+"bible": "AT", 
+"livre": "Ez", 
+"livre_long": "Ézéchiel"
+},
+{ "id": 34, 
+"bible": "AT", 
+"livre": "Dn", 
+"livre_long": "Daniel"
+},
+{ "id": 35, 
+"bible": "AT", 
+"livre": "Os", 
+"livre_long": "Osée"
+},
+{ "id": 36, 
+"bible": "AT", 
+"livre": "Jl", 
+"livre_long": "Joël"
+},
+{ "id": 37, 
+"bible": "AT", 
+"livre": "Am", 
+"livre_long": "Amos"
+},
+{ "id": 38, 
+"bible": "AT", 
+"livre": "Ab", 
+"livre_long": "Abdias"
+},
+{ "id": 39, 
+"bible": "AT", 
+"livre": "Jon", 
+"livre_long": "Jonas"
+},
+{ "id": 40, 
+"bible": "AT", 
+"livre": "Mi", 
+"livre_long": "Michée"
+},
+{ "id": 41, 
+"bible": "AT", 
+"livre": "Na", 
+"livre_long": "Nahum"
+},
+{ "id": 42, 
+"bible": "AT", 
+"livre": "Ha", 
+"livre_long": "Habaquq"
+},
+{ "id": 43, 
+"bible": "AT", 
+"livre": "So", 
+"livre_long": "Sophonie"
+},
+{ "id": 44, 
+"bible": "AT", 
+"livre": "Ag", 
+"livre_long": "Aggée"
+},
+{ "id": 45, 
+"bible": "AT", 
+"livre": "Za", 
+"livre_long": "Zacharie"
+},
+{ "id": 46, 
+"bible": "AT", 
+"livre": "Ml", 
+"livre_long": "Malachie"
+},
+{ "id": 47, 
+"bible": "NT", 
+"livre": "Mt", 
+"livre_long": "Évangile St-Matthieu"
+},
+{ "id": 48, 
+"bible": "NT", 
+"livre": "Mc", 
+"livre_long": "Évangile St-Marc"
+},
+{ "id": 49, 
+"bible": "NT", 
+"livre": "Lc", 
+"livre_long": "Évangile St-Luc"
+},
+{ "id": 50, 
+"bible": "NT", 
+"livre": "Jn", 
+"livre_long": "Évangile St-Jean"
+},
+{ "id": 51, 
+"bible": "NT", 
+"livre": "Act", 
+"livre_long": "Actes des Apôtres"
+},
+{ "id": 52, 
+"bible": "NT", 
+"livre": "Rom", 
+"livre_long": "St-Paul aux Romains"
+},
+{ "id": 53, 
+"bible": "NT", 
+"livre": "I Cor", 
+"livre_long": "I Corinthiens"
+},
+{ "id": 54, 
+"bible": "NT", 
+"livre": "II Cor", 
+"livre_long": "II Corinthiens"
+},
+{ "id": 55, 
+"bible": "NT", 
+"livre": "Gal", 
+"livre_long": "Galates"
+},
+{ "id": 56, 
+"bible": "NT", 
+"livre": "Eph", 
+"livre_long": "Éphésiens"
+},
+{ "id": 57, 
+"bible": "NT", 
+"livre": "Phil", 
+"livre_long": "Philippiens"
+},
+{ "id": 58, 
+"bible": "NT", 
+"livre": "Col", 
+"livre_long": "Colossiens"
+},
+{ "id": 59, 
+"bible": "NT", 
+"livre": "I Thes", 
+"livre_long": "I Thessaloniciens"
+},
+{ "id": 60, 
+"bible": "NT", 
+"livre": "II Thes", 
+"livre_long": "II Thessaloniciens"
+},
+{ "id": 61, 
+"bible": "NT", 
+"livre": "I Tim", 
+"livre_long": "I Timothée"
+},
+{ "id": 62, 
+"bible": "NT", 
+"livre": "II Tim", 
+"livre_long": "II Timothée"
+},
+{ "id": 63, 
+"bible": "NT", 
+"livre": "Tite", 
+"livre_long": "Tite"
+},
+{ "id": 64, 
+"bible": "NT", 
+"livre": "Philem", 
+"livre_long": "Philémon"
+},
+{ "id": 65, 
+"bible": "NT", 
+"livre": "Hébr", 
+"livre_long": "Hébreux"
+},
+{ "id": 66, 
+"bible": "NT", 
+"livre": "Jac", 
+"livre_long": "St-Jacques"
+},
+{ "id": 67, 
+"bible": "NT", 
+"livre": "I Pet", 
+"livre_long": "I St-Pierre"
+},
+{ "id": 68, 
+"bible": "NT", 
+"livre": "II Pet", 
+"livre_long": "II St-Pierre"
+},
+{ "id": 69, 
+"bible": "NT", 
+"livre": "I Jn", 
+"livre_long": "I St-Jean"
+},
+{ "id": 70, 
+"bible": "NT", 
+"livre": "II Jn", 
+"livre_long": "II St-Jean"
+},
+{ "id": 71, 
+"bible": "NT", 
+"livre": "III Jn", 
+"livre_long": "III St-Jean"
+},
+{ "id": 72, 
+"bible": "NT", 
+"livre": "Jud", 
+"livre_long": "St-Jude"
+},
+{ "id": 73, 
+"bible": "NT", 
+"livre": "Apoc", 
+"livre_long": "Apocalypse"
+}
+]

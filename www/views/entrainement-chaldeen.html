@@ -1,0 +1,564 @@
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="#/accueil">Accueil</a>
+	  <a href="#/veilleur">Office divin</a>
+	  <a href="#/devotions">Dévotions</a>
+	  <a href="#/entrainement">Mémorisations</a>
+	  <a href="#/bible">Bible</a>
+	</div>
+	<div id="main">
+		<div class="bar bar-header " style="height: 50px; position: fixed;">
+		   <button onclick="openNav()" class="button" style="background-color: transparent;">
+		   	<img src="img/menu.gif">
+		   </button>
+		    <h1 class="title" style="letter-spacing: 2px; font-family:'Calligraphic', 'Roboto'; font-weight: 600; font-size: 44px; color: #e73931;"><a style="text-decoration: none;" href="accueil.php" >HicVox</a></h1>
+		   <button  ng-click="gotoCarte()" class="button" style="background-color: transparent; outline:none;">
+		   		<img src="img/logo.gif" style="height: 40px; width: auto; background-color: transparent;">
+		   </button>   
+		</div>		
+		<script type="text/javascript">
+			$('#croix').click(function(){	
+				window.location = 'consecration.html';
+			});
+		</script>
+
+		<div class="bar bar-subheader " style="height: 50px; position: fixed; top: 50px; border: none;">
+		   <button class="button" onclick="window.history.back();" style="background-color: transparent;">
+		   	<i class="fa fa-chevron-left"></i>
+		   </button>
+		    <h1 class="title"><b style="color: blue; font-size: 25px;">Chaldéen</b></h1>
+		   <!-- <button class="button" style="background-color: transparent;">
+		   	<i class="fa fa-volume-up"></i>
+		   </button>		    -->
+		</div>	
+		<style type="text/css">
+			.list-table{
+				display: inline-block;
+				font-size: 16px;
+			}
+		</style>
+		<div>		
+			<div  class="content" style="position: relative; top: 100px;">			
+				<div id="content-ecran">
+					<div class="modal-choices" style=" margin-top: 20px; background: #000; padding: 15px; color: #fff; font-size: 14px; text-align: center;">				
+						<div id="ecran1">
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="1">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-01-a1.gif">
+								</div>							
+							</div>
+							<div class="row" style="display: none;">
+								<div style="width: 100%;">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-01-a2.gif">
+								</div>
+							</div>	
+							<div class="row" style="display: none;">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="2">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-01-b1.gif">
+								</div>							
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="2">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-01-b1.gif">
+								</div>
+							</div>
+						</div>
+						<div id="ecran2" style="display: none;">
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="3">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-01-c1.gif">
+								</div>							
+							</div>
+							<div class="row" style="display: none;">
+								<div style="width: 100%;">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-01-c2.gif">
+								</div>
+							</div>	
+							<div class="row" style="display: none;">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="4">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-01-d1.gif">
+								</div>							
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="4">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-01-d1.gif">
+								</div>
+							</div>
+						</div>
+						<div id="ecran3" style="display: none;">
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="5">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-01-e1.gif">
+								</div>							
+							</div>
+							<div class="row" style="display: none;">
+								<div style="width: 100%;">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-01-e2.gif">
+								</div>
+							</div>	
+							<div class="row" style="display: none;">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="6">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-01-f1.gif">
+								</div>							
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="6">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-01-f1.gif">
+								</div>
+							</div>
+						</div>			
+						<div id="ecran4" style="display: none;">
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="7">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-02-a1.gif">
+								</div>							
+							</div>							
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="8">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 340px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-02-b1.gif">
+								</div>
+							</div>
+						</div>
+						<div id="ecran5" style="display: none;">
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="9">
+									<img style="float: right; width: auto; height: 100%; max-height: 120px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-03-a1.gif">
+								</div>							
+							</div>
+							<div class="row" style="display: none;">
+								<div style="width: 100%;">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-03-a2.gif">
+								</div>
+							</div>	
+							<div class="row" style="display: none;">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="10">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-03-b1.gif">
+								</div>							
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="10">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-03-b1.gif">
+								</div>
+							</div>
+						</div>
+						<div id="ecran6" style="display: none;">
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="11">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-03-c1.gif">
+								</div>							
+							</div>
+							<div class="row" style="display: none;">
+								<div style="width: 100%;">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-03-c2.gif">
+								</div>
+							</div>	
+							<div class="row" style="display: none;">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="12">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-03-d1.gif">
+								</div>							
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="12">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-03-d1.gif">
+								</div>
+							</div>
+						</div>
+						<div id="ecran7" style="display: none;">
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="13">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-04-a1.gif">
+								</div>							
+							</div>
+							<div class="row" style="display: none;">
+								<div style="width: 100%;" style="display: none;">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-04-a2.gif">
+								</div>
+							</div>	
+							<div class="row" style="display: none;">
+								<div style="width: 100%;" style="display: none;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="14">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-04-b1.gif">
+								</div>							
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="14">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-04-b1.gif">
+								</div>
+							</div>
+						</div>	
+						<div id="ecran8" style="display: none;">
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="15">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-04-c1.gif">
+								</div>							
+							</div>
+							<div class="row" style="display: none;">
+								<div style="width: 100%;" style="display: none;">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-04-c2.gif">
+								</div>
+							</div>	
+							<div class="row" style="display: none;">
+								<div style="width: 100%;" style="display: none;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="16">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-04-d1.gif">
+								</div>							
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="16">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-04-d1.gif">
+								</div>
+							</div>
+						</div>
+						<div id="ecran9" style="display: none;">
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="17">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-05-a1.gif">
+								</div>							
+							</div>					
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="18">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-05-b1.gif">
+								</div>							
+							</div>	
+						</div>
+						<div id="ecran10" style="display: none;">
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="19">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-05-c1.gif">
+								</div>
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="20">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-05-d1.gif">
+								</div>							
+							</div>
+						</div>
+						<div id="ecran11" style="display: none;">					
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="21">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-06-a1.gif">
+								</div>
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="22">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-06-b1.gif">
+								</div>							
+							</div>
+						</div>	
+						<div id="ecran12" style="display: none;">					
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="23">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-06-c1.gif">
+								</div>
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="24">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-06-d1.gif">
+								</div>							
+							</div>
+						</div>	
+						<div id="ecran13" style="display: none;">					
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="25">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-07-a1.gif">
+								</div>
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="26">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-07-b1.gif">
+								</div>							
+							</div>
+						</div>	
+						<div id="ecran14" style="display: none;">					
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="27">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-07-c1.gif">
+								</div>
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="28">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-07-d1.gif">
+								</div>							
+							</div>
+						</div>
+						<div id="ecran15" style="display: none;">					
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="29">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-08-a1.gif">
+								</div>
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="30">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-08-b1.gif">
+								</div>							
+							</div>
+						</div>	
+						<div id="ecran16" style="display: none;">								
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="31">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-08-c1.gif">
+								</div>
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="32">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-08-d1.gif">
+								</div>							
+							</div>
+						</div>
+						<div id="ecran17" style="display: none;">								
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="33">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-09-a1.gif">
+								</div>
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="34">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-09-b1.gif">
+								</div>							
+							</div>
+						</div>	
+						<div id="ecran18" style="display: none;">								
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="35">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-09-c1.gif">
+								</div>
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="36">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-09-d1.gif">
+								</div>							
+							</div>
+						</div>	
+						<div id="ecran19" style="display: none;">
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="37">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-10-a1.gif">
+								</div>
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="38">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-10-b1.gif">
+								</div>							
+							</div>
+						</div>
+						<div id="ecran20" style="display: none;">
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="39">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-10-c1.gif">
+								</div>
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="40">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-10-d1.gif">
+								</div>							
+							</div>
+						</div>
+						<div id="ecran21" style="display: none;">					
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="41">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-11-a1.gif">
+								</div>
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="42">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-11-b1.gif">
+								</div>							
+							</div>
+						</div>
+						<div id="ecran22" style="display: none;">					
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="43">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-11-c1.gif">
+								</div>
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="44">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-11-d1.gif">
+								</div>							
+							</div>
+						</div>
+						<div id="ecran23" style="display: none;">					
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="47">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-12-a1.gif">
+								</div>
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="46">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-12-b1.gif">
+								</div>							
+							</div>
+						</div>
+						<div id="ecran24" style="display: none;">					
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="47">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-12-c1.gif">
+								</div>
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="48">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-12-d1.gif">
+								</div>							
+							</div>
+						</div>
+						<div id="ecran25" style="display: none;">
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="40">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-13-e1.gif">
+								</div>
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="50">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-13-f1.gif">
+								</div>							
+							</div>
+						</div>	
+						<div id="ecran26" style="display: none;">
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="51">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-14-a1.gif">
+								</div>
+							</div>					
+						</div>
+						<div id="ecran27" style="display: none;">
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="52">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-14-b1.gif">
+								</div>							
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="53">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-14-c1.gif">
+								</div>
+							</div>					
+						</div>	
+						<div id="ecran28" style="display: none;">	
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="54">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-14-d1.gif">
+								</div>							
+							</div>				
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="55">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-14-e1.gif">
+								</div>
+							</div>
+						</div>
+						<div id="ecran29" style="display: none;">
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="56">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-14-f1.gif">
+								</div>							
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="57">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-14-g1.gif">
+								</div>
+							</div>
+						</div>	
+						<div id="ecran30" style="display: none;">
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: right; position: relative; top: 30px;" type="checkbox" value="58">
+									<img style="float: right; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;"" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-14-h1.gif">
+								</div>							
+							</div>
+							<div class="row">
+								<div style="width: 100%;">
+									<input style="float: left; position: relative; top: 30px;" type="checkbox" value="59">
+									<img style="float: left; width: auto; height: 100%; max-height: 140px; min-width: 90px; max-width: 280px;" src="Mere-vertueuse/Prologue/MM-Ch-Jn-01-14-i1.gif">
+								</div>
+							</div>
+						</div>				
+						<br/>				
+						<center style="position: relative; bottom: 0;">					
+							<button class="begin btn btn-secondary" style="display: inline-block; border-radius: 100% 100%; width: 25px; height: 25px; padding: 0.1rem 0.2rem; font-size: 0; margin-right: 10px;">
+			                  <i class="fa fa-backward" style="font-size: 8px;"></i>
+			                </button> 
+							<button class="previous btn btn-secondary" style="display: inline-block; border-radius: 100% 100%; width: 25px; height: 25px; padding: 0.1rem 0.2rem; font-size: 0;">
+			                  <i class="fa fa-angle-left" style="font-size: 16px; font-weight: bold;"></i>
+			                </button> 
+			            	<button id="play" class="select-test btn btn-primary" style="display: inline-block; border-radius: 100% 100%; width: 40px; height: 40px; padding: 0.5rem 0.9rem; font-size: 0; margin-right: 10px; margin-left: 10px;">
+			                  <i class="fa fa-play" style="font-size: 18px;"></i> 
+			                </button>
+			                <button id="pause" class="stop-btn btn btn-primary" style="display: none; border-radius: 100% 100%; width: 40px; height: 40px; padding: 0.5rem 0.74rem; font-size: 0; margin-right: 50px; margin-left: 50px;">
+			                  <i class="fa fa-pause" style="font-size: 18px;"></i> 
+			                </button>
+			                <button class="next btn btn-secondary" style="display: inline-block; border-radius: 100% 100%; width: 25px; height: 25px; padding: 0.1rem 0.2rem; font-size: 0;">
+			                  <i class="fa fa-angle-right" style="font-size: 16px; font-weight: bold;"></i>
+			                </button> 
+			                <button class="end btn btn-secondary" style="display: inline-block; border-radius: 100% 100%; width: 25px; height: 25px; padding: 0.1rem 0.2rem; font-size: 0; margin-left: 10px;">
+			                  <i class="fa fa-forward" style="font-size: 8px;"></i>
+			                </button>
+			                <!-- <button ng-click="fullScreen()" class="btn btn-secondary" style="display: inline-block; border-radius: 100% 100%; width: 25px; height: 25px; padding: 0.1rem 0.2rem; font-size: 0; float: right; margin-top: 8px;">
+			                  <i class="fa fa-crop" style="font-size: 8px;"></i>
+			                </button> -->
+			            </center>	            
+				        <audio controls id="officePlayer" style="display: none;" src="Mere-vertueuse/MM-Cn-MV-01.mp3"></audio>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</div>	

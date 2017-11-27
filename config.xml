@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="mobile.hicvox.org" version="3.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>HicVox</name>    
+    <description>
+       HicVox android application
+    </description>
+    <author email="andriaarisoa@gmail.com" href="https://hicvox.org/">
+      HicVox Team: Frère Jérome -  Honorah Pascal
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <access origin="hicvox.org/*"/>
+    <access origin="cdvfile://*" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <preference name="orientation" value="portrait" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />    
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="BackupWebStorage" value="none" />   
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />    
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <feature name="StatusBar">
+        <param name="ios-package" onload="true" value="CDVStatusBar" />
+    </feature>    
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.GeoBroker" />
+    </feature>
+    <preference name="xwalkVersion" value="14+" />
+    <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect" />
+    <preference name="xwalkMode" value="embedded" />
+</widget>

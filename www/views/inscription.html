@@ -1,0 +1,214 @@
+<div class="bar bar-header " style="height: 50px; position: fixed;">
+  <button class="button" style="background-color: transparent;">      
+  </button>
+  <h1 class="title" style="letter-spacing: 2px; font-family:'Calligraphic', 'Roboto'; font-weight: 600; font-size: 44px; color: #e73931;"><a style="text-decoration: none;" href="#/accueil">HicVox</a></h1>
+  <button  ng-click="gotoCarte()" class="button" style="background-color: transparent; outline:none;">
+		   		<img src="img/logo.gif" style="height: 40px; width: auto; background-color: transparent;">
+	</button>
+</div> 
+<div class="bar bar-subheader " style="height: 50px; position: fixed; top: 50px; border: none;">
+   <button class="button" onclick="window.history.back();" style="background-color: transparent;">
+    <i class="fa fa-chevron-left"></i>
+   </button>
+    <h1 class="title"><b style="color: blue; font-size: 25px;">Inscription</b></h1>
+   <button class="button" style="background-color: transparent;">        
+   </button>       
+</div>
+<div class="container" style="position: relative; top: 100px;">
+	<div id="email-exits" class='alert alert-danger' style="display: none;">
+		<button class='close' data-dismiss='alert'>&times;</button>
+		<strong>Désolé !</strong>  Le courriel existe déja !  
+	</div>
+	<div id="pwd-not" class='alert alert-danger' style="display: none;">
+		<button class='close' data-dismiss='alert'>&times;</button>
+		<strong>Désolé !</strong>  Le mot de passe ne correspond pas 
+	</div>
+	<div id="success" class='alert alert-success' style="display: none;">
+		<button class='close' data-dismiss='alert'>&times;</button>
+		<strong>Succès!</strong>  Nous avons envoyé un courriel à $email.
+		veuillez cliquer sur  le lien de confirmation dans le courriel pour créer votre compte. 
+	</div>
+  <form class="form-group"  method="post">   
+  <br>             
+  	<div id="part1">
+  		<input id="txtemail" style="border-radius: 0; margin-bottom: 15px; font-size: 10px;" type="email" class="form-control" placeholder="Courriel" name="txtemail" required /> 
+        <input id="txtpass" style="border-radius: 0; margin-bottom: 15px; font-size: 10px;" type="password" class="form-control" placeholder="Mot de passe" name="txtpass" required />   
+        <input id="checkpass" style="border-radius: 0; margin-bottom: 15px; font-size: 10px;" type="password" class="form-control" placeholder="Confirmer votre mot de passe" name="checkpass" required />   
+        <button ng-click="nextStep()" style="margin-top: 10px; border-radius: 0; width: 100%; font-size: 10px;" class="btn btn-large btn-primary" name="btn-signup">Suivant</button>  
+  	</div>       	
+
+  	<div id="part2" style="display: none;">
+        <input id="txtuname" class="form-control" style="border-radius: 0; font-size: 10px;" type="text" placeholder="Prénom" name="txtuname" required />        
+        <i data-toggle="modal" data-target="#prenomModal" class="fa fa-question-circle" style="position: relative; top: -23px; right: 8px; float: right;  cursor: pointer"></i>
+               
+        <select id="devotion" name="devotion" class="form-control" style="border-radius: 0; font-size: 10px; height: 32px; color: gray;">
+        	<option value="">Dévotion</option>
+        	<option value="de la Sainte Trinité">de la Sainte Trinité</option>
+			<option value="de Dieu le Père">de Dieu le Père</option>
+			<option value="du Père Céleste">du Père Céleste</option>
+			<option value="de Dieu le Fils">de Dieu le Fils</option>
+			<option value="du Verbe de Dieu">du Verbe de Dieu</option>
+			<option value="de la Parole de Dieu">de la Parole de Dieu</option>
+			<option value="du Saint Esprit">du Saint Esprit</option>
+			<option value="de l'Esprit Divin">de l'Esprit Divin</option>
+			<option value="du la Miséricorde">du la Miséricorde</option>
+			<option value="du la Miséricorde Divine">du la Miséricorde Divine</option>
+			<option value="du la Miséricorde">du la Miséricorde</option>
+			<option value="de la Création">de la Création</option>
+			<option value="de saint Michel">de saint Michel</option>
+			<option value="de saint Raphael">de saint Raphael</option>
+			<option value="de saint Gabriel">de saint Gabriel</option>
+			<option value="des saints Anges">des saints Anges</option>
+			<option value="des saints Anges Gardiens">des saints Anges Gardiens</option>
+			<option value="de l’Alliance">de l’Alliance</option>
+			<option value="de sainte Anne">de sainte Anne</option>
+			<option value="de saint Joachim">de saint Joachim</option>
+			<option value="de l'Immaculée conception">de l'Immaculée conception</option>
+			<option value="du Cœur Immaculé">du Cœur Immaculé</option>
+			<option value="du Saint Nom de Marie">du Saint Nom de Marie</option>
+			<option value="de saint Joseph">de saint Joseph</option>
+			<option value="de l’Annonciation">de l’Annonciation</option>
+			<option value="de l’Incarnation">de l’Incarnation</option>
+			<option value="de la Visitation">de la Visitation</option>
+			<option value="de la Nativité">de la Nativité</option>
+			<option value="de l’Emmanuel">de l’Emmanuel</option>
+			<option value="du Sacré Cœur">du Sacré Cœur</option>
+			<option value="du Saint Nom de Jésus">du Saint Nom de Jésus</option>
+			<option value="de l’Epiphanie">de l’Epiphanie </option>
+			<option value="de la Présentation au Temple">de la Présentation au Temple</option>
+			<option value="de la Purification au Temple">de la Purification au Temple</option>
+			<option value="du Recouvrement de l’Enfant Jésus">du Recouvrement de l’Enfant Jésus</option>
+			<option value="des Béatitudes">des Béatitudes</option>
+			<option value="du Bon Pasteur">du Bon Pasteur</option>
+			<option value=" de la Sainte Eucharistie">de la Sainte Eucharistie</option>
+			<option value="de la Passion">de la Passion</option>
+			<option value="de la Couronne d’Epine">de la Couronne d’Epine</option>
+			<option value="de la Sainte Face">de la Sainte Face</option>
+			<option value="de la Croix">de la Croix</option>
+			<option value="de la Sainte Croix">de la Sainte Croix</option>
+			<option value="de la Glorieuse Croix">de la Glorieuse Croix</option>
+			<option value="de la Crucifixion">de la Crucifixion</option>
+			<option value="de la Résurrection">de la Résurrection</option>
+			<option value="de l’Ascension">de l’Ascension</option>
+			<option value="du Christ Roi">du Christ Roi</option>
+			<option value="des Saints Apôtres">des Saints Apôtres</option>
+			<option value="de saint Pierre">de saint Pierre</option>
+			<option value="de saint Pierre et saint Paul">de saint Pierre et saint Paul</option>
+			<option value="de la Pentecôte">de la Pentecôte</option>
+			<option value="du Corps Mystique">du Corps Mystique</option>
+			<option value="du Saint Sacrement">du Saint Sacrement</option>
+			<option value="de la Sainte Foi">de la Sainte Foi</option>
+			<option value="de la Sainte Espérance">de la Sainte Espérance</option>
+			<option value="de la Sainte Charité">de la Sainte Charité</option>
+        </select>
+        <i data-toggle="modal" data-target="#devotionModal" class="fa fa-question-circle" style="position: relative; top: -25px; right: 22px; float: right;  cursor: pointer"></i>
+
+        <input id="datenaissance" style="border-radius: 0; margin-bottom: 15px; font-size: 10px; color: gray;" type="date" class="form-control" placeholder="Date de naissance" name="datenaissance" required />   
+        
+        <input id="villePays" style="border-radius: 0; font-size: 10px;" type="text" class="form-control" placeholder="Ville et pays" name="villePays" required />
+        <i ng-click="codeLatLng()" class="fa fa-map-marker" style="position: relative; top: -23px; right: 30px; float: right;  cursor: pointer"></i>
+        <i data-toggle="modal" data-target="#geolocalisationModal" class="fa fa-question-circle" style="position: relative; top: -23px; right: -1px; float: right;  cursor: pointer"></i>
+        <br>
+        <fieldset id="group1">
+			<input checked type="radio" name="group1" /><label style="margin-left: 10px; font-size: 10px; color: gray;">Toujours garder cette géolocalisation</label><br/>
+			<input type="radio" name="group1" /><label style="margin-left: 10px; font-size: 10px; color: gray;">Se géolocaliser à chaque connexion au réseau Web</label>
+		</fieldset>
+        <button ng-click="signUp()" style="margin-top: 10px; border-radius: 0; width: 100%; font-size: 10px;" class="btn btn-large btn-primary" name="btn-signup">Créer un compte</button> 
+        <center>
+			<img src="img/attention.png" style="width: 20px; margin-top: 10px;">
+		</center>   
+		<p style="text-align: center; margin-top: 5px; margin-bottom: 0px; color: red; font-size: 10px;">
+			<b>Attention: tu vas recevoir un email de validation <br>Cliques sur le lien et tu es inscrit sur l'Hicvox</b>
+		</p>
+    </div>  
+    <center>                    
+      <p style="margin-top: 0px;">
+      <a href="#/accueil" class="btn btn-large" style="font-size: 10px; line-height: 0.5; color: rgb(0, 153, 255);">Se connecter</a>            
+      </p>
+    </center>
+    <input type="hidden" name="latitude" id="latitude">        
+    <input type="hidden" name="longitude" id="longitude">        
+  </form>
+</div> <!-- /container -->    
+<div class="modal fade" id="prenomModal" tabindex="-1" role="dialog" aria-labelledby="prenomModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header" style="padding: 5px">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <center><h4 class="modal-title" id="myModalLabel" style="color: rgb(0, 153, 255); font-size: 18px; font-weight: bold; font-family: Arial;">Aide sur le formulaire</h4></center>
+          </div>
+          <div class="modal-body">	                      
+          	<div style="margin: 20px; margin-top: 0px; font-size: 10px;">
+				<span>Pour religieux et ecclésiastiques, mettre par exemple :<br>
+				Père Pierre, Abbé André Dupont, sœur Jeanne</span>
+	        </div>
+	        <div class="modal-footer" style="padding: 5px">
+	            <center><button type="button" class="btn btn-default" style="background: rgb(0, 153, 255); color: #fff; font-size: 12px;" data-dismiss="modal">Fermer la fenêtre</button></center>                
+	        </div>
+          </div>
+	    </div>
+	</div> 
+</div>
+<div class="modal fade" id="devotionModal" tabindex="-1" role="dialog" aria-labelledby="devotionModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header" style="padding: 5px">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <center><h4 class="modal-title" id="myModalLabel" style="color: rgb(0, 153, 255); font-size: 18px; font-weight: bold; font-family: Arial;">Aide sur le formulaire</h4></center>
+          </div>
+          <div class="modal-body">	                      
+          	<div style="margin: 20px; margin-top: 0px; font-size: 10px;">
+				<span>Le choix d'une dévotion permet de differencier deux utilisateurs se prénommant "Pierre"</span>
+	        </div>
+	        <div class="modal-footer" style="padding: 5px">
+	            <center><button type="button" class="btn btn-default" style="background: rgb(0, 153, 255); color: #fff; font-size: 12px;" data-dismiss="modal">Fermer la fenêtre</button></center>                
+	        </div>
+          </div>
+	    </div>
+	</div> 
+</div>
+<div class="modal fade" id="geolocalisationModal" tabindex="-1" role="dialog" aria-labelledby="geolocalisationModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header" style="padding: 5px">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <center><h4 class="modal-title" id="myModalLabel" style="color: rgb(0, 153, 255); font-size: 18px; font-weight: bold; font-family: Arial;">Aide sur le formulaire</h4></center>
+          </div>
+          <div class="modal-body">	                      
+          	<div style="margin: 20px; margin-top: 0px; font-size: 10px;">
+				<span>Cliquez sur la case du dessus pour être automatiquement géolocalisation. Le système n'est pas précis, il peut vous situer dans une ville plus importante à côté de votre position.</span>
+	        </div>
+	        <div class="modal-footer" style="padding: 5px">
+	            <center><button type="button" class="btn btn-default" style="background: rgb(0, 153, 255); color: #fff; font-size: 12px;" data-dismiss="modal">Fermer la fenêtre</button></center>                
+	        </div>
+          </div>
+	    </div>
+	</div> 
+</div>
+<a id="signupMessag" data-toggle="modal" data-target="#signupMessage"></a>
+<div class="modal fade" id="signupMessage" tabindex="-1" role="dialog" aria-labelledby="geolocalisationModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header" style="padding: 5px">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <center><h4 class="modal-title" id="myModalLabel" style="color: rgb(0, 153, 255); font-size: 18px; font-weight: bold; font-family: Arial;">SUCCES</h4></center>
+          </div>
+          <div class="modal-body">	                      
+          	<div style="margin: 20px; margin-top: 0px; font-size: 10px;">
+				<span>Vous allez recevoir un email de confirmation. Veuillez consulter votre boîte mail! </span>
+	        </div>
+	        <div class="modal-footer" style="padding: 5px">
+	            <center><button type="button" class="btn btn-default" style="background: rgb(0, 153, 255); color: #fff; font-size: 12px;" data-dismiss="modal">Fermer la fenêtre</button></center>                
+	        </div>
+          </div>
+	    </div>
+	</div> 
+</div>
+<script type="text/javascript"> 
+	
+  
+</script> 
+  
+<style type="text/css">
+	i{color: gray;}
+</style>
